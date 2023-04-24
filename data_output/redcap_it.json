@@ -1,0 +1,3056 @@
+{
+  "creator": "REDCap MLM",
+  "version": "v12.2.6",
+  "timestamp": "2022-03-17 09:29:07",
+  "instructions": "How to use this file: The essential elements are all 'id' and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored.",
+  "key": "it",
+  "display": "Italiano",
+  "rtl": false,
+  "sort": "",
+  "uiTranslations": [
+    {
+      "id": "survey_1130",
+      "prompt": "The 'Click to decrease font size' tooltip text:",
+      "default": "Click to decrease font size",
+      "translation": "Fare clic per ridurre la dimensione del carattere"
+    },
+    {
+      "id": "survey_1129",
+      "prompt": "The 'Click to increase font size' tooltip text:",
+      "default": "Click to increase font size",
+      "translation": "Fare clic per aumentare la dimensione del carattere"
+    },
+    {
+      "id": "multilang_02",
+      "prompt": "The 'Change language' tooltip text:",
+      "default": "Change language",
+      "translation": "Cambiare lingua"
+    },
+    {
+      "id": "data_entry_540",
+      "prompt": "The '[*DATA REMOVED*]' placeholder text:",
+      "default": "[*DATA REMOVED*]",
+      "translation": "[*DATI RIMOSSI*]"
+    },
+    {
+      "id": "design_08",
+      "prompt": "The 'Working...' indicator:",
+      "default": "Working...",
+      "translation": "Lavoro..."
+    },
+    {
+      "id": "survey_1347",
+      "prompt": "Page number (use {0} and {1} as placeholders for the current page and the total number of pages, respectively):",
+      "default": "Page {0} of {1}",
+      "translation": "Pagina {0} di {1}"
+    },
+    {
+      "id": "data_entry_536",
+      "prompt": "The 'Next Page >>' button label:",
+      "default": "Next Page >>",
+      "translation": "Pagina successiva >>"
+    },
+    {
+      "id": "data_entry_537",
+      "prompt": "The '<< Previous Page' button label:",
+      "default": "<< Previous Page",
+      "translation": "<<Pagina precedente"
+    },
+    {
+      "id": "survey_200",
+      "prompt": "The 'Submit' button label:",
+      "default": "Submit",
+      "translation": "Invia"
+    },
+    {
+      "id": "form_renderer_19",
+      "prompt": "The 'Expand' link label:",
+      "default": "Expand",
+      "translation": "Espandere"
+    },
+    {
+      "id": "form_renderer_20",
+      "prompt": "The 'reset' link label:",
+      "default": "reset",
+      "translation": "Azzerare"
+    },
+    {
+      "id": "data_entry_39",
+      "prompt": "The 'must provide value' indicator:",
+      "default": "must provide value",
+      "translation": "necessario fornire valore"
+    },
+    {
+      "id": "calendar_popup_01",
+      "prompt": "The 'Close' button label:",
+      "default": "Close",
+      "translation": "Chiudi"
+    },
+    {
+      "id": "global_53",
+      "prompt": "The 'Cancel' button label:",
+      "default": "Cancel",
+      "translation": "Annulla"
+    },
+    {
+      "id": "design_654",
+      "prompt": "The 'Confirm' button label:",
+      "default": "Confirm",
+      "translation": "Confermare"
+    },
+    {
+      "id": "alerts_24",
+      "prompt": "The 'Alert' popup window title:",
+      "default": "Alert",
+      "translation": "Allarme"
+    },
+    {
+      "id": "global_01",
+      "prompt": "The 'ERROR' popup window title:",
+      "default": "ERROR",
+      "translation": "Errore"
+    },
+    {
+      "id": "global_03",
+      "prompt": "The 'NOTICE' popup window title:",
+      "default": "NOTICE",
+      "translation": "Avviso"
+    },
+    {
+      "id": "global_64",
+      "prompt": "Text for non-specific errors:",
+      "default": "Woops! An error occurred. Please try again.",
+      "translation": "Ops! Si è verificato un errore. Per favore riprova."
+    },
+    {
+      "id": "survey_1241",
+      "prompt": "The 'You may now close this tab/window' button label:",
+      "default": "You may now close this tab/window",
+      "translation": "Ora puoi chiudere questa scheda / finestra"
+    },
+    {
+      "id": "global_47",
+      "prompt": "The alternatives separator '- or -' (dashes may be added automatically):",
+      "default": "or",
+      "translation": "o"
+    },
+    {
+      "id": "scheduling_35",
+      "prompt": "The 'Print' button label:",
+      "default": "Print",
+      "translation": "Stampa"
+    },
+    {
+      "id": "system_config_623",
+      "prompt": "The 'Print text below' button label:",
+      "default": "Print text below",
+      "translation": "Stampa testo sotto"
+    },
+    {
+      "id": "global_143",
+      "prompt": "The 'Checked' indicator:",
+      "default": "Checked",
+      "translation": "Controllato"
+    },
+    {
+      "id": "global_144",
+      "prompt": "The 'Unchecked' indicator:",
+      "default": "Unchecked",
+      "translation": "Unchecked"
+    },
+    {
+      "id": "data_entry_203",
+      "prompt": "The 'Value removed!' notification:",
+      "default": "Value removed!",
+      "translation": "Valore rimosso!"
+    },
+    {
+      "id": "data_entry_568",
+      "prompt": "Internet Explorer 6-8 incompatibility notice:",
+      "default": "We're sorry, but your current web browser (<b>Internet Explorer {0}<\/b>) is not compatible with this web page. In order to continue on this page, we recommend you upgrade your web browser to a newer version or else use Firefox or Google Chrome instead. Thanks for understanding!",
+      "translation": "Siamo spiacenti, ma il tuo attuale browser (<b>Internet Explorer {0}<\/b>) non è compatibile con questa pagina web. Per continuare su questa pagina, ti consigliamo di aggiornare il tuo browser web a una versione più recente o di utilizzare Firefox o Google Chrome. Grazie per la comprensione!"
+    },
+    {
+      "id": "survey_1140",
+      "prompt": "Generic image alt attribute:",
+      "default": "image",
+      "translation": "immagine"
+    },
+    {
+      "id": "form_renderer_22",
+      "prompt": "The 'Disclaimer' link label:",
+      "default": "Disclaimer",
+      "translation": "Disclaimer"
+    },
+    {
+      "id": "global_125",
+      "prompt": "The 'Update' button label:",
+      "default": "Update",
+      "translation": "Aggiornamento"
+    },
+    {
+      "id": "data_entry_260",
+      "prompt": "The 'Type to begin searching' prompt:",
+      "default": "Type to begin searching",
+      "translation": "Digitare per iniziare la ricerca"
+    },
+    {
+      "id": "data_entry_518",
+      "prompt": "The @NONEOFTHEABOVE alert message (use {0} as placeholder for the choice label):",
+      "default": "The option {0} can only be selected by itself. Selecting this option will clear your previous selections for this checkbox field. Are you sure?",
+      "translation": "L'opzione {0} può essere selezionata soltanto da sola. Selezionando questa opzione si cancellano le selezioni precedenti per questo campo della casella di spunta. Sei sicuro?"
+    },
+    {
+      "id": "data_entry_412",
+      "prompt": "The 'Incompatible checkbox selection' popup window title:",
+      "default": "Incompatible checkbox selection",
+      "translation": "Selezione di CheckBox incompatibile"
+    },
+    {
+      "id": "data_entry_417",
+      "prompt": "The 'Yes, clear other selections' button label:",
+      "default": "Yes, clear other selections",
+      "translation": "Sì, deselezionare altre selezioni"
+    },
+    {
+      "id": "design_100",
+      "prompt": "Label for the 'Yes' option:",
+      "default": "Yes",
+      "translation": "Sì"
+    },
+    {
+      "id": "design_99",
+      "prompt": "Label for the 'No' option:",
+      "default": "No",
+      "translation": "No"
+    },
+    {
+      "id": "design_186",
+      "prompt": "Label for the 'True' option:",
+      "default": "True",
+      "translation": "Vero"
+    },
+    {
+      "id": "design_187",
+      "prompt": "Label for the 'False' option:",
+      "default": "False",
+      "translation": "Falso"
+    },
+    {
+      "id": "data_entry_444",
+      "prompt": "Dropdown arrow alt text:",
+      "default": "Click to view choices",
+      "translation": "Fare clic per visualizzare le scelte"
+    },
+    {
+      "id": "design_722",
+      "prompt": "Message displayed for unset sliders (desktop):",
+      "default": "Change the slider above to set a response",
+      "translation": "Trascinare lo slider sopra per indicare la risposta"
+    },
+    {
+      "id": "design_721",
+      "prompt": "Message displayed for unset sliders (mobile):",
+      "default": "Tap the slider above to set a response",
+      "translation": "Toccare lo slider sopra per indicare la risposta"
+    },
+    {
+      "id": "survey_1142",
+      "prompt": "The '0% means' slider voice explanation:",
+      "default": "0% means",
+      "translation": "0% significa"
+    },
+    {
+      "id": "survey_1143",
+      "prompt": "The '50% means' slider voice explanation:",
+      "default": "50% means",
+      "translation": "50% means"
+    },
+    {
+      "id": "survey_1144",
+      "prompt": "The '100% means' slider voice explanation:",
+      "default": "100% means",
+      "translation": "100% significa"
+    },
+    {
+      "id": "dashboard_32",
+      "prompt": "The 'Today' button label:",
+      "default": "Today",
+      "translation": "Oggi"
+    },
+    {
+      "id": "calendar_widget_choosedatehint",
+      "prompt": "The 'Click to select a date' tooltip text:",
+      "default": "Click to select a date",
+      "translation": "Clicca per selezionare una data"
+    },
+    {
+      "id": "calendar_widget_done",
+      "prompt": "The 'Done' button label:",
+      "default": "Done",
+      "translation": "Fatto"
+    },
+    {
+      "id": "calendar_widget_prev",
+      "prompt": "The 'Prev' tooltip text:",
+      "default": "Prev",
+      "translation": "Prec"
+    },
+    {
+      "id": "calendar_widget_next",
+      "prompt": "The 'Next' tooltip text:",
+      "default": "Next",
+      "translation": "Avanti"
+    },
+    {
+      "id": "form_renderer_29",
+      "prompt": "The 'Now' button label:",
+      "default": "Now",
+      "translation": "Ora"
+    },
+    {
+      "id": "calendar_widget_choosedatetimehint",
+      "prompt": "The 'Click to select a date/time' tooltip text:",
+      "default": "Click to select a date/time",
+      "translation": "Clicca per selezionare una data/ora"
+    },
+    {
+      "id": "calendar_widget_choosetime",
+      "prompt": "The 'Choose Time' popup window title:",
+      "default": "Choose Time",
+      "translation": "Scegli l'ora"
+    },
+    {
+      "id": "global_13",
+      "prompt": "The 'Time' label",
+      "default": "Time",
+      "translation": "Tempo"
+    },
+    {
+      "id": "calendar_widget_hour",
+      "prompt": "The 'Hour' label",
+      "default": "Hour",
+      "translation": "Ora"
+    },
+    {
+      "id": "calendar_widget_min",
+      "prompt": "The 'Minute' label",
+      "default": "Minute",
+      "translation": "Minuto"
+    },
+    {
+      "id": "calendar_widget_choosetimehint",
+      "prompt": "The 'Click to select a time' tooltip text:",
+      "default": "Click to select a time",
+      "translation": "Clicca per selezionare un’ora"
+    },
+    {
+      "id": "calendar_widget_month_day_long_sun",
+      "prompt": "The 'Sunday' full day name:",
+      "default": "Sunday",
+      "translation": "Domenica"
+    },
+    {
+      "id": "calendar_widget_month_day_short_sun",
+      "prompt": "The 'Sunday' abbreviated day name:",
+      "default": "Su",
+      "translation": "Dom"
+    },
+    {
+      "id": "calendar_widget_month_day_long_mon",
+      "prompt": "The 'Monday' full day name:",
+      "default": "Monday",
+      "translation": "Lunedì"
+    },
+    {
+      "id": "calendar_widget_month_day_short_mon",
+      "prompt": "The 'Monday' abbreviated day name:",
+      "default": "Mo",
+      "translation": "Lun"
+    },
+    {
+      "id": "calendar_widget_month_day_long_tues",
+      "prompt": "The 'Tuesday' full day name:",
+      "default": "Tuesday",
+      "translation": "Martedì"
+    },
+    {
+      "id": "calendar_widget_month_day_short_tues",
+      "prompt": "The 'Tuesday' abbreviated day name:",
+      "default": "Tu",
+      "translation": "Mar"
+    },
+    {
+      "id": "calendar_widget_month_day_long_wed",
+      "prompt": "The 'Wednesday' full day name:",
+      "default": "Wednesday",
+      "translation": "Mercoledì"
+    },
+    {
+      "id": "calendar_widget_month_day_short_wed",
+      "prompt": "The 'Wednesday' abbreviated day name:",
+      "default": "We",
+      "translation": "Mer"
+    },
+    {
+      "id": "calendar_widget_month_day_long_thurs",
+      "prompt": "The 'Thursday' full day name:",
+      "default": "Thursday",
+      "translation": "Giovedì"
+    },
+    {
+      "id": "calendar_widget_month_day_short_thurs",
+      "prompt": "The 'Thursday' abbreviated day name:",
+      "default": "Th",
+      "translation": "Gio"
+    },
+    {
+      "id": "calendar_widget_month_day_long_fri",
+      "prompt": "The 'Friday' full day name:",
+      "default": "Friday",
+      "translation": "Venerdì"
+    },
+    {
+      "id": "calendar_widget_month_day_short_fri",
+      "prompt": "The 'Friday' abbreviated day name:",
+      "default": "Fr",
+      "translation": "Ven"
+    },
+    {
+      "id": "calendar_widget_month_day_long_sat",
+      "prompt": "The 'Saturday' full day name:",
+      "default": "Saturday",
+      "translation": "Sabato"
+    },
+    {
+      "id": "calendar_widget_month_day_short_sat",
+      "prompt": "The 'Saturday' abbreviated day name:",
+      "default": "Sa",
+      "translation": "Sab"
+    },
+    {
+      "id": "calendar_widget_month_jan",
+      "prompt": "The 'Jan' abbreviated day name:",
+      "default": "Jan",
+      "translation": "Gen"
+    },
+    {
+      "id": "calendar_widget_month_feb",
+      "prompt": "The 'Feb' abbreviated day name:",
+      "default": "Feb",
+      "translation": "Feb"
+    },
+    {
+      "id": "calendar_widget_month_mar",
+      "prompt": "The 'Mar' abbreviated day name:",
+      "default": "Mar",
+      "translation": "Mar"
+    },
+    {
+      "id": "calendar_widget_month_apr",
+      "prompt": "The 'Apr' abbreviated day name:",
+      "default": "Apr",
+      "translation": "Apr"
+    },
+    {
+      "id": "calendar_widget_month_may",
+      "prompt": "The 'May' abbreviated day name:",
+      "default": "May",
+      "translation": "Mag"
+    },
+    {
+      "id": "calendar_widget_month_jun",
+      "prompt": "The 'Jun' abbreviated day name:",
+      "default": "Jun",
+      "translation": "Giu"
+    },
+    {
+      "id": "calendar_widget_month_jul",
+      "prompt": "The 'Jul' abbreviated day name:",
+      "default": "Jul",
+      "translation": "Lug"
+    },
+    {
+      "id": "calendar_widget_month_aug",
+      "prompt": "The 'Aug' abbreviated day name:",
+      "default": "Aug",
+      "translation": "Ago"
+    },
+    {
+      "id": "calendar_widget_month_sep",
+      "prompt": "The 'Sep' abbreviated day name:",
+      "default": "Sep",
+      "translation": "Set"
+    },
+    {
+      "id": "calendar_widget_month_oct",
+      "prompt": "The 'Oct' abbreviated day name:",
+      "default": "Oct",
+      "translation": "Ott"
+    },
+    {
+      "id": "calendar_widget_month_nov",
+      "prompt": "The 'Nov' abbreviated day name:",
+      "default": "Nov",
+      "translation": "Nov"
+    },
+    {
+      "id": "calendar_widget_month_dec",
+      "prompt": "The 'Dec' abbreviated day name:",
+      "default": "Dec",
+      "translation": "Dic"
+    },
+    {
+      "id": "multilang_108",
+      "prompt": "The 'H:M' date format indicator:",
+      "default": "H:M",
+      "translation": "H:M"
+    },
+    {
+      "id": "multilang_109",
+      "prompt": "The 'Y-M-D' date format indicator:",
+      "default": "Y-M-D",
+      "translation": "Y-M-D"
+    },
+    {
+      "id": "multilang_110",
+      "prompt": "The 'M-D-Y' date format indicator:",
+      "default": "M-D-Y",
+      "translation": "M-D-Y"
+    },
+    {
+      "id": "multilang_111",
+      "prompt": "The 'D-M-Y' date format indicator:",
+      "default": "D-M-Y",
+      "translation": "D-M-Y"
+    },
+    {
+      "id": "multilang_112",
+      "prompt": "The 'Y-M-D H:M' date format indicator:",
+      "default": "Y-M-D H:M",
+      "translation": "Y-M-D H:M"
+    },
+    {
+      "id": "multilang_113",
+      "prompt": "The 'M-D-Y H:M' date format indicator:",
+      "default": "M-D-Y H:M",
+      "translation": "M-D-Y H:M"
+    },
+    {
+      "id": "multilang_114",
+      "prompt": "The 'D-M-Y H:M' date format indicator:",
+      "default": "D-M-Y H:M",
+      "translation": "D-M-Y H:M"
+    },
+    {
+      "id": "multilang_115",
+      "prompt": "The 'Y-M-D H:M:S' date format indicator:",
+      "default": "Y-M-D H:M:S",
+      "translation": "Y-M-D H:M:S"
+    },
+    {
+      "id": "multilang_116",
+      "prompt": "The 'M-D-Y H:M:S' date format indicator:",
+      "default": "M-D-Y H:M:S",
+      "translation": "M-D-Y H:M:S"
+    },
+    {
+      "id": "multilang_117",
+      "prompt": "The 'D-M-Y H:M:S' date format indicator:",
+      "default": "D-M-Y H:M:S",
+      "translation": "D-M-Y H:M:S"
+    },
+    {
+      "id": "form_renderer_23",
+      "prompt": "The 'Upload file' link label and popup title:",
+      "default": "Upload file",
+      "translation": "Carica documento"
+    },
+    {
+      "id": "data_entry_459",
+      "prompt": "The 'Upload new version' link label and popup title:",
+      "default": "Upload new version",
+      "translation": "Carica la nuova versione"
+    },
+    {
+      "id": "form_renderer_24",
+      "prompt": "The 'Remove file' link label:",
+      "default": "Remove file",
+      "translation": "Rimuovi file"
+    },
+    {
+      "id": "form_renderer_25",
+      "prompt": "The 'Send-It' link label:",
+      "default": "Send-It",
+      "translation": "Send-it"
+    },
+    {
+      "id": "data_entry_468",
+      "prompt": "The '(replace and keep current file)' hint:",
+      "default": "(replace and keep current file)",
+      "translation": "(sostituire e mantenere il file corrente)"
+    },
+    {
+      "id": "data_entry_62",
+      "prompt": "The 'Select a file then click the 'Upload File' button' prompt:",
+      "default": "Select a file then click the 'Upload File' button",
+      "translation": "Selezionare un file quindi fare clic sul pulsanté Carica documentò"
+    },
+    {
+      "id": "survey_1146",
+      "prompt": "The 'Click to upload a file in a modal dialog.' hint:",
+      "default": "Click to upload a file in a modal dialog.",
+      "translation": "Fare clic per caricare un documento in una finestra di dialogo modale."
+    },
+    {
+      "id": "form_renderer_47",
+      "prompt": "The 'You must first choose a file to upload' error message:",
+      "default": "You must first choose a file to upload",
+      "translation": "Devi prima scegliere un file da caricare"
+    },
+    {
+      "id": "form_renderer_52",
+      "prompt": "The 'Delete file?' popup window title:",
+      "default": "Delete file?",
+      "translation": "Cancellare il file?"
+    },
+    {
+      "id": "form_renderer_51",
+      "prompt": "The 'Are you sure you want to permanently remove this file?' dialog message:",
+      "default": "Are you sure you want to permanently remove this file?",
+      "translation": "Sei sicuro di voler rimuovere in modo permanente questo file?"
+    },
+    {
+      "id": "design_397",
+      "prompt": "The 'Yes, delete it' button label:",
+      "default": "Yes, delete it",
+      "translation": "Sì, eliminarlo"
+    },
+    {
+      "id": "form_renderer_59",
+      "prompt": "The 'File deleted' popup window title:",
+      "default": "File deleted",
+      "translation": "File cancellato"
+    },
+    {
+      "id": "form_renderer_50",
+      "prompt": "The 'Provide reason for deleting this file (reason will be logged):' prompt:",
+      "default": "Provide reason for deleting this file (reason will be logged):",
+      "translation": "Fornire il motivo della cancellazione di questo file (il motivo sarà registrato):"
+    },
+    {
+      "id": "data_entry_526",
+      "prompt": "The maximum file size notice (use {0} as placeholder for the number of megabytes):",
+      "default": "Max file size: {0} MB",
+      "translation": "Dimensione massima del file: {0} MB"
+    },
+    {
+      "id": "data_entry_64",
+      "prompt": "The 'Loading...' indicator:",
+      "default": "Loading...",
+      "translation": "Caricamento..."
+    },
+    {
+      "id": "data_entry_65",
+      "prompt": "The 'Upload in progress...' message:",
+      "default": "Upload in progress...",
+      "translation": "Carica in corso..."
+    },
+    {
+      "id": "data_entry_455",
+      "prompt": "The 'Confirm file' popup window title:",
+      "default": "Confirm file",
+      "translation": "Conferma file"
+    },
+    {
+      "id": "data_entry_454",
+      "prompt": "The 'By clicking the Confirm button below, you are confirming that the following file is the correct file that you wish to upload here:' dialog message:",
+      "default": "By clicking the Confirm button below, you are confirming that the following file is the correct file that you wish to upload here:",
+      "translation": "Facendo clic sul pulsante Conferma in basso, confermi che il seguente file è il file corretto che desideri caricare qui:"
+    },
+    {
+      "id": "data_entry_453",
+      "prompt": "The 'File Upload: Confirmation & username/password verification' popup window title:",
+      "default": "File Upload: Confirmation & username/password verification",
+      "translation": "Caricamento file: conferma e verifica nome utente / password"
+    },
+    {
+      "id": "data_entry_460",
+      "prompt": "The 'By providing your REDCap password and clicking the Confirm button below, you are confirming that the following file is the correct file that you wish to upload here:' dialog message:",
+      "default": "By providing your REDCap password and clicking the Confirm button below, you are confirming that the following file is the correct file that you wish to upload here:",
+      "translation": "Fornendo la tua password REDCap e facendo clic sul pulsante Conferma di seguito, stai confermando che il seguente file è il file corretto che desideri caricare qui:"
+    },
+    {
+      "id": "data_entry_461",
+      "prompt": "The 'Your file will be uploaded once you successfully initiate this confirmation process.' notice:",
+      "default": "Your file will be uploaded once you successfully initiate this confirmation process.",
+      "translation": "Il tuo file verrà caricato una volta avviato con successo questo processo di conferma."
+    },
+    {
+      "id": "form_renderer_26",
+      "prompt": "The '[The file upload feature is disabled]' notice:",
+      "default": "[The file upload feature is disabled]",
+      "translation": "[la funzione caricamento file è disabilitata]"
+    },
+    {
+      "id": "form_renderer_48",
+      "prompt": "The 'The username or password that you entered is incorrect! Please try again.' error message:",
+      "default": "The username or password that you entered is incorrect! Please try again.",
+      "translation": "Il nome utente o la password che hai inserito non sono corretti! Si prega di riprovare."
+    },
+    {
+      "id": "form_renderer_49",
+      "prompt": "The 'You MUST provide a reason for deleting this file. Please try again.' error message:",
+      "default": "You MUST provide a reason for deleting this file. Please try again.",
+      "translation": "DEVI fornire un motivo per la cancellazione di questo file. Si prega di riprovare."
+    },
+    {
+      "id": "form_renderer_44",
+      "prompt": "The 'CANNOT UPLOAD FILE!' popup window title:",
+      "default": "CANNOT UPLOAD FILE!",
+      "translation": "IMPOSSIBILE CARICARE IL FILE!"
+    },
+    {
+      "id": "form_renderer_45",
+      "prompt": "Text of the iOS limitation notification:",
+      "default": "We're sorry, but Apple does not support uploading files onto web pages in their Mobile Safari browser for iOS devices (iPhones, iPads, and iPod Touches) that are running iOS version 5.1 and below. Because it appears that you are using an iOS device on such an older version, you will not be able to upload a file here. This is not an issue in REDCap but is merely a limitation imposed by Apple. NOTE: iOS version 6 and above *does* support uploading of pictures and videos (but not other file types).",
+      "translation": "Siamo spiacenti, ma Apple non supporta il caricamento di file sulle pagine web nel loro browser Mobile Safari per i dispositivi iOS (iPhone, iPad e iPod Touch) che eseguono iOS versione 5.1 e inferiore. Poiché sembra che tu stia usando un dispositivo iOS su una di queste vecchie versioni, non  puoi caricare un file qui. Questo non è un problema in REDCap ma è semplicemente una limitazione imposta da Apple. NOTA: iOS versione 6 e versioni superiori *supportano* il caricamento di foto e video (ma non di altri tipi di file)."
+    },
+    {
+      "id": "form_renderer_57",
+      "prompt": "The file deletion confirmation message (the placeholder {0} will contain the file name):",
+      "default": "The file \"<b>{0}<\/b>\" has been deleted.",
+      "translation": "Il file <b>{0}<\/b> è stato cancellato."
+    },
+    {
+      "id": "form_renderer_58",
+      "prompt": "The file version deletion confirmation message (use {0} as placeholder for the version number):",
+      "default": "Version {0} of the file has been deleted.",
+      "translation": "La versione {0} del file è stata cancellata."
+    },
+    {
+      "id": "form_renderer_60",
+      "prompt": "The 'File was successfully uploaded!' message:",
+      "default": "File was successfully uploaded!",
+      "translation": "Il file è stato caricato con successo!"
+    },
+    {
+      "id": "dataqueries_160",
+      "prompt": "The 'There was an error during file upload!' error message:",
+      "default": "There was an error during file upload!",
+      "translation": "C'è stato un errore durante il caricamento del file!"
+    },
+    {
+      "id": "data_export_tool_248",
+      "prompt": "The 'FILE:' indicator:",
+      "default": "FILE:",
+      "translation": "FILE:"
+    },
+    {
+      "id": "survey_1147",
+      "prompt": "Alt attribute of the signature image",
+      "default": "Signature",
+      "translation": "Firma"
+    },
+    {
+      "id": "form_renderer_31",
+      "prompt": "The 'Add signature' link label and popup title:",
+      "default": "Add signature",
+      "translation": "Aggiungi firma"
+    },
+    {
+      "id": "form_renderer_43",
+      "prompt": "The 'Remove signature' link label:",
+      "default": "Remove signature",
+      "translation": "Rimuovere la firma"
+    },
+    {
+      "id": "form_renderer_30",
+      "prompt": "The 'Save signature' button label:",
+      "default": "Save signature",
+      "translation": "Salva firma"
+    },
+    {
+      "id": "form_renderer_46",
+      "prompt": "The 'You must first sign your signature' error message:",
+      "default": "You must first sign your signature",
+      "translation": "Devi prima apporre la tua firma"
+    },
+    {
+      "id": "form_renderer_63",
+      "prompt": "The 'Delete uploaded signature?' popup window title:",
+      "default": "Delete uploaded signature?",
+      "translation": "Cancellare la firma caricata?"
+    },
+    {
+      "id": "form_renderer_64",
+      "prompt": "The 'Are you sure you want to permanently remove the uploaded signature?' dialog message:",
+      "default": "Are you sure you want to permanently remove the uploaded signature?",
+      "translation": "Sei sicuro di voler rimuovere in modo permanente la firma caricata?"
+    },
+    {
+      "id": "design_205",
+      "prompt": "The 'Attachment:' label",
+      "default": "Attachment:",
+      "translation": "Allegato:"
+    },
+    {
+      "id": "global_120",
+      "prompt": "The 'Watch video' button label:",
+      "default": "Watch video",
+      "translation": "Guarda il video"
+    },
+    {
+      "id": "data_entry_502",
+      "prompt": "The 'Video' popup window title:",
+      "default": "Video",
+      "translation": "Video"
+    },
+    {
+      "id": "design_204",
+      "prompt": "The '[Attachment not found]' notification:",
+      "default": "[Attachment not found]",
+      "translation": "[allegato non trovato]"
+    },
+    {
+      "id": "global_121",
+      "prompt": "The '[Your browser does not support the HTML5 Audio element.]' notification:",
+      "default": "[Your browser does not support the HTML5 Audio element.]",
+      "translation": "[il browser non supporta l'elemento audio HTML5.]"
+    },
+    {
+      "id": "survey_1242",
+      "prompt": "The reCAPTCHA prompt:",
+      "default": "To proceed to the survey, please check off the box and click the button below.",
+      "translation": "Per procedere al sondaggio, spunta la casella e fai clic sul pulsante in basso."
+    },
+    {
+      "id": "survey_1243",
+      "prompt": "The 'Begin survey' button label:",
+      "default": "Begin survey",
+      "translation": "Inizia sondaggio"
+    },
+    {
+      "id": "survey_1244",
+      "prompt": "The 'Invalid reCAPTCHA response! Please try again.' error message:",
+      "default": "Invalid reCAPTCHA response! Please try again.",
+      "translation": "Risposta reCAPTCHA non valida! Riprova."
+    },
+    {
+      "id": "email_users_36",
+      "prompt": "The 'REDCap Secure Messaging' default banner text:",
+      "default": "REDCap Secure Messaging",
+      "translation": "Messaggistica sicura REDCap"
+    },
+    {
+      "id": "email_users_37",
+      "prompt": "The sender information text (use {0} as placeholder for display name and email address of the sender):",
+      "default": "{0} has sent you a secure email message.",
+      "translation": "{0} ti ha inviato un messaggio e-mail sicuro."
+    },
+    {
+      "id": "email_users_38",
+      "prompt": "The 'Read the message' button label:",
+      "default": "Read the message",
+      "translation": "Leggi il messaggio"
+    },
+    {
+      "id": "email_users_39",
+      "prompt": "The 'Learn about messages protected by REDCap.' link label:",
+      "default": "Learn about messages protected by REDCap.",
+      "translation": "Conosci i messaggi protetti da REDCap."
+    },
+    {
+      "id": "global_234",
+      "prompt": "The subject of the Protected Email verification email:",
+      "default": "REDCap secure message verification",
+      "translation": "Verifica sicura dei messaggi REDCap"
+    },
+    {
+      "id": "email_users_99",
+      "prompt": "The Protected Email code notice (use {0} as placeholder for the code):",
+      "default": "Your REDCap Secure Messaging code is <b>{0}<\/b>",
+      "translation": "Il tuo codice  di messaggistica sicura  REDCap è <b>{0}<\/b>"
+    },
+    {
+      "id": "email_users_100",
+      "prompt": "The Protected Email code expiration notice (use {0} as placeholder for the time in minutes):",
+      "default": "(This code will expire in {0} minutes)",
+      "translation": "(Questo codice scadrà tra {0} minuti)"
+    },
+    {
+      "id": "email_users_40",
+      "prompt": "Security check page title:",
+      "default": "Quick security check before viewing your email",
+      "translation": "Controllo rapido della sicurezza prima di visualizzare la tua e-mail"
+    },
+    {
+      "id": "email_users_47",
+      "prompt": "Security check informational text:",
+      "default": "Because you have not visited this page before or in a long time, we just sent you <u>a new email containing a security code<\/u> that will be used to verify your identify here. Please return to your inbox right now to retrieve that security code, and then enter it below. Thanks!",
+      "translation": "Poiché non hai mai visitato questa pagina o non la visiti da molto tempo, ti abbiamo appena inviato <u>una nuova e-mail contenente un codice di sicurezza<\/u> che verrà utilizzato per verificare la tua identità qui. Ora torna alla tua casella di posta per recuperare il codice di sicurezza e inseriscilo qui sotto. Grazie!"
+    },
+    {
+      "id": "email_users_46",
+      "prompt": "Security check informational text (multiple recipients):",
+      "default": "Because you have not visited this page before or in a long time, we need to send you <u>a new email containing a security code<\/u> that will be used to verify your identify here. <b>Please select your email address from the list of all recipients below, and click the 'Send code' button<\/b>, which will send you a new email with a code. Then return to your inbox to retrieve that security code, and enter it below.",
+      "translation": "Poiché non hai mai visitato questa pagina o non la visiti da molto tempo, ti dobbiamo inviare <u>una nuova e-mail contenente un codice di sicurezza<\/u> che verrà utilizzato per verificare la tua identità qui. <b>Seleziona il tuo indirizzo e-mail dalla lista di tutti i destinatari qui sotto, clicca sul pulsante 'Invia codice'<\/b> e ti verrà inviata una nuova e-mail con un codice. Quindi torna alla tua casella di posta per recuperare il codice di sicurezza e inseriscilo qui sotto."
+    },
+    {
+      "id": "email_users_42",
+      "prompt": "The 'Send code to this address' button label:",
+      "default": "Send code to this address",
+      "translation": "Invia il codice a questo indirizzo"
+    },
+    {
+      "id": "email_users_45",
+      "prompt": "The 'After receiving the code via email, enter it below.' hint:",
+      "default": "After receiving the code via email, enter it below.",
+      "translation": "Dopo aver ricevuto il codice via e-mail, inseriscilo qui sotto."
+    },
+    {
+      "id": "email_users_44",
+      "prompt": "The 'This is a public computer' label",
+      "default": "This is a public computer",
+      "translation": "Questo è un computer pubblico"
+    },
+    {
+      "id": "email_users_82",
+      "prompt": "The '(Unchecking this checkbox will store a cookie on this device.)' notice:",
+      "default": "(Unchecking this checkbox will store a cookie on this device.)",
+      "translation": "(Deselezionando questa casella di spunta verrà memorizzato un cookie su questo dispositivo)."
+    },
+    {
+      "id": "email_users_101",
+      "prompt": "The 'Enter code' placeholder text:",
+      "default": "Enter code",
+      "translation": "Inserisci il codice"
+    },
+    {
+      "id": "email_users_43",
+      "prompt": "The 'Submit code' button label:",
+      "default": "Submit code",
+      "translation": "Invia codice"
+    },
+    {
+      "id": "email_users_41",
+      "prompt": "The 'ERROR: Incorrect code was entered. Please try again!' error message:",
+      "default": "ERROR: Incorrect code was entered. Please try again!",
+      "translation": "ERRORE: È stato inserito un codice errato. Per favore, riprova!"
+    },
+    {
+      "id": "email_users_50",
+      "prompt": "The 'Check your inbox!' popup window title:",
+      "default": "Check your inbox!",
+      "translation": "Controlla la tua casella di posta!"
+    },
+    {
+      "id": "email_users_35",
+      "prompt": "The dialog text confirming that the email has been sent (use {0} as placeholder for the email address):",
+      "default": "The code was successfully emailed to {0}",
+      "translation": "Il codice è stato inviato con successo a {0}"
+    },
+    {
+      "id": "global_37",
+      "prompt": "The 'From:' label",
+      "default": "From:",
+      "translation": "Da:"
+    },
+    {
+      "id": "global_38",
+      "prompt": "The 'To:' label",
+      "default": "To:",
+      "translation": "A:"
+    },
+    {
+      "id": "alerts_128",
+      "prompt": "The 'Attachments' label",
+      "default": "Attachments",
+      "translation": "Allegati"
+    },
+    {
+      "id": "email_users_48",
+      "prompt": "The number of files indicator (plural; use {0} as placeholder for the number of files):",
+      "default": "{0} files",
+      "translation": "{0} file"
+    },
+    {
+      "id": "email_users_49",
+      "prompt": "The number of files indicator (singular; use {0} as placeholder for the number of files):",
+      "default": "{0} file",
+      "translation": "{0} file"
+    },
+    {
+      "id": "ws_176",
+      "prompt": "Email sent time label - 'just now':",
+      "default": "just now",
+      "translation": "proprio ora"
+    },
+    {
+      "id": "ws_177",
+      "prompt": "Email sent time label - 'less than a minute ago':",
+      "default": "less than a minute ago",
+      "translation": "meno di un minuto fa"
+    },
+    {
+      "id": "ws_178",
+      "prompt": "Email sent time - '{0} minute ago' (singular; use {0} as placeholder for the number of minutes):",
+      "default": "{0} minute ago",
+      "translation": "{0} minuto fa"
+    },
+    {
+      "id": "ws_179",
+      "prompt": "Email sent time - '{0} minutes ago' (plural; use {0} as placeholder for the number of minutes):",
+      "default": "{0} minutes ago",
+      "translation": "{0} minuti fa"
+    },
+    {
+      "id": "ws_180",
+      "prompt": "Email sent time - '{0} hour ago' (singular; use {0} as placeholder for the number of hours):",
+      "default": "{0} hour ago",
+      "translation": "{0} ora fa"
+    },
+    {
+      "id": "ws_181",
+      "prompt": "Email sent time - '{0} hours ago' (plural; use {0} as placeholder for the number of hours):",
+      "default": "{0} hours ago",
+      "translation": "{0} ore fa"
+    },
+    {
+      "id": "ws_182",
+      "prompt": "Email sent time - '{0} day ago' (singular; use {0} as placeholder for the number of days):",
+      "default": "{0} day ago",
+      "translation": "{0} giorno fa"
+    },
+    {
+      "id": "ws_183",
+      "prompt": "Email sent time - '{0} days ago' (plural; use {0} as placeholder for the number of days):",
+      "default": "{0} days ago",
+      "translation": "{0} giorni fa"
+    },
+    {
+      "id": "dataqueries_278",
+      "prompt": "The 'Close survey' button label:",
+      "default": "Close survey",
+      "translation": "Chiudere il sondaggio"
+    },
+    {
+      "id": "survey_111",
+      "prompt": "The survey already completed notification message:",
+      "default": "Thank you for your interest, but you have already completed this survey.",
+      "translation": "Grazie per il tuo interesse, ma avete già completato questo sondaggio."
+    },
+    {
+      "id": "survey_1101",
+      "prompt": "The response limit reached notification message:",
+      "default": "Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.",
+      "translation": "Grazie per il tuo interesse; Tuttavia, l'indagine è chiusa perché il numero massimo di risposte è stato raggiunto."
+    },
+    {
+      "id": "survey_1105",
+      "prompt": "The time limit reached notification message:",
+      "default": "Thank you for your interest; however, the time limit for survey completion has been reached, so you will not be able to begin or continue the survey.",
+      "translation": "Grazie per il tuo interesse; tuttavia, è stato raggiunto il limite di tempo per il completamento del sondaggio , quindi non sarai in grado di iniziare o continuare il sondaggio."
+    },
+    {
+      "id": "survey_1357",
+      "prompt": "The repeat instance recorded confirmation message (singular; use {0} as placeholder for the number of instances):",
+      "default": "{0} instance of this survey has been recorded",
+      "translation": "{0} è stata registrata un'istanza di questo sondaggio"
+    },
+    {
+      "id": "survey_1356",
+      "prompt": "The repeat instances recorded confirmation message (plural; use {0} as placeholder for the number of instances):",
+      "default": "{0} instances of this survey have been recorded",
+      "translation": "Sono state registrate {0} istanze di questo sondaggio"
+    },
+    {
+      "id": "survey_1097",
+      "prompt": "Text for the 'Submit and' prompt (followed by the 'Take survey again' button):",
+      "default": "Submit and",
+      "translation": "Presentare e"
+    },
+    {
+      "id": "global_239",
+      "prompt": "The 'Username:' prompt:",
+      "default": "Username:",
+      "translation": "Nome utente:"
+    },
+    {
+      "id": "global_240",
+      "prompt": "The 'Password:' prompt:",
+      "default": "Password:",
+      "translation": "Password:"
+    },
+    {
+      "id": "survey_573",
+      "prompt": "The 'Survey Login' popup window title:",
+      "default": "Survey Login",
+      "translation": "Sondaggio login"
+    },
+    {
+      "id": "survey_310",
+      "prompt": "The 'Survey title:' prompt:",
+      "default": "Survey title:",
+      "translation": "Titolo sondaggio:"
+    },
+    {
+      "id": "survey_574",
+      "prompt": "Introduction to the survey login instructions:",
+      "default": "Before beginning or continuing this survey, you must first log in by successfully entering the correct values below.",
+      "translation": "Prima di iniziare o continuare questo sondaggio, è necessario innanzitutto accedere inserendo di seguito i valori corretti."
+    },
+    {
+      "id": "survey_587",
+      "prompt": "Instructions stating that a value must be entered:",
+      "default": "You must successfully enter a value for the field below.",
+      "translation": "È necessario immettere correttamente un valore per il campo sottostante."
+    },
+    {
+      "id": "survey_1345",
+      "prompt": "Instructions regarding the minimum nubmer of required fields (use {0} and {1} as placeholders):",
+      "default": "You must successfully enter at least {0} out of the {1} fields below.",
+      "translation": "Devi inserire con successo almeno {0} dei campi {1} sottostanti."
+    },
+    {
+      "id": "survey_578",
+      "prompt": "Instructions stating that all fields are required:",
+      "default": "You must successfully enter a value for ALL the fields below.",
+      "translation": "È necessario immettere correttamente un valore per tutti i campi riportati di seguito."
+    },
+    {
+      "id": "survey_594",
+      "prompt": "Note that login is not case sensitive:",
+      "default": "Please note that the login is *not* case sensitive.",
+      "translation": "Si prega di notare che il login *non* è maiuscolo."
+    },
+    {
+      "id": "survey_1066",
+      "prompt": "The 'Show value' label",
+      "default": "Show value",
+      "translation": "Mostra valore"
+    },
+    {
+      "id": "survey_1343",
+      "prompt": "The error message displayed when the login fails (note singular):",
+      "default": "<b>ERROR:<\/b> The login was not successful because the value entered was not correct. Try again.",
+      "translation": "<b>ERROR:<\/b> Il login non ha avuto successo perché il valore inserito non era corretto. Prova di nuovo."
+    },
+    {
+      "id": "survey_1344",
+      "prompt": "The error message displayed when the login fails (note plural):",
+      "default": "<b>ERROR:<\/b> The login was not successful because the values entered were not correct. Try again.",
+      "translation": "<b>ERROR:<\/b> Il login non ha avuto successo perché i valori inseriti non erano corretti. Prova di nuovo."
+    },
+    {
+      "id": "survey_589",
+      "prompt": "The message displayed when there is no data for the login fields:",
+      "default": "Unfortunately, it appears that no login fields can be displayed for you because no data has been entered for those login fields for you beforehand, so there is no way to log in. Please contact your survey administrator to have this issue corrected.",
+      "translation": "Purtroppo, sembra che nessun campo di login possa essere visualizzato per voi, perché nessun dato è stato inserito per quei campi di login per voi in anticipo, quindi non c'è modo di accedere. Si prega di contattare l'amministratore del sondaggio per avere questo problema corretto."
+    },
+    {
+      "id": "global_05",
+      "prompt": "The 'ACCESS DENIED!' popup window title:",
+      "default": "ACCESS DENIED!",
+      "translation": "ACCESSO NEGATO!"
+    },
+    {
+      "id": "survey_1353",
+      "prompt": "The access denied informational text (use {0} as placeholder for the number of minutes):",
+      "default": "For security purposes, this survey has been temporarily disabled because it has exceeded the maximum amount of failed login attempts that are allowed within a set period of time (<b>{0} minutes<\/b>).",
+      "translation": "Per motivi di sicurezza, questo sondaggio è stato temporaneamente disabilitato perché ha superato il numero massimo di tentativi di accesso falliti che sono consentiti in un periodo di tempo stabilito (<b>{0} minuti<\/b>)."
+    },
+    {
+      "id": "config_functions_45",
+      "prompt": "The 'Log In' button label:",
+      "default": "Log In",
+      "translation": "Accedi"
+    },
+    {
+      "id": "survey_675",
+      "prompt": "The 'Survey login session is still active' notification:",
+      "default": "Survey login session is still active",
+      "translation": "Sondaggio login Session è ancora attivo"
+    },
+    {
+      "id": "data_entry_262",
+      "prompt": "Password disclaimer text:",
+      "default": "Please note that although the value entered here is obfuscated and not readable, the value will be visible outside of this page to the individuals that are administering this survey.",
+      "translation": "Si prega di notare che, sebbene il valore immesso qui sia offuscato e non leggibile, il valore sarà visibile al di fuori di questa pagina per gli individui che stanno amministrando questo sondaggio."
+    },
+    {
+      "id": "survey_1365",
+      "prompt": "The page number label (use {0} as placeholder for the page number):",
+      "default": "Page {0}",
+      "translation": "Pagina {0}"
+    },
+    {
+      "id": "global_237",
+      "prompt": "The 'Confidential' notice:",
+      "default": "Confidential",
+      "translation": "Confidenziale"
+    },
+    {
+      "id": "survey_1139",
+      "prompt": "The 'Download your survey response (PDF):' prompt:",
+      "default": "Download your survey response (PDF):",
+      "translation": "Scarica la tua risposta sondaggio (PDF):"
+    },
+    {
+      "id": "design_121",
+      "prompt": "The 'Download' button label:",
+      "default": "Download",
+      "translation": "Scaricare"
+    },
+    {
+      "id": "data_entry_535",
+      "prompt": "The response added statement (use {0} as placeholder for the timestamp):",
+      "default": "Response was added on {0:Timestamp}.",
+      "translation": "La risposta è stata aggiunta il {0:Timestamp}."
+    },
+    {
+      "id": "data_entry_101",
+      "prompt": "The partial completion notice:",
+      "default": "Response is only partial and is not complete.",
+      "translation": "La risposta è solo parziale e non è completa."
+    },
+    {
+      "id": "survey_1169",
+      "prompt": "The intoductory text on the eConsent page:",
+      "default": "Displayed below is a read-only copy of your survey responses. Please review it and the options at the bottom.",
+      "translation": "Di seguito è mostrata una copia di sola lettura delle risposte al sondaggio. Rileggi questa e le opzioni in fondo."
+    },
+    {
+      "id": "survey_1171",
+      "prompt": "The label for the eConsent confirmation checkbox:",
+      "default": "I certify that all of my information in the document above is correct. I understand that clicking 'Submit' will electronically sign the form and that signing this form electronically is the equivalent of signing a physical document.",
+      "translation": "Dichiaro che tutte le mie informazioni nel documento di cui sopra sono corrette. Sono consapevole che facendo clic su 'Invia' firmerò elettronicamente il modulo e che firmare questo modulo elettronicamente equivale a firmare un documento fisico."
+    },
+    {
+      "id": "survey_1170",
+      "prompt": "The eConsent verification notice:",
+      "default": "If any information above is not correct, you may click the 'Previous Page' button to go back and correct it.",
+      "translation": "Se qualsiasi informazione sopra non è corretta, puoi fare clic sul pulsante 'Pagina precedente' per tornare indietro e correggerla."
+    },
+    {
+      "id": "data_entry_428",
+      "prompt": "The eConsent version title:",
+      "default": "Version:",
+      "translation": "Versione:"
+    },
+    {
+      "id": "data_entry_429",
+      "prompt": "The eConsent type title:",
+      "default": "Type:",
+      "translation": "Tipo:"
+    },
+    {
+      "id": "survey_1264",
+      "prompt": "The 'Erase your signature(s) in this survey?' popup window title:",
+      "default": "Erase your signature(s) in this survey?",
+      "translation": "Cancella la tua firma/e in questo sondaggio?"
+    },
+    {
+      "id": "survey_1265",
+      "prompt": "The notification that the signature will be erased:",
+      "default": "You have provided your signature on an earlier page in this survey. This may include typing your name, a PIN, and/or signing your signature. You are allowed to return to a previous page in the survey, but if you do so, please be advised that your signature(s) will be automatically removed, after which you will need to provide it again before you can complete the survey. You will also be able to modify any of your existing responses to the questions in this survey. If this is okay, you may proceed to an earlier page in the survey by clicking the button below.",
+      "translation": "Hai fornito la tua firma in una pagina precedente di questo sondaggio. Ciò può includere la digitazione del tuo nome, un PIN e / o latua firma. Puoi tornare a una pagina precedente del sondaggio, ma se lo fai  tieni presente che le tue firme verranno automaticamente rimosse, dopodiché dovrai fornirle di nuovo prima di completare il sondaggio. Potrai anche modificare qualsiasi risposta esistente alle domande in questo sondaggio . Se va bene, puoi passare a una pagina precedente del sondaggio facendo clic sul pulsante in basso."
+    },
+    {
+      "id": "survey_1266",
+      "prompt": "The 'Erase my signature(s) and go to earlier page' button label:",
+      "default": "Erase my signature(s) and go to earlier page",
+      "translation": "Cancella le mie firme e vai alla pagina precedente"
+    },
+    {
+      "id": "survey_1364",
+      "prompt": "The 'View PDF' button label:",
+      "default": "View PDF",
+      "translation": "Vedi PDF"
+    },
+    {
+      "id": "survey_1341",
+      "prompt": "The 'Download PDF' button label:",
+      "default": "Download PDF",
+      "translation": "Scaricare PDF"
+    },
+    {
+      "id": "survey_1366",
+      "prompt": "The 'PDF not supported in browser' notification message:",
+      "default": "This browser does not support PDFs. Please download the PDF <b>in a new tab<\/b> to view it:",
+      "translation": "Questo browser non supporta i PDF. Si prega di scaricare il PDF <b>in una nuova scheda<\/b> per visualizzarlo:"
+    },
+    {
+      "id": "survey_1311",
+      "prompt": "The 'End Survey' button label:",
+      "default": "End Survey",
+      "translation": "Sondaggio finale"
+    },
+    {
+      "id": "survey_1312",
+      "prompt": "The 'Return and Edit Response' button label:",
+      "default": "Return and Edit Response",
+      "translation": "Ritorna e modifica la risposta"
+    },
+    {
+      "id": "data_entry_199",
+      "prompt": "The 'SAVE YOUR CHANGES?' popup window title:",
+      "default": "SAVE YOUR CHANGES?",
+      "translation": "SALVARE LE MODIFICHE?"
+    },
+    {
+      "id": "data_entry_265",
+      "prompt": "The save changes dialog text:",
+      "default": "Are you sure you wish to close the survey? Any responses you have added on this page will be lost if you close the survey now. IF YOU DO NOT WISH TO ABANDON YOUR CHANGES, click the 'Stay on page' button below and then click the button at the bottom of the page to save your changes.",
+      "translation": "Sei sicuro di voler chiudere il sondaggio? Tutte le risposte che hai aggiunto a questa pagina saranno perse se chiudi l'indagine ora. Se non si desidera abbandonare le modifiche, fare clic sul pulsante 'resta sulla pagina' qui sotto e quindi fare clic sul pulsante in fondo alla pagina per salvare le modifiche."
+    },
+    {
+      "id": "survey_01",
+      "prompt": "The 'End the survey?' popup window title:",
+      "default": "End the survey?",
+      "translation": "Terminare il sondaggio?"
+    },
+    {
+      "id": "survey_02",
+      "prompt": "The 'End the survey?' text:",
+      "default": "You have selected an option that triggers this survey to end right now.",
+      "translation": "È stata selezionata un'opzione che attiva questo sondaggio per terminare in questo momento."
+    },
+    {
+      "id": "survey_1313",
+      "prompt": "The 'End the survey?' instructions:",
+      "default": "To save your responses and end the survey, click the 'End Survey' button below. If you have selected the wrong option by accident and/or wish to return to the survey, click the 'Return and Edit Response' button.",
+      "translation": "Per salvare le tue risposte e terminare il sondaggio, clicca sul pulsante 'Termina il sondaggio' qui sotto. Se hai selezionato per sbaglio l'opzione sbagliata e/o desideri tornare al sondaggio, clicca sul pulsante 'Torna e modifica la risposta'."
+    },
+    {
+      "id": "survey_14",
+      "prompt": "The 'Not a participant' message:",
+      "default": "Thank you for your interest, but you are not a participant for this survey.",
+      "translation": "Grazie per il tuo interesse, ma non sei un partecipante per questa indagine."
+    },
+    {
+      "id": "survey_997",
+      "prompt": "The 'Enable speech' tooltip text:",
+      "default": "Enable speech",
+      "translation": "Attivare il discorso"
+    },
+    {
+      "id": "survey_998",
+      "prompt": "The 'Disable speech' tooltip text:",
+      "default": "Disable speech",
+      "translation": "Disattivare il discorso"
+    },
+    {
+      "id": "survey_163",
+      "prompt": "The title of the 'partial completion' notice:",
+      "default": "You have partially completed this survey.",
+      "translation": "Hai completato parzialmente questo sondaggio."
+    },
+    {
+      "id": "survey_162",
+      "prompt": "The text of the 'partial completion' notice:",
+      "default": "You have not completed the entire survey, and your responses are thus considered only partially complete. For security reasons, you will not be allowed to continue taking the survey from the place where you stopped. So you have the option to 1) leave your survey responses unchanged as they are, or 2) you may start the survey over from the beginning so that you may complete it (this will delete all your previously existing responses when you begin again). To start the survey again, click the button below.",
+      "translation": "Non hai completato l'intero sondaggio, e le tue risposte sono quindi considerate solo parzialmente complete. Per motivi di sicurezza, non sarà consentito continuare l'indagine dal punto in cui si è fermato. In modo da avere la possibilità di 1) lasciare le tue risposte sondaggio invariate come sono, o 2) avviare il sondaggio sopra dall'inizio in modo che si può completare (questo cancellerà tutte le risposte già esistenti quando si inizia di nuovo). Per avviare nuovamente l'indagine, fare clic sul pulsante sottostante."
+    },
+    {
+      "id": "control_center_422",
+      "prompt": "The 'Start Over' button label:",
+      "default": "Start Over",
+      "translation": "Ricominciare"
+    },
+    {
+      "id": "survey_982",
+      "prompt": "The text of the 'start over' confirmation popup:",
+      "default": "ERASE YOUR RESPONSES? Are you sure you wish to start the survey over from the beginning? Please note that doing so will erase ALL your responses already entered for this survey.",
+      "translation": "CANCELLARE LE RISPOSTE? Sei sicuro di voler iniziare l'indagine dall'inizio? Si prega di notare che così facendo verranno cancellate tutte le risposte già inserite per questo sondaggio."
+    },
+    {
+      "id": "survey_1131",
+      "prompt": "The 'cannot edit' hint for email/phone fields:",
+      "default": "This field cannot be edited because its value originates from the Participant List.",
+      "translation": "Questo campo non può essere modificato perché il relativo valore proviene dall'elenco dei partecipanti."
+    },
+    {
+      "id": "survey_619",
+      "prompt": "The 'survey access code' prompt:",
+      "default": "Please enter your access code to begin the survey.",
+      "translation": "Inserisci il tuo codice di accesso per iniziare il sondaggio"
+    },
+    {
+      "id": "survey_642",
+      "prompt": "The 'survey access code not case sensitive' hint:",
+      "default": "Please note that the access code is *not* case sensitive.",
+      "translation": "Si prega di notare che il codice di accesso *non* è maiuscolo."
+    },
+    {
+      "id": "survey_634",
+      "prompt": "The 'survey access code needed' alert message:",
+      "default": "Please enter the survey access code given to you.",
+      "translation": "Inserisci il codice di accesso al sondaggio che ti è stato dato."
+    },
+    {
+      "id": "survey_1359",
+      "prompt": "The 'invalid survey access code' error message:",
+      "default": "<b>ERROR:<\/b> The code entered was not valid! Please try again.",
+      "translation": "<b>ERRORE:<\/b> Il codice inserito non era valido! Si prega di riprovare."
+    },
+    {
+      "id": "data_entry_215",
+      "prompt": "The 'Save & Return Later' button label:",
+      "default": "Save & Return Later",
+      "translation": "Salva e ritorna più tardi"
+    },
+    {
+      "id": "survey_118",
+      "prompt": "The 'Return Code' label",
+      "default": "Return Code",
+      "translation": "Codice di ritorno"
+    },
+    {
+      "id": "survey_657",
+      "prompt": "The 'Return Code' prompt:",
+      "default": "Return Code:",
+      "translation": "Codice restituito:"
+    },
+    {
+      "id": "survey_658",
+      "prompt": "The 'Return Code' popup window title:",
+      "default": "'Return Code' needed to return",
+      "translation": "codice di ritorno' necessario per restituire"
+    },
+    {
+      "id": "survey_659",
+      "prompt": "The 'Return Code' dialog message:",
+      "default": "Copy or write down the Return Code below. Without it, you will not be able to return and continue this survey. Once you have the code, click <i>Close<\/i> and follow the other instructions on this page.",
+      "translation": "Copia o scrivi di seguito il codice di ritorno. Senza di esso, non sarai in grado di ritornare e continuare questo sondaggio. Una volta ottenuto il codice, clicca <i>Chiudi<\/i> e segui le altre istruzioni su questa pagina"
+    },
+    {
+      "id": "survey_112",
+      "prompt": "The title of the 'save and return later' page:",
+      "default": "Your survey responses were saved!",
+      "translation": "Le tue risposte di sondaggio sono state salvate!"
+    },
+    {
+      "id": "survey_1346",
+      "prompt": "The 'save and return later' instructions:",
+      "default": "You have chosen to stop the survey for now and return at a later time to complete it. To return to this survey, you will need both the <i>survey link<\/i> and your <i>return code<\/i>. See the instructions below.",
+      "translation": "Hai scelto di interrompere il sondaggio per ora e di ritornare in un secondo momento per completarlo. Per tornare a questo sondaggio, avrai bisogno sia del <i>collegamento al sondaggio<\/i> che del tuo <i>codice di ritorno<\/i>. Vedi le istruzioni qui sotto."
+    },
+    {
+      "id": "survey_119",
+      "prompt": "The 'Return Code' instructions:",
+      "default": "A return code is <b>*required*<\/b> in order to continue the survey where you left off. Please write down the value listed below.",
+      "translation": "Un codice di ritorno è <b> * required * <\/b> al fine di continuare l'indagine in cui è stato interrotto. Si prega di annotare il valore elencato di seguito."
+    },
+    {
+      "id": "survey_581",
+      "prompt": "The 'survey return link' instructions:",
+      "default": "You have chosen to stop the survey for now and return at a later time to complete it. To return to this survey, you will need the survey link to this survey.",
+      "translation": "Hai scelto di interrompere il sondaggio per ora e tornare in un secondo momento per completarlo. Per tornare a questo sondaggio, sarà necessario il link sondaggio a questa indagine."
+    },
+    {
+      "id": "survey_120",
+      "prompt": "The notice that the 'Return Code' is not included:",
+      "default": "The return code will NOT be included in the email below.",
+      "translation": "Il codice di ritorno non sarà incluso nell'e-mail qui sotto."
+    },
+    {
+      "id": "data_entry_117",
+      "prompt": "The return code label on data entry forms:",
+      "default": "Return Code for participant to continue survey:",
+      "translation": "Codice di ritorno per il partecipante di continuare il sondaggio:"
+    },
+    {
+      "id": "survey_121",
+      "prompt": "The survey link title:",
+      "default": "Survey link for returning",
+      "translation": "Sondaggio link per il ritorno"
+    },
+    {
+      "id": "survey_123",
+      "prompt": "The survey link instructions:",
+      "default": "You may bookmark this page to return to the survey, OR you can have the survey link emailed to you by providing your email address below. For security purposes, <b>the return code will NOT be included in the email<\/b>. If you do not receive the email soon afterward, please check your Junk Email folder.",
+      "translation": "Potete Bookmark questa pagina per ritornare all'indagine, o potete avere il collegamento di indagine inviato con la posta elettronica voi fornendo il vostro e-mail address qui sotto. Per motivi di sicurezza, <b> il codice di ritorno non sarà incluso nell'email <\/b>. Se non si riceve l'e-mail subito dopo, si prega di controllare la cartella posta indesiderata."
+    },
+    {
+      "id": "survey_124",
+      "prompt": "The 'Send Survey Link' button label:",
+      "default": "Send Survey Link",
+      "translation": "Invia collegamento sondaggio"
+    },
+    {
+      "id": "survey_126",
+      "prompt": "The text of the 'continue now' notification:",
+      "default": "Or if you wish, you may continue with this survey again now.",
+      "translation": "Oppure, se lo si desidera, si può continuare con questo sondaggio di nuovo ora."
+    },
+    {
+      "id": "survey_127",
+      "prompt": "The 'Continue Survey Now' button label:",
+      "default": "Continue Survey Now",
+      "translation": "Continua sondaggio ora"
+    },
+    {
+      "id": "survey_1339",
+      "prompt": "The 'email will not be stored' notice:",
+      "default": "Your email address will not be associated with or stored with your survey responses.",
+      "translation": "Il tuo indirizzo e-mail non sarà associato o memorizzato con le tue risposte al sondaggio."
+    },
+    {
+      "id": "survey_583",
+      "prompt": "The 'bookmark this page' instructions:",
+      "default": "You may bookmark this page to return to the survey, OR you can have the survey link emailed to you by providing your email address below. If you do not receive the email soon afterward, please check your Junk Email folder.",
+      "translation": "Puoi mettere un segnalibro su questa pagina per ritornare all'indagine, o puoi avere il collegamento di indagine mediante posta elettronica fornendo qui sotto il tuo indirizzo e-mail. Se non si riceve l'e-mail subito dopo, si prega di controllare la cartella posta indesiderata."
+    },
+    {
+      "id": "survey_1288",
+      "prompt": "The 'Email sent!' popup window title:",
+      "default": "Email sent!",
+      "translation": "E-mail inviata!"
+    },
+    {
+      "id": "survey_1358",
+      "prompt": "The 'The email was successfully sent to:' dialog message:",
+      "default": "The email was successfully sent to:",
+      "translation": "L'e-mail è stata inviata con successo a:"
+    },
+    {
+      "id": "survey_582",
+      "prompt": "The 'email just sent' notice:",
+      "default": "You have just been sent an email containing a link for continuing the survey. If you do not receive the email soon, please check your Junk Email folder.",
+      "translation": "Ti è stata appena inviata una e-mail contenente un link per continuare il sondaggio. Se non si riceve l'e-mail al più presto, si prega di controllare la cartella posta indesiderata."
+    },
+    {
+      "id": "survey_122",
+      "prompt": "The 'email (without return code) just sent' notice:",
+      "default": "You have just been sent an email containing a link for continuing the survey. For security purposes, <b>the email does NOT contain the return code<\/b>, but the code is still required to continue the survey. If you do not receive the email soon, please check your Junk Email folder.",
+      "translation": "Ti è stata appena inviata una e-mail contenente un link per continuare il sondaggio. Per motivi di sicurezza, <b> l'email non contiene il codice di ritorno <\/b>, ma il codice è ancora necessario per continuare l'indagine. Se non si riceve l'e-mail al più presto, si prega di controllare la cartella posta indesiderata."
+    },
+    {
+      "id": "survey_1354",
+      "prompt": "The 'return with credentials' notice:",
+      "default": "You may return to this survey in the future to modify your responses by navigating to the survey URL and entering your Survey Login credentials.",
+      "translation": "Puoi tornare a questo sondaggio in futuro per modificare le tue risposte navigando all'URL del sondaggio e inserendo le tue credenziali di accesso al sondaggio."
+    },
+    {
+      "id": "survey_1355",
+      "prompt": "The 'return with return code' notice:",
+      "default": "You may return to this survey in the future to modify your responses by navigating to the survey URL and entering the code below.",
+      "translation": "Puoi tornare a questo sondaggio in futuro per modificare le tue risposte navigando all'URL del sondaggio e inserendo il codice qui sotto."
+    },
+    {
+      "id": "survey_22",
+      "prompt": "The 'Returning?' link label:",
+      "default": "Returning?",
+      "translation": "Tornando?"
+    },
+    {
+      "id": "survey_1141",
+      "prompt": "The text for the alt attribute of the 'Returning?' link:",
+      "default": "Click here to return and continue the survey where you left off.",
+      "translation": "Clicca qui per tornare e continuare il sondaggio che hai interrotto."
+    },
+    {
+      "id": "survey_23",
+      "prompt": "The 'Begin where you left off.' notice:",
+      "default": "Begin where you left off.",
+      "translation": "Inizia da dove eri rimasto."
+    },
+    {
+      "id": "survey_24",
+      "prompt": "The 'returning to survey' instructions:",
+      "default": "If you have already completed part of the survey, you may continue where you left off. All you need is the return code given to you previously. Click the link below to begin entering your return code and continue the survey.",
+      "translation": "Se hai già completato una parte del sondaggio, puoi continuare da dove l'hai interrotto. Tutto ciò che serve è il codice di ritorno dato a te in precedenza. Clicca sul link qui sotto per iniziare a inserire il codice di ritorno e continuare il sondaggio."
+    },
+    {
+      "id": "survey_25",
+      "prompt": "The 'Continue the survey' button label:",
+      "default": "Continue the survey",
+      "translation": "Continua l'indagine"
+    },
+    {
+      "id": "survey_661",
+      "prompt": "The 'survey continuation' instructions:",
+      "default": "To continue the survey, please enter the RETURN CODE that was auto-generated for you when you left the survey.",
+      "translation": "Per continuare il sondaggio, inserisci il codice di ritorno che è stato generato automaticamente per te quando hai lasciato il sondaggio."
+    },
+    {
+      "id": "survey_641",
+      "prompt": "The 'Return Code not case sensitive' notice:",
+      "default": "Please note that the return code is *not* case sensitive.",
+      "translation": "Si prega di notare che il codice di ritorno *non* è maiuscolo."
+    },
+    {
+      "id": "survey_662",
+      "prompt": "The 'Submit your Return Code' button label:",
+      "default": "Submit your Return Code",
+      "translation": "Invia il tuo codice di ritorno"
+    },
+    {
+      "id": "survey_110",
+      "prompt": "The 'start over' instructions:",
+      "default": "Alternatively, if you have forgotten your return code or simply wish to start the survey over from the beginning, you may delete all your existing survey responses and start over.",
+      "translation": "In alternativa, se hai dimenticato il tuo codice di ritorno o semplicemente desideri iniziare l'indagine dall'inizio, puoi cancellare tutte le tue risposte di indagine esistenti e ricominciare."
+    },
+    {
+      "id": "survey_161",
+      "prompt": "The 'invalid return code' error message:",
+      "default": "The return code you entered was incorrect. Please try again.",
+      "translation": "Il codice di ritorno inserito non è corretto. Per favore riprova."
+    },
+    {
+      "id": "survey_663",
+      "prompt": "The 'Survey Access Code/Return Code mismatch' explanation:",
+      "default": "NOTE: Be sure that you are *not* entering a Survey Access Code, which is different from a Return Code. Survey Access Codes allow you to navigate to the survey page, but only Return Codes allow you to return when you have already started the survey.",
+      "translation": "Nota: assicurarsi di *non* inserire un codice di accesso all'indagine, che è diverso da un codice di ritorno. I codici di accesso all'indagine consentono di spostarsi nella pagina di sondaggio, ma solo i codici restituiti consentono di tornare quando è già stato avviato il sondaggio."
+    },
+    {
+      "id": "survey_674",
+      "prompt": "The message displayed when a survey has been locked:",
+      "default": "We're sorry, but this survey response cannot be modified because someone has locked the response to prevent any changes to it. It can only be unlocked by a survey administrator who has locking/unlocking privileges. If this seems incorrect, please contact your survey administrator for this survey.",
+      "translation": "Siamo spiacenti, ma questa risposta di indagine non può essere modificata perché qualcuno ha bloccato la risposta per impedire eventuali modifiche ad esso. Può essere sbloccato solo da un amministratore di sondaggio che dispone di privilegi di blocco/sblocco. Se questo sembra errato, si prega di contattare l'amministratore sondaggio per questo sondaggio."
+    },
+    {
+      "id": "survey_1156",
+      "prompt": "The message displayed when a partial survey has been locked:",
+      "default": "You have partially completed this survey, but your response is LOCKED.",
+      "translation": "Hai parzialmente completato questo sondaggio, ma la tua risposta è BLOCCATA."
+    },
+    {
+      "id": "survey_1155",
+      "prompt": "The explanation for a partial survey that has been locked:",
+      "default": "You have not completed the entire survey, and your responses are thus considered only partially complete. However, this survey response has been locked by a survey administrator, so you will not be able to complete the survey until someone has unlocked it. If this seems incorrect, please contact your survey administrator for this survey.",
+      "translation": "Non hai completato l'intero sondaggio e le tue risposte sono quindi considerate solo parzialmente complete. Tuttavia, questa risposta al sondaggio è stata bloccata da un amministratore del sondaggio, quindi non sarai in grado di completare il sondaggio finché qualcuno non lo avrà sbloccato. Se questo sembra errato, contatta l'amministratore del sondaggio per questo sondaggio."
+    },
+    {
+      "id": "survey_144",
+      "prompt": "Email subject:",
+      "default": "Survey partially completed",
+      "translation": "Sondaggio parzialmente completato"
+    },
+    {
+      "id": "survey_141",
+      "prompt": "The 'automatically generated' notice:",
+      "default": "[This message was automatically generated.]",
+      "translation": "[questo messaggio è stato generato automaticamente.]"
+    },
+    {
+      "id": "survey_1360",
+      "prompt": "The 'thank you' message (use {0} as placeholder for the survey title):",
+      "default": "Thank you for partially completing the survey '{0}'.",
+      "translation": "Grazie per aver completato parzialmente il sondaggio '{0}'."
+    },
+    {
+      "id": "survey_584",
+      "prompt": "The 'survey progress' notice:",
+      "default": "You may continue your progress on this survey by clicking the link below.",
+      "translation": "Puoi continuare i tuoi progressi su questa indagine cliccando sul link qui sotto."
+    },
+    {
+      "id": "survey_143",
+      "prompt": "The 'return code needed' notice:",
+      "default": "You may continue your progress on this survey by clicking the link below. You will need your return code that was given to you on the survey webpage.",
+      "translation": "Puoi continuare i tuoi progressi su questa indagine cliccando sul link qui sotto. Sarà necessario il codice di ritorno che ti è stato dato nella pagina Web sondaggio."
+    },
+    {
+      "id": "survey_495",
+      "prompt": "The 'contact' notice:",
+      "default": "If you need to retrieve your return code, please contact the survey administrator that originally sent you the survey invitation.",
+      "translation": "Se hai bisogno di recuperare il codice di ritorno, contatta l'amministratore del sondaggio che ti ha originariamente inviato l'invito per il sondaggio."
+    },
+    {
+      "id": "survey_135",
+      "prompt": "The 'copy link' notice:",
+      "default": "If the link above does not work, try copying the link below into your web browser:",
+      "translation": "Se il link qui sopra non funziona, prova a copiare il link qui sotto nel tuo browser Web:"
+    },
+    {
+      "id": "survey_764",
+      "prompt": "The title for the confirmation email prompt:",
+      "default": "Enter your email to receive confirmation message?",
+      "translation": "Inserisci la tua e-mail per ricevere il messaggio di conferma?"
+    },
+    {
+      "id": "survey_765",
+      "prompt": "The confirmation email prompt:",
+      "default": "A confirmation email is supposed to be sent to all respondents that have completed the survey, but because your email address is not on file, the confirmation email cannot be sent automatically. If you wish to receive it, enter your email address below.",
+      "translation": "Una e-mail di conferma dovrebbe essere inviata a tutti gli intervistati che hanno completato il sondaggio, ma perché il tuo indirizzo email non è sul file, l'email di conferma non può essere inviato automaticamente. Se desideri riceverlo, Inserisci il tuo indirizzo e-mail qui sotto."
+    },
+    {
+      "id": "survey_515",
+      "prompt": "The 'Enter email address' placeholder text:",
+      "default": "Enter email address",
+      "translation": "Inserisci indirizzo e-mail"
+    },
+    {
+      "id": "survey_766",
+      "prompt": "The 'Send confirmation email' button label:",
+      "default": "Send confirmation email",
+      "translation": "Invia e-mail di conferma"
+    },
+    {
+      "id": "survey_181",
+      "prompt": "The 'Email successfully sent!' message:",
+      "default": "Email successfully sent!",
+      "translation": "E-mail inviata con successo!"
+    },
+    {
+      "id": "survey_167",
+      "prompt": "The 'survey results' title:",
+      "default": "View Survey Results",
+      "translation": "Visualizza i risultati del sondaggio"
+    },
+    {
+      "id": "survey_169",
+      "prompt": "The 'survey results' instructions:",
+      "default": "Displayed on this page are the aggregate results from this survey with each question listed in the order that it appears on the survey.",
+      "translation": "Visualizzati in questa pagina sono i risultati di aggregazione di questo sondaggio con ogni domanda elencata nell'ordine che appare sul sondaggio."
+    },
+    {
+      "id": "survey_209",
+      "prompt": "The 'Graphs:' title:",
+      "default": "Graphs:",
+      "translation": "Grafici:"
+    },
+    {
+      "id": "survey_1348",
+      "prompt": "The barchart explanation (use {0} and {1} as placeholders for 'blue' and 'orange', see below):",
+      "default": "All bar charts will have bars displayed in {0:blue}, and any of the choices that you selected in your survey response will have *asterisks* around that choice's label on the left of the bar chart. You will also see your response appended to the right end of the bar in {1:orange}.",
+      "translation": "Tutti i grafici a barre avranno barre visualizzate in {0:blu}, e qualsiasi scelta che hai selezionato nella tua risposta al sondaggio avrà *asterischi* intorno all'etichetta di quella scelta sulla sinistra del grafico a barre. Vedrai anche la tua risposta aggiunta all'estremità destra della barra in {1:arancione}."
+    },
+    {
+      "id": "survey_1349",
+      "prompt": "The scatterplot explanation (use {0}, {1}, and {2} as placeholders for 'blue', 'red', and 'orange', see below):",
+      "default": "For scatter plots, the values of other survey participants will be displayed in {0:blue}, the median value will be displayed in {1:red}, and the value you entered will be displayed in {2:orange}.",
+      "translation": "Per i grafici a dispersione, i valori degli altri partecipanti al sondaggio saranno visualizzati in {0:blu}, il valore mediano sarà visualizzato in {1:rosso}, e il valore che hai inserito sarà visualizzato in {2:arancione}."
+    },
+    {
+      "id": "survey_171",
+      "prompt": "Translation of 'blue':",
+      "default": "blue",
+      "translation": "blu"
+    },
+    {
+      "id": "survey_173",
+      "prompt": "Translation of 'orange':",
+      "default": "orange",
+      "translation": "arancione"
+    },
+    {
+      "id": "survey_176",
+      "prompt": "Translation of 'red':",
+      "default": "red",
+      "translation": "rosso"
+    },
+    {
+      "id": "survey_210",
+      "prompt": "The 'Statistics:' title:",
+      "default": "Statistics:",
+      "translation": "Statistiche:"
+    },
+    {
+      "id": "survey_211",
+      "prompt": "The descriptive statistics explanation:",
+      "default": "Descriptive statistics will be displayed below for each question. For categorical (multiple choice) questions, it will display a count of all missing and unique values, as well as the frequency of occurrence for each choice selected in the question. For numerical questions, it will display a count of all missing and unique values along with other useful statistics, such as the minimum, maximum, mean, and standard deviation across all responses. Also displayed are percentiles and a listing of the five lowest and highest values for that question.",
+      "translation": "Le statistiche descrittive saranno mostrate qui sotto per ogni domanda. Per le domande categoriche (multiple choice), visualizzerà un conteggio di tutti i valori mancanti ed unici, così come la frequenza dell'avvenimento per ogni scelta selezionata nella domanda. Per le domande numeriche, visualizzerà un conteggio di tutti i valori mancanti e unici insieme ad altre statistiche utili, come la deviazione minima, massima, media e standard in tutte le risposte. Sono inoltre visualizzati i percentili e un elenco dei cinque valori più bassi e più alti per tale questione."
+    },
+    {
+      "id": "survey_178",
+      "prompt": "The 'Email this page' button label:",
+      "default": "Email this page",
+      "translation": "Invia questa pagina"
+    },
+    {
+      "id": "survey_179",
+      "prompt": "The 'Email address:' prompt:",
+      "default": "Email address:",
+      "translation": "Indirizzo e-mail:"
+    },
+    {
+      "id": "survey_201",
+      "prompt": "The note indicating that the survey results code will not be included in the email message:",
+      "default": "<b>NOTE:<\/b> The email sent to the address above will <u>NOT<\/u> contain the survey results code, which must be written down and kept.",
+      "translation": "<b> Nota: <\/b> L'e-mail inviata all'indirizzo qui sopra <u> non <\/u> conterrà il codice dei risultati dell'indagine, che deve essere scritto e mantenuto."
+    },
+    {
+      "id": "survey_193",
+      "prompt": "The 'Want to return to this page later?' prompt:",
+      "default": "Want to return to this page later?",
+      "translation": "Vuoi tornare a questa pagina più tardi?"
+    },
+    {
+      "id": "survey_194",
+      "prompt": "The 'Write down your survey results code:' prompt:",
+      "default": "Write down your survey results code:",
+      "translation": "Annotare il codice dei risultati dell'indagine:"
+    },
+    {
+      "id": "survey_195",
+      "prompt": "The 'results return' notice:",
+      "default": "You can ONLY return to this page again if you have your survey results code. Please write it down now.",
+      "translation": "Puoi tornare a questa pagina solo se hai il codice dei risultati dell'indagine. Per favore scrivilo ora."
+    },
+    {
+      "id": "survey_196",
+      "prompt": "The invalid results code error message:",
+      "default": "<b>ERROR:<\/b><br>The survey results code you just entered does NOT match the one originally given to you.",
+      "translation": "errore <b>: <\/b> <br> Il codice dei risultati del sondaggio che hai appena inserito NON corrisponde a quello che ti è stato dato originariamente."
+    },
+    {
+      "id": "locking_25",
+      "prompt": "The 'Please try again.' prompt:",
+      "default": "Please try again.",
+      "translation": "Per favore riprova."
+    },
+    {
+      "id": "survey_197",
+      "prompt": "The 'Want to view the aggregate survey responses again?' prompt:",
+      "default": "Want to view the aggregate survey responses again?",
+      "translation": "Desideri visualizzare nuovamente le risposte dell'analisi aggregata?"
+    },
+    {
+      "id": "survey_198",
+      "prompt": "The 'Enter your survey results code:' prompt:",
+      "default": "Enter your survey results code:",
+      "translation": "Inserisci il tuo codice risultati sondaggio:"
+    },
+    {
+      "id": "survey_199",
+      "prompt": "The return code notice:",
+      "default": "If you enter the survey results code given to you right after you completed this survey, you will be able to view the aggregate survey results. If you do not have the survey results code, you will not be able to view the results.",
+      "translation": "Se si immette il codice dei risultati dell'indagine dato a destra dopo aver completato questo sondaggio, sarà possibile visualizzare i risultati dell'indagine aggregata. Se non si dispone del codice dei risultati dell'indagine, non sarà possibile visualizzare i risultati."
+    },
+    {
+      "id": "survey_168",
+      "prompt": "The return later notice:",
+      "default": "Unfortunately, the survey results cannot be viewed at this time because the minimum number of completed responses for this survey has not yet been met. Please return again to this page in the near future to view the survey results. <b>IMPORTANT:<\/b> Make sure to write down your survey results code before leaving this page.",
+      "translation": "Purtroppo, al momento i risultati del sondaggio non possono essere visualizzati perché non è stato ancora raggiunto il numero minimo di risposte completate per questo sondaggio . Ritorna su questa pagina nel prossimo futuro per visualizzare i risultati del sondaggio. <b>IMPORTANTE:<\/b> Prima di lasciare questa pagina, assicurati di scrivere il codice dei tuoi risultati del sondaggio ."
+    },
+    {
+      "id": "survey_505",
+      "prompt": "The 'Survey Queue' title:",
+      "default": "Survey Queue",
+      "translation": "Coda di sondaggio"
+    },
+    {
+      "id": "survey_509",
+      "prompt": "The 'Close survey queue' button label:",
+      "default": "Close survey queue",
+      "translation": "Chiudi coda sondaggio"
+    },
+    {
+      "id": "dataqueries_23",
+      "prompt": "The 'Status' column title:",
+      "default": "Status",
+      "translation": "Stato"
+    },
+    {
+      "id": "survey_49",
+      "prompt": "The 'Survey Title' column title:",
+      "default": "Survey Title",
+      "translation": "Titolo del sondaggio"
+    },
+    {
+      "id": "survey_507",
+      "prompt": "The 'Completed' indicator:",
+      "default": "Completed",
+      "translation": "Completato"
+    },
+    {
+      "id": "survey_511",
+      "prompt": "The 'To begin the next survey, click the 'Begin survey' button next to the title.' prompt:",
+      "default": "To begin the next survey, click the 'Begin survey' button next to the title.",
+      "translation": "Per iniziare il sondaggio successivo, fai clic sul pulsante 'inizia sondaggio' accanto al titolo."
+    },
+    {
+      "id": "survey_504",
+      "prompt": "The 'Begin survey' button label:",
+      "default": "Begin survey",
+      "translation": "Inizia sondaggio"
+    },
+    {
+      "id": "data_entry_174",
+      "prompt": "The 'Edit response' button label:",
+      "default": "Edit response",
+      "translation": "Modifica risposta"
+    },
+    {
+      "id": "survey_1090",
+      "prompt": "The 'Take this survey again' button label:",
+      "default": "Take this survey again",
+      "translation": "Riprendi questo sondaggio"
+    },
+    {
+      "id": "survey_506",
+      "prompt": "The 'incomplete surveys' prompt:",
+      "default": "Listed below is your survey queue, which lists any other surveys that you have not yet completed.",
+      "translation": "Elencato di seguito è la coda di sondaggio, che elenca tutte le altre indagini che non hai ancora completato."
+    },
+    {
+      "id": "survey_508",
+      "prompt": "The 'invalid Survey Queue link' message:",
+      "default": "Thank you for your interest, but this Survey Queue link is not valid.",
+      "translation": "Grazie per l'interesse, ma questo link coda sondaggio non è valido."
+    },
+    {
+      "id": "survey_1352",
+      "prompt": "The message indicating how many surveys have been completed (use '{0}' as placeholder for the number):",
+      "default": "{0} surveys completed!",
+      "translation": "{0} sondaggi completati!"
+    },
+    {
+      "id": "survey_536",
+      "prompt": "The message indicating that all surveys have been completed:",
+      "default": "All surveys in your queue have been completed!",
+      "translation": "Tutti i sondaggi nella coda sono stati completati!"
+    },
+    {
+      "id": "survey_535",
+      "prompt": "The '(view all)' link label:",
+      "default": "(view all)",
+      "translation": "(Visualizza tutto)"
+    },
+    {
+      "id": "survey_512",
+      "prompt": "The 'Link to Survey Queue' button label:",
+      "default": "Link to Survey Queue",
+      "translation": "Collegamento alla coda di sondaggio"
+    },
+    {
+      "id": "survey_510",
+      "prompt": "The 'Get link to my survey queue' button label:",
+      "default": "Get link to my survey queue",
+      "translation": "Ottieni link alla mia coda di sondaggio"
+    },
+    {
+      "id": "survey_516",
+      "prompt": "The survey queue link explanation:",
+      "default": "To obtain your survey queue link, which will allow you to return to your survey queue in the future, you may copy and paste the link displayed in the text box below, or you may have it emailed to you at your email address.",
+      "translation": "Per ottenere il tuo collegamento della coda di indagine, che permetterà di ritornare in avvenire alla tua coda di indagine in avvenire, puoi copiare e incollare il collegamento visualizzato nella scatola di testo qui sotto, o puoi averlo inviato con la posta elettronica al tuo indirizzo e-mail."
+    },
+    {
+      "id": "survey_513",
+      "prompt": "The 'Copy and paste the survey queue link' prompt:",
+      "default": "Copy and paste the survey queue link",
+      "translation": "Copia e incolla il collegamento coda sondaggio"
+    },
+    {
+      "id": "global_46",
+      "prompt": "The '– OR –' divider (dashes will be added automatically):",
+      "default": "OR",
+      "translation": "O"
+    },
+    {
+      "id": "survey_514",
+      "prompt": "The 'Send the survey queue link in an email' prompt:",
+      "default": "Send the survey queue link in an email",
+      "translation": "Invia il link della coda di sondaggio in una e-mail"
+    },
+    {
+      "id": "survey_524",
+      "prompt": "The 'EMAIL SENT!' popup window title:",
+      "default": "EMAIL SENT!",
+      "translation": "E-mail inviate!"
+    },
+    {
+      "id": "survey_1351",
+      "prompt": "The 'email sent' popup message (use {0} as placeholder for the email address):",
+      "default": "Your email was successfully sent to {0}.",
+      "translation": "La tua e-mail è stata inviata con successo a {0}."
+    },
+    {
+      "id": "survey_522",
+      "prompt": "The 'Please enter an email address' prompt:",
+      "default": "Please enter an email address",
+      "translation": "Inserisci un indirizzo email"
+    },
+    {
+      "id": "survey_180",
+      "prompt": "The 'Send' button label:",
+      "default": "Send",
+      "translation": "Invia"
+    },
+    {
+      "id": "survey_523",
+      "prompt": "The 'survey queue link' email subject:",
+      "default": "Your survey queue link",
+      "translation": "Il tuo collegamento coda sondaggio"
+    },
+    {
+      "id": "survey_520",
+      "prompt": "The 'survey queue link' email body (this will be followed by the survey link):",
+      "default": "Please follow this link to your Survey Queue to complete your surveys:",
+      "translation": "Per completare i tuoi sondaggi, segui questo link alla tua sequenza di sondaggi :"
+    },
+    {
+      "id": "data_entry_522",
+      "prompt": "The survey completed status message (use {0} as placeholder for the timestamp):",
+      "default": "Response was completed on {0}.",
+      "translation": "La risposta è stata completata il {0}."
+    },
+    {
+      "id": "data_entry_523",
+      "prompt": "The survey completed status message (use {0} and {1} as placeholders for timestamp and identifier, respectively):",
+      "default": "Response was completed on {0} by {1}.",
+      "translation": "La risposta è stata completata il {0} da {1}."
+    },
+    {
+      "id": "data_entry_524",
+      "prompt": "The survey added status message (use {0} as placeholder for the timestamp):",
+      "default": "Response was added on {0}.",
+      "translation": "La risposta è stata aggiunta il {0}."
+    },
+    {
+      "id": "data_entry_525",
+      "prompt": "The survey added status message (use {0} and {1} as placeholders for timestamp and identifier, respectively):",
+      "default": "Response was added on {0} by {1}.",
+      "translation": "La risposta è stata aggiunta il {0} da {1}."
+    },
+    {
+      "id": "data_entry_427",
+      "prompt": "The secondary unique field note:",
+      "default": "NOTE: Modifying this value will also change the value any corresponding instances of this field in other Events or Repeating Instances where this form is used.",
+      "translation": "NOTA: la modifica di questo valore cambierà anche il valore delle istanze corrispondenti di questo campo in altri eventi o istanze ripetute in cui viene utilizzato questo modulo."
+    },
+    {
+      "id": "form_renderer_18",
+      "prompt": "The 'Lock' link label:",
+      "default": "Lock",
+      "translation": "Blocco"
+    },
+    {
+      "id": "data_entry_493",
+      "prompt": "The 'Lock this instrument?' prompt:",
+      "default": "Lock this instrument?",
+      "translation": "Bloccare questo strumento?"
+    },
+    {
+      "id": "data_entry_494",
+      "prompt": "The 'instrument locked' explanation:",
+      "default": "If locked, no user will be able to modify this instrument for this record until someone with Instrument Level Lock/Unlock privileges unlocks it.",
+      "translation": "Se bloccato, nessun utente sarà in grado di modificare questo strumento per questo record fino a quando qualcuno con i privilegi di blocco / sblocco del livello dello strumento non lo sblocca."
+    },
+    {
+      "id": "data_entry_182",
+      "prompt": "The 'Unlock form' button label:",
+      "default": "Unlock form",
+      "translation": "Modulo di sblocco"
+    },
+    {
+      "id": "form_renderer_42",
+      "prompt": "The locking info statement (use {0}, {1}, and {2} as placeholders for userid, user full name, and timestamp, respectively):",
+      "default": "<b>Locked by {0}<\/b> ({1}) on {2}",
+      "translation": "<b>Chiuso da {0}<\/b> ({1}) su {2}"
+    },
+    {
+      "id": "form_renderer_55",
+      "prompt": "The locking info header (use {0}, {1}, and {2} as placeholders for userid, user full name, and timestamp, respectively):",
+      "default": "<b>Instrument locked by {0}<\/b> ({1}) on {2}",
+      "translation": "<b>Strumento bloccato da {0}<\/b> ({1}) su {2}"
+    },
+    {
+      "id": "form_renderer_56",
+      "prompt": "The locking info header explanation (use {0} and {1} as placeholders for instrument name and record id, respectively):",
+      "default": "The instrument '{0}' has been locked for record '{1}'.",
+      "translation": "Lo strumento '{0}' è stato bloccato per il record '{1}'."
+    },
+    {
+      "id": "form_renderer_40",
+      "prompt": "The locking header unlocking explanation:",
+      "default": "If you have instrument-level locking/unlocking privileges, you may unlock this instrument at the bottom of the page.",
+      "translation": "Se disponi di privilegi di blocco / sblocco a livello di strumento, puoi sbloccare questo strumento in fondo alla pagina."
+    },
+    {
+      "id": "bottom_110",
+      "prompt": "The 'Lock entire record' link label:",
+      "default": "Lock entire record",
+      "translation": "Blocca l'intero record"
+    },
+    {
+      "id": "bottom_111",
+      "prompt": "The 'Unlock entire record' link label:",
+      "default": "Unlock entire record",
+      "translation": "Sblocca l'intero record"
+    },
+    {
+      "id": "form_renderer_62",
+      "prompt": "The E-Signature statement (use {0} and {1} as placeholders for the user id and the timestamp, respectively):",
+      "default": "E-signed by {0} on {1}",
+      "translation": "Firmato digitalmente da {0} su {1}"
+    },
+    {
+      "id": "data_entry_249",
+      "prompt": "PROMIS auto-scoring title:",
+      "default": "Auto-scoring Instrument",
+      "translation": "Strumento di auto-punteggio"
+    },
+    {
+      "id": "data_entry_250",
+      "prompt": "PROMIS auto-scoring locked message:",
+      "default": "This instrument is an auto-scoring instrument. It can only be taken in survey form, and all fields below are thus permanently locked and uneditabled.",
+      "translation": "Questo strumento è uno strumento di auto-punteggio. Può essere preso soltanto nella forma di indagine e tutti i campi qui sotto sono così bloccati permanentemente e non modificabili."
+    },
+    {
+      "id": "data_entry_520",
+      "prompt": "PROMIS auto-scoring create record message (the placeholder {0} will contain a link to the Survey Distribution Tools page):",
+      "default": "Since this record has not been created yet, you will need to visit the {0} page to begin this auto-scoring instrument in survey mode.",
+      "translation": "Poiché questo record non è stato ancora creato, dovrai visitare la pagina {0} per avviare questo strumento a punteggio automatico in modalità sondaggio."
+    },
+    {
+      "id": "data_entry_217",
+      "prompt": "PROMIS adaptive title:",
+      "default": "Adaptive Instrument",
+      "translation": "Strumento adattativo"
+    },
+    {
+      "id": "data_entry_218",
+      "prompt": "PROMIS adaptive locked message:",
+      "default": "This instrument is a computer adaptive test (CAT), so its questions are generated dynamically based on answers given. Because it is dynamic, it can only be taken in survey form, and all fields below are thus permanently locked and uneditabled.",
+      "translation": "Questo strumento è un test adattivo del computer (cat), quindi le sue domande sono generate dinamicamente in base alle risposte date. Poiché è dinamico, può essere preso soltanto nella forma di indagine e tutti i campi qui sotto sono bloccati definitivamente e non modificabili."
+    },
+    {
+      "id": "data_entry_521",
+      "prompt": "PROMIS adaptive create record message (the placeholder {0} will contain a link to the Survey Distribution Tools page):",
+      "default": "Since this record has not been created yet, you will need to visit the {0} page to begin this adaptive instrument in survey mode.",
+      "translation": "Poiché questo record non è stato ancora creato, dovrai visitare la pagina {0} per avviare questo strumento adattivo in modalità di indagine."
+    },
+    {
+      "id": "form_renderer_21",
+      "prompt": "The 'View equation' link label:",
+      "default": "View equation",
+      "translation": "Visualizza equazione"
+    },
+    {
+      "id": "data_entry_263",
+      "prompt": "The password disclaimer text:",
+      "default": "Please note that although the value entered here is obfuscated and not readable on this page, the value will be visible outside of this page (e.g., in a report or data export) to the individuals that are administering this project.",
+      "translation": "Si prega di notare che, sebbene il valore immesso qui sia offuscato e non leggibile in questa pagina, il valore sarà visibile al di fuori di questa pagina (ad esempio, in un report o esportazione di dati) per le persone che stanno amministrando questo progetto."
+    },
+    {
+      "id": "survey_413",
+      "prompt": "The 'Invitation status:' label",
+      "default": "Invitation status:",
+      "translation": "Stato invito:"
+    },
+    {
+      "id": "survey_1361",
+      "prompt": "The 'invitation to be sent' tooltip (use {0} as placeholder for the timestamp):",
+      "default": "Scheduled to send at {0}",
+      "translation": "Programmato per l'invio a {0}"
+    },
+    {
+      "id": "survey_1362",
+      "prompt": "The 'invitation sent' tooltip (use {0} as placeholder for the timestamp):",
+      "default": "Was sent at {0}",
+      "translation": "È stato inviato a {0}"
+    },
+    {
+      "id": "survey_1363",
+      "prompt": "The 'invitation failed to send' tooltip (use {0} as placeholder for the timestamp):",
+      "default": "Invitation failed to send (originally scheduled for {0})",
+      "translation": "Invito non inviato (originariamente programmato per {0})"
+    },
+    {
+      "id": "survey_649",
+      "prompt": "The 'Survey options' menu label:",
+      "default": "Survey options",
+      "translation": "Opzioni di sondaggio"
+    },
+    {
+      "id": "survey_220",
+      "prompt": "The 'Open survey' menu item label:",
+      "default": "Open survey",
+      "translation": "Sondaggio aperto"
+    },
+    {
+      "id": "bottom_02",
+      "prompt": "The 'Log out' menu item label:",
+      "default": "Log out",
+      "translation": "Logout"
+    },
+    {
+      "id": "survey_278",
+      "prompt": "The 'Compose survey invitation' menu item label:",
+      "default": "Compose survey invitation",
+      "translation": "Comporre invito sondaggio"
+    },
+    {
+      "id": "survey_628",
+      "prompt": "The 'Survey Access Code' menu item label:",
+      "default": "Survey Access Code",
+      "translation": "Codice di accesso all'indagine"
+    },
+    {
+      "id": "survey_664",
+      "prompt": "The 'QR Code' menu item label:",
+      "default": "QR Code",
+      "translation": "Codice QR"
+    },
+    {
+      "id": "data_entry_181",
+      "prompt": "The 'View data history' tooltip text:",
+      "default": "View data history",
+      "translation": "Visualizza cronologia dati"
+    },
+    {
+      "id": "dataqueries_145",
+      "prompt": "The 'View comment log' tooltip text:",
+      "default": "View comment log",
+      "translation": "Visualizza registro Commenti"
+    },
+    {
+      "id": "survey_412",
+      "prompt": "The 'No invites sent yet' tooltip text:",
+      "default": "No invites sent yet",
+      "translation": "Nessun invito ancora inviato"
+    },
+    {
+      "id": "data_entry_503",
+      "prompt": "The record renaming hint (use {0} as a placeholder for the Record Home Page link):",
+      "default": "To rename the record, see the record action drop-down at top of the {0}.",
+      "translation": "Per rinominare il record, vedi il menu a tendina delle azioni record in cima al {0}."
+    },
+    {
+      "id": "grid_42",
+      "prompt": "The 'Record Home Page' link label:",
+      "default": "Record Home Page",
+      "translation": "Registrazione della pagina iniziale"
+    },
+    {
+      "id": "data_entry_148",
+      "prompt": "The 'Survey response is editable' notification:",
+      "default": "Survey response is editable",
+      "translation": "La risposta del sondaggio è editabile"
+    },
+    {
+      "id": "data_entry_149",
+      "prompt": "The 'You have permission to edit this survey response from its original values.' notification:",
+      "default": "You have permission to edit this survey response from its original values.",
+      "translation": "Si dispone dell'autorizzazione per modificare questa risposta di sondaggio dai valori originali."
+    },
+    {
+      "id": "data_entry_150",
+      "prompt": "The '(now editing)' notification:",
+      "default": "(now editing)",
+      "translation": "(ora modifica)"
+    },
+    {
+      "id": "survey_1350",
+      "prompt": "The 'View all contributors to this response.' link label:",
+      "default": "View all contributors to this response.",
+      "translation": "Visualizza tutti coloro che hanno contribuito a questa risposta."
+    },
+    {
+      "id": "grid_54",
+      "prompt": "The record / data access group mismatch alert (use {0} as a placeholder for the record id):",
+      "default": "Record {0} belongs to another Data Access Group",
+      "translation": "Il record {0} appartiene a un altro gruppo di accesso ai dati"
+    },
+    {
+      "id": "grid_14",
+      "prompt": "The record / data access group mismatch explanation:",
+      "default": "You cannot access this project record because it is already being used by another Data Access Group within this project. You will have to use a different record if you wish to create a new project record.",
+      "translation": "Non è possibile accedere a questo record di progetto perché è già utilizzato da un altro gruppo di accesso ai dati all'interno di questo progetto. Se si desidera creare un nuovo record di progetto, sarà necessario utilizzare un record diverso."
+    },
+    {
+      "id": "grid_15",
+      "prompt": "The 'Go back to the previous page' link label:",
+      "default": "Go back to the previous page",
+      "translation": "Torna alla pagina precedente"
+    },
+    {
+      "id": "grid_55",
+      "prompt": "The 'new record' hint (use {0} and {1} as placeholders for the record id and the record id label, respectively):",
+      "default": "<b>Record \"{0}\" is a new {1}.<\/b> To create the record and begin entering data for it, click any gray status icon below.",
+      "translation": "<b>Il record \\0} è un nuovo {1}.<\/b> Per creare il record e iniziare a inserire i dati per esso, clicca su qualsiasi icona grigia di stato in basso."
+    },
+    {
+      "id": "data_entry_151",
+      "prompt": "The 'edit survey response' hint:",
+      "default": "In order to begin editing the response, you must click the Edit Response button above.",
+      "translation": "Per iniziare a modificare la risposta, è necessario fare clic sul pulsante Modifica risposta sopra."
+    },
+    {
+      "id": "data_entry_572",
+      "prompt": "Displayed for response 'start time' at top of data entry form (use {0} as placeholder for the timestamp):",
+      "default": "Response was initially started on {0}.",
+      "translation": "La risposta è stata inizialmente avviata su {0}."
+    },
+    {
+      "id": "data_entry_573",
+      "prompt": "Displayed for response 'start time' at top of data entry form when no timestamp is available:",
+      "default": "(It is unknown when the response was initially started.)",
+      "translation": "(Non si sa quando la risposta è stata avviata inizialmente)."
+    },
+    {
+      "id": "data_entry_574",
+      "prompt": "Displayed for response 'total completion time' at top of data entry form (use {0} as placeholder for the duration):",
+      "default": "The total completion time of the response is {0}.",
+      "translation": "Il tempo totale di completamento della risposta è {0}."
+    },
+    {
+      "id": "control_center_4469",
+      "prompt": "Unit for durations of time (seconds):",
+      "default": "seconds",
+      "translation": "secondi"
+    },
+    {
+      "id": "survey_428",
+      "prompt": "Unit for durations of time (minutes):",
+      "default": "minutes",
+      "translation": "minuti"
+    },
+    {
+      "id": "survey_427",
+      "prompt": "Unit for durations of time (hours):",
+      "default": "hours",
+      "translation": "ore"
+    },
+    {
+      "id": "survey_426",
+      "prompt": "Unit for durations of time (days):",
+      "default": "days",
+      "translation": "giorni"
+    },
+    {
+      "id": "bottom_47",
+      "prompt": "The 'Data Collection' menu label:",
+      "default": "Data Collection",
+      "translation": "Raccolta dati"
+    },
+    {
+      "id": "app_24",
+      "prompt": "The 'Survey Distribution Tools' menu label:",
+      "default": "Survey Distribution Tools",
+      "translation": "Strumenti di distribuzione del sondaggio"
+    },
+    {
+      "id": "invite_participants_01",
+      "prompt": "The 'Survey Distribution Tools' subtext:",
+      "default": "Get a public survey link or build a participant list for inviting respondents",
+      "translation": "Ottenere un collegamento al sondaggio pubblico o costruire una lista di partecipanti per invitare i rispondenti"
+    },
+    {
+      "id": "global_91",
+      "prompt": "The 'Record Status Dashboard' menu label:",
+      "default": "Record Status Dashboard",
+      "translation": "Pannello Stato Record"
+    },
+    {
+      "id": "bottom_60",
+      "prompt": "The 'Record Status Dashboard' subtext:",
+      "default": "View data collection status of all records",
+      "translation": "Visualizza stato raccolta dati di tutti i record"
+    },
+    {
+      "id": "bottom_62",
+      "prompt": "The 'Add / Edit Records' menu label:",
+      "default": "Add / Edit Records",
+      "translation": "Aggiungi/modifica record"
+    },
+    {
+      "id": "bottom_64",
+      "prompt": "The 'Add / Edit Records' subtext:",
+      "default": "Create new records or edit/view existing ones",
+      "translation": "Crea nuovi record o Modifica/Visualizza quelli esistenti"
+    },
+    {
+      "id": "bottom_72",
+      "prompt": "The 'View / Edit Records' menu label:",
+      "default": "View / Edit Records",
+      "translation": "Visualizza/Modifica record"
+    },
+    {
+      "id": "bottom_73",
+      "prompt": "The 'View / Edit Records' subtext:",
+      "default": "View or edit existing records",
+      "translation": "Visualizzare o modificare i record esistenti"
+    },
+    {
+      "id": "bottom_63",
+      "prompt": "The 'Select other record' link label:",
+      "default": "Select other record",
+      "translation": "Seleziona altro record"
+    },
+    {
+      "id": "global_238",
+      "prompt": "The 'Data Collection Instruments:' label",
+      "default": "Data Collection Instruments:",
+      "translation": "Strumenti di raccolta dati:"
+    },
+    {
+      "id": "bottom_23",
+      "prompt": "The 'Event:' label",
+      "default": "Event:",
+      "translation": "Evento:"
+    },
+    {
+      "id": "edit_project_29",
+      "prompt": "The 'Actions:' label",
+      "default": "Actions:",
+      "translation": "Azioni:"
+    },
+    {
+      "id": "data_entry_202",
+      "prompt": "The 'Modify instrument' menu label:",
+      "default": "Modify instrument",
+      "translation": "Modifica strumento"
+    },
+    {
+      "id": "data_export_tool_158",
+      "prompt": "The 'Download PDF of instrument(s)' menu label:",
+      "default": "Download PDF of instrument(s)",
+      "translation": "Scarica PDF dello strumento (s)"
+    },
+    {
+      "id": "data_entry_542",
+      "prompt": "The 'This data entry form (blank)' menu item label:",
+      "default": "This data entry form (blank)",
+      "translation": "Questo modulo di inserimento dati (vuoto)"
+    },
+    {
+      "id": "data_entry_543",
+      "prompt": "The 'This survey (blank)' menu item label:",
+      "default": "This survey (blank)",
+      "translation": "Questo sondaggio (vuoto)"
+    },
+    {
+      "id": "data_entry_544",
+      "prompt": "The 'This data entry form with saved data' menu item label:",
+      "default": "This data entry form with saved data",
+      "translation": "Questo modulo di inserimento dati con dati salvati"
+    },
+    {
+      "id": "data_entry_545",
+      "prompt": "The 'This survey with saved data' menu item label:",
+      "default": "This survey with saved data",
+      "translation": "Questo sondaggio con dati salvati"
+    },
+    {
+      "id": "data_entry_546",
+      "prompt": "The 'This data entry form with saved data (via browser's <i>Save as PDF<\/i>)' menu item label:",
+      "default": "This data entry form with saved data (via browser's <i>Save as PDF<\/i>)",
+      "translation": "Questo modulo di inserimento dati con dati salvati (tramite <i>Salva come PDF<\/i> del browser)"
+    },
+    {
+      "id": "data_entry_547",
+      "prompt": "The 'This survey with saved data (via browser's <i>Save as PDF<\/i>)' menu item label:",
+      "default": "This survey with saved data (via browser's <i>Save as PDF<\/i>)",
+      "translation": "Questo sondaggio con dati salvati (tramite il <i>Salva come PDF<\/i> del browser)"
+    },
+    {
+      "id": "data_entry_548",
+      "prompt": "The 'This data entry form with saved data (compact)' menu item label:",
+      "default": "This data entry form with saved data (compact)",
+      "translation": "Questo modulo di inserimento dati con dati salvati (compatto)"
+    },
+    {
+      "id": "data_entry_549",
+      "prompt": "The 'This survey with saved data (compact)' menu item label:",
+      "default": "This survey with saved data (compact)",
+      "translation": "Questo sondaggio con dati salvati (compatto)"
+    },
+    {
+      "id": "data_entry_556",
+      "prompt": "The 'This survey with saved data (for survey participant)' menu item label:",
+      "default": "This survey with saved data (for survey participant)",
+      "translation": "Questo sondaggio con dati salvati (per il partecipante al sondaggio)"
+    },
+    {
+      "id": "data_entry_550",
+      "prompt": "The 'All data entry forms (blank)' menu item label:",
+      "default": "All data entry forms (blank)",
+      "translation": "Tutti i moduli di inserimento dati (in bianco)"
+    },
+    {
+      "id": "data_entry_551",
+      "prompt": "The 'All forms/surveys (blank)' menu item label:",
+      "default": "All forms/surveys (blank)",
+      "translation": "Tutti i moduli/sondaggi (vuoto)"
+    },
+    {
+      "id": "data_entry_552",
+      "prompt": "The 'All data entry forms with saved data' menu item label:",
+      "default": "All data entry forms with saved data",
+      "translation": "Tutti i moduli di inserimento dati con dati salvati"
+    },
+    {
+      "id": "data_entry_553",
+      "prompt": "The 'All forms/surveys with saved data' menu item label:",
+      "default": "All forms/surveys with saved data",
+      "translation": "Tutti i moduli/sondaggi con dati salvati"
+    },
+    {
+      "id": "data_entry_554",
+      "prompt": "The 'All data entry forms with saved data (compact)' menu item label:",
+      "default": "All data entry forms with saved data (compact)",
+      "translation": "Tutti i moduli di inserimento dati con dati salvati (compatti)"
+    },
+    {
+      "id": "data_entry_555",
+      "prompt": "The 'All forms/surveys with saved data (compact)' menu item label:",
+      "default": "All forms/surveys with saved data (compact)",
+      "translation": "Tutti i moduli/sondaggi con dati salvati (compatti)"
+    },
+    {
+      "id": "data_entry_557",
+      "prompt": "The 'Video: Basic data entry' link label:",
+      "default": "Video: Basic data entry",
+      "translation": "Video: Inserimento dati di base"
+    },
+    {
+      "id": "data_entry_558",
+      "prompt": "The title of the window showing the basic data entry video:",
+      "default": "Overview of Basic Data Entry",
+      "translation": "Panoramica sull'inserimento dei dati di base"
+    },
+    {
+      "id": "grid_51",
+      "prompt": "The 'Choose action for record' button label:",
+      "default": "Choose action for record",
+      "translation": "Scegliere azione per record"
+    },
+    {
+      "id": "data_entry_315",
+      "prompt": "The 'Download ZIP file of all uploaded documents' menu label:",
+      "default": "Download ZIP file of all uploaded documents",
+      "translation": "Scarica il file zip di tutti i documenti caricati"
+    },
+    {
+      "id": "data_entry_313",
+      "prompt": "The 'Download PDF of record data for all instruments' menu label:",
+      "default": "Download PDF of record data for all instruments",
+      "translation": "Scarica PDF dei dati di registrazione per tutti gli strumenti"
+    },
+    {
+      "id": "data_entry_314",
+      "prompt": "The 'Download PDF of record data for all instruments/events' menu label:",
+      "default": "Download PDF of record data for all instruments/events",
+      "translation": "Download PDF dei dati record per tutti gli strumenti/eventi"
+    },
+    {
+      "id": "data_entry_425",
+      "prompt": "The 'Compact PDF' suffix:",
+      "default": "(compact)",
+      "translation": "(compatto)"
+    },
+    {
+      "id": "data_entry_323",
+      "prompt": "The 'Assign to Data Access Group' menu label:",
+      "default": "Assign to Data Access Group",
+      "translation": "Assegna al gruppo di accesso ai dati"
+    },
+    {
+      "id": "data_entry_564",
+      "prompt": "The 'Assign to Data Access Group (or unassign/reassign)' menu label:",
+      "default": "Assign to Data Access Group (or unassign/reassign)",
+      "translation": "Assegnare al gruppo di accesso ai dati (o disassegnare/riassegnare)"
+    },
+    {
+      "id": "data_entry_316",
+      "prompt": "The 'Rename record' menu label:",
+      "default": "Rename record",
+      "translation": "Rinomina record"
+    },
+    {
+      "id": "data_entry_288",
+      "prompt": "The 'Save & Exit Form' button label:",
+      "default": "Save & Exit Form",
+      "translation": "Salva & Esci dal modulo"
+    },
+    {
+      "id": "data_entry_289",
+      "prompt": "The 'Save & ...' button label:",
+      "default": "Save & ...",
+      "translation": "Salva e..."
+    },
+    {
+      "id": "data_entry_292",
+      "prompt": "The 'Save & Stay' button label:",
+      "default": "Save & Stay",
+      "translation": "Salva e resta"
+    },
+    {
+      "id": "data_entry_210",
+      "prompt": "The 'Save & Go To Next Form' button label:",
+      "default": "Save & Go To Next Form",
+      "translation": "Salva e vai al modulo successivo"
+    },
+    {
+      "id": "data_entry_275",
+      "prompt": "The 'Save & Add New Instance' button label:",
+      "default": "Save & Add New Instance",
+      "translation": "Salva e Aggiungi nuova istanza"
+    },
+    {
+      "id": "data_entry_276",
+      "prompt": "The 'Save & Go To Next Instance' button label:",
+      "default": "Save & Go To Next Instance",
+      "translation": "Salva e vai all'istanza successiva"
+    },
+    {
+      "id": "data_entry_409",
+      "prompt": "The 'Save & Exit Record' button label:",
+      "default": "Save & Exit Record",
+      "translation": "Salva & Esci da record"
+    },
+    {
+      "id": "data_entry_410",
+      "prompt": "The 'Save & Go To Next Record' button label:",
+      "default": "Save & Go To Next Record",
+      "translation": "Salva e vai al record successivo"
+    },
+    {
+      "id": "data_entry_212",
+      "prompt": "The 'Save & Mark Survey as Complete' button label:",
+      "default": "Save & Mark Survey as Complete",
+      "translation": "Salva e segna il sondaggio come Completo"
+    },
+    {
+      "id": "data_entry_287",
+      "prompt": "The 'Save & ...' tooltip:",
+      "default": "More save options",
+      "translation": "Altre opzioni di salvataggio"
+    },
+    {
+      "id": "data_entry_291",
+      "prompt": "The 'Save & ...' popup title:",
+      "default": "Click the down arrow button to view more save options.",
+      "translation": "Fare clic sul pulsante freccia giù per visualizzare altre opzioni di salvataggio."
+    },
+    {
+      "id": "data_entry_290",
+      "prompt": "The 'Save & ...' popup text:",
+      "default": "The option chosen for this button will become its default for you next time in this project.",
+      "translation": "L'opzione scelta per questo pulsante diventerà la sua impostazione predefinita per la prossima volta in questo progetto."
+    },
+    {
+      "id": "data_entry_266",
+      "prompt": "The 'deletion due to randomization field not possible' alert:",
+      "default": "Sorry, but this data entry form contains one or more fields used in randomization, and since the current record has already been randomized, you will NOT be allowed to delete all data for this form.",
+      "translation": "Spiacente, ma questo modulo di immissione dati contiene uno o più campi utilizzati in randomizzazione e poiché il record corrente è già stato randomizzato, non sarà consentito eliminare tutti i dati per questo modulo."
+    },
+    {
+      "id": "data_entry_243",
+      "prompt": "The 'delete instrument' (longitudinal) confirmation:",
+      "default": "Are you sure you wish to PERMANENTLY delete this record's data on THIS INSTRUMENT ONLY for THIS EVENT ONLY?",
+      "translation": "Sei sicuro di voler eliminare definitivamente i dati di questo record su questo strumento solo per questo evento?"
+    },
+    {
+      "id": "data_entry_239",
+      "prompt": "The 'delete instrument' confirmation:",
+      "default": "Are you sure you wish to PERMANENTLY delete this record's data on THIS INSTRUMENT ONLY?",
+      "translation": "Sei sicuro di voler eliminare definitivamente i dati di questo record su questo strumento solo?"
+    },
+    {
+      "id": "data_entry_241",
+      "prompt": "The 'reversion of survey status after deletion' notice:",
+      "default": "Also, this survey response will be reverted back to Incomplete survey status as if the survey had never been taken.",
+      "translation": "Inoltre, questa risposta di indagine sarà ritornata allo stato incompleto di indagine come se l'indagine non fosse stata presa mai."
+    },
+    {
+      "id": "data_entry_559",
+      "prompt": "The 'deletion limited to single instance' notice:",
+      "default": "NOTE: This only applies to the current repeating instance of this form, which is Instance <b>{0}<\/b>.",
+      "translation": "NOTA: Questo si applica solo all'istanza correntemente ripetuta di questo modulo, che è l'istanza <b>{0}<\/b>."
+    },
+    {
+      "id": "data_entry_190",
+      "prompt": "The 'action cannot be reversed' notice:",
+      "default": "This process is permanent and CANNOT BE REVERSED.",
+      "translation": "Questo processo è permanente e non può essere invertito."
+    },
+    {
+      "id": "data_entry_234",
+      "prompt": "The 'Delete data for THIS FORM only' button label:",
+      "default": "Delete data for THIS FORM only",
+      "translation": "Eliminare i dati solo per questo modulo"
+    },
+    {
+      "id": "data_entry_560",
+      "prompt": "The 'delete entire record' hint (use {0} as placeholder for the 'Record Home Page' link):",
+      "default": "NOTE: To delete the entire record (all forms/events), see the record action drop-down at top of the {0:LinkToRecordHomePage}.",
+      "translation": "NOTA: Per cancellare l'intero record (tutti i moduli/eventi), vedi il menu a tendina delle azioni record in cima a {0:LinkToRecordHomePage}"
+    },
+    {
+      "id": "data_entry_561",
+      "prompt": "The 'delete entire event' hint (use {0} as placeholder for the 'Record Home Page' link):",
+      "default": "NOTE: This only applies to the current repeating instance of this form, which is Instance <b>{0}<\/b>.",
+      "translation": "NOTA: Questo si applica solo all'istanza attualmente ripetuta di questo modulo, che è l'istanza <b>{0}<\/b>."
+    },
+    {
+      "id": "data_entry_235",
+      "prompt": "The 'Delete data for THIS EVENT only' button label:",
+      "default": "Delete data for THIS EVENT only",
+      "translation": "Eliminare i dati solo per questo evento"
+    },
+    {
+      "id": "data_entry_507",
+      "prompt": "The 'Editing existing record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "Editing existing {0:RecordID-Label} <b>{1:RecordID}<\/b>.",
+      "translation": "Modifica dell'esistente {0:RecordID-Label} <b>{1:RecordID}<\/b>."
+    },
+    {
+      "id": "data_entry_508",
+      "prompt": "The 'Adding new record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "Adding new {0:RecordID-Label} <b>{1:RecordID}<\/b>.",
+      "translation": "Nuova aggiunta {0:RecordID-Label} <b>{1:RecordID}<\/b>."
+    },
+    {
+      "id": "data_entry_509",
+      "prompt": "The 'Successfully edited record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> successfully edited.",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> modificato con successo."
+    },
+    {
+      "id": "data_entry_510",
+      "prompt": "The 'Successfully added record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> successfully added.",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> aggiunto con successo."
+    },
+    {
+      "id": "data_entry_511",
+      "prompt": "The 'Successfully deleted record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> successfully deleted.",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> cancellato con successo."
+    },
+    {
+      "id": "data_entry_512",
+      "prompt": "The 'Data entry cancelled' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> data entry cancelled - not saved.",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> inserimento dati cancellato - non salvato."
+    },
+    {
+      "id": "data_entry_513",
+      "prompt": "The 'Successfully renamed record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> was successfully renamed!",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> è stato rinominato con successo!"
+    },
+    {
+      "id": "data_entry_514",
+      "prompt": "The 'Successfully assigned record to DAG' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> was successfully assigned to a Data Access Group!",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> è stato assegnato con successo a un gruppo di accesso ai dati!"
+    },
+    {
+      "id": "data_entry_515",
+      "prompt": "The 'Successfully unassigned record from DAG' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> was successfully unassigned from its Data Access Group!",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> è stato correttamente disassegnato dal suo gruppo di accesso ai dati!"
+    },
+    {
+      "id": "data_entry_516",
+      "prompt": "The 'Event successfully deleted' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> successfully deleted entire event of data.",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> è stato cancellato con successo un intero evento di dati."
+    },
+    {
+      "id": "data_entry_517",
+      "prompt": "The 'Could not change record id' message (use {0}, {1}, {2}, and {3} as placeholders for the record id label, record id, instance, and record id label, respectively):",
+      "default": "{0:RecordID-Label} <b>{1:RecordID}<\/b> {2:Instance} successfully edited<br/><b>but {3:RecordID-Label} could not be changed because it already exists<\/b>.",
+      "translation": "{0:RecordID-Label} <b>{1:RecordID}<\/b> {2:Istanza} modificato con successo<br/><b>ma {3:RecordID-Label} non può essere cambiato perché esiste già<\/b>."
+    },
+    {
+      "id": "missing_data_mdc_ni",
+      "prompt": "The 'NI' default missing data code label:",
+      "default": "No information",
+      "translation": "Nessuna informazione"
+    },
+    {
+      "id": "missing_data_mdc_inv",
+      "prompt": "The 'INV' default missing data code label:",
+      "default": "Invalid",
+      "translation": "Invalido"
+    },
+    {
+      "id": "missing_data_mdc_unk",
+      "prompt": "The 'UNK' default missing data code label:",
+      "default": "Unknown",
+      "translation": "Sconosciuto"
+    },
+    {
+      "id": "missing_data_mdc_nask",
+      "prompt": "The 'NASK' default missing data code label:",
+      "default": "Not asked",
+      "translation": "Non richiesto"
+    },
+    {
+      "id": "missing_data_mdc_asku",
+      "prompt": "The 'ASKU' default missing data code label:",
+      "default": "Asked but unknown",
+      "translation": "Chiesto ma sconosciuto"
+    },
+    {
+      "id": "missing_data_mdc_nav",
+      "prompt": "The 'NAV' default missing data code label:",
+      "default": "Temporarily unavailable",
+      "translation": "Temporaneamente non disponibile"
+    },
+    {
+      "id": "missing_data_mdc_msk",
+      "prompt": "The 'MSK' default missing data code label:",
+      "default": "Masked",
+      "translation": "Mascherato"
+    },
+    {
+      "id": "missing_data_mdc_na",
+      "prompt": "The 'NA' default missing data code label:",
+      "default": "Not applicable",
+      "translation": "Non applicabile"
+    },
+    {
+      "id": "missing_data_mdc_navu",
+      "prompt": "The 'NAVU' default missing data code label:",
+      "default": "Not available",
+      "translation": "Non disponibile"
+    },
+    {
+      "id": "missing_data_mdc_np",
+      "prompt": "The 'NP' default missing data code label:",
+      "default": "Not present",
+      "translation": "Non presente"
+    },
+    {
+      "id": "missing_data_mdc_qs",
+      "prompt": "The 'QS' default missing data code label:",
+      "default": "Sufficient quantity",
+      "translation": "Quantità sufficiente"
+    },
+    {
+      "id": "missing_data_mdc_qi",
+      "prompt": "The 'QI' default missing data code label:",
+      "default": "Insufficient quantity",
+      "translation": "Quantità insufficiente"
+    },
+    {
+      "id": "missing_data_mdc_trc",
+      "prompt": "The 'TRC' default missing data code label:",
+      "default": "Trace",
+      "translation": "Traccia"
+    },
+    {
+      "id": "missing_data_mdc_unc",
+      "prompt": "The 'UNC' default missing data code label:",
+      "default": "Unencoded",
+      "translation": "Non codificato"
+    },
+    {
+      "id": "missing_data_mdc_der",
+      "prompt": "The 'DER' default missing data code label:",
+      "default": "Derived",
+      "translation": "Derivato"
+    },
+    {
+      "id": "missing_data_mdc_pinf",
+      "prompt": "The 'PINF' default missing data code label:",
+      "default": "Positive infinity",
+      "translation": "Infinito positivo"
+    },
+    {
+      "id": "missing_data_mdc_ninf",
+      "prompt": "The 'NINF' default missing data code label:",
+      "default": "Negative infinity",
+      "translation": "Infinito negativo"
+    },
+    {
+      "id": "missing_data_mdc_oth",
+      "prompt": "The 'OTH' default missing data code label:",
+      "default": "Other",
+      "translation": "Altro"
+    },
+    {
+      "id": "missing_data_04",
+      "prompt": "The 'Missing Data Codes' label",
+      "default": "Missing Data Codes",
+      "translation": "Codici dati mancanti"
+    },
+    {
+      "id": "missing_data_03",
+      "prompt": "The 'Mark field as missing' tooltip text:",
+      "default": "Mark field as missing",
+      "translation": "Contrassegna campo come mancante"
+    },
+    {
+      "id": "missing_data_01",
+      "prompt": "The 'Mark field as:' menu label:",
+      "default": "Mark field as:",
+      "translation": "Contrassegna campo come:"
+    },
+    {
+      "id": "missing_data_02",
+      "prompt": "The '[Clear value]' menu item label:",
+      "default": "[Clear value]",
+      "translation": "[Cancella valore]"
+    },
+    {
+      "id": "config_functions_52",
+      "prompt": "The message of the number validation popup:",
+      "default": "This value you provided is not a number. Please try again.",
+      "translation": "Questo valore fornito non è un numero. Per favore riprova."
+    },
+    {
+      "id": "config_functions_53",
+      "prompt": "The message of the integer validation popup:",
+      "default": "This value you provided is not an integer. Please try again.",
+      "translation": "Questo valore fornito non è un numero intero. Per favore riprova."
+    },
+    {
+      "id": "config_functions_54",
+      "prompt": "The message of the Vanderbilt MRN validation popup:",
+      "default": "The value entered is not a valid Vanderbilt Medical Record Number (i.e. 4- to 9-digit number, excluding leading zeros). Please try again.",
+      "translation": "Il valore immesso non è un valido numero di record medico Vanderbilt (cioè 4-a 9-cifre, esclusi gli zeri iniziali). Per favore riprova."
+    },
+    {
+      "id": "config_functions_55",
+      "prompt": "The message of the date validation popup:",
+      "default": "The value entered in this field must be a date. You may use one of several formats (ex. YYYY-MM-DD or MM/DD/YYYY), but the final result must constitute a real date. Please try again.",
+      "translation": "Il valore immesso in questo campo deve essere una data. È possibile utilizzare uno dei diversi formati (es. aaaa-mm-gg o mm/gg/aaaa), ma il risultato finale deve costituire una data reale. Per favore riprova."
+    },
+    {
+      "id": "config_functions_56",
+      "prompt": "The message of the hard range validation popup:",
+      "default": "The value you provided must be within the suggested range",
+      "translation": "Il valore fornito deve essere compreso nell'intervallo suggerito."
+    },
+    {
+      "id": "config_functions_57",
+      "prompt": "The message of the soft range (1) validation popup:",
+      "default": "The value you provided is outside the suggested range",
+      "translation": "Il valore fornito è al di fuori dell'intervallo suggerito."
+    },
+    {
+      "id": "config_functions_58",
+      "prompt": "The message of the soft range (2) validation popup:",
+      "default": "This value is admissible, but you may wish to double check it.",
+      "translation": "Questo valore è ammissibile, ma si potrebbe desiderare di verificare."
+    },
+    {
+      "id": "config_functions_59",
+      "prompt": "The message of the time validation popup:",
+      "default": "The value entered must be a time value in the following format HH:MM within the range 00:00-23:59 (e.g., 04:32 or 23:19).",
+      "translation": "Il valore immesso deve essere un valore temporale nel formato HH:MM nell'intervallo 00:00-23:59 (ad esempio, 04:32 o 23:19)."
+    },
+    {
+      "id": "config_functions_60",
+      "prompt": "The message of the ZIP code validation popup:",
+      "default": "This field must be a 5 or 9 digit U.S. ZIP Code (like 94043). Please re-enter it now.",
+      "translation": "Questo campo deve essere un 5 o 9 cifre U.S. Cap (come 94043). Si prega di ri-entrare ora."
+    },
+    {
+      "id": "config_functions_61",
+      "prompt": "The message of the phone validation popup:",
+      "default": "This field must be a 10 digit U.S. phone number (like 415 555 1212). Please re-enter it now.",
+      "translation": "Questo campo deve essere un numero di telefono di 10 cifre degli Stati Uniti (come 415 555 1212). Si prega di ri-entrare ora."
+    },
+    {
+      "id": "config_functions_62",
+      "prompt": "The message of the email validation popup:",
+      "default": "This field must be a valid email address (like joe@user.com). Please re-enter it now.",
+      "translation": "Questo campo deve essere un indirizzo email valido (come Joe@User.com). Si prega di ri-entrare ora."
+    },
+    {
+      "id": "config_functions_77",
+      "prompt": "The message of the regex validation popup:",
+      "default": "The value you provided could not be validated because it does not follow the expected format. Please try again.",
+      "translation": "Il valore fornito non può essere convalidato perché non segue il formato previsto. Per favore riprova."
+    },
+    {
+      "id": "config_functions_94",
+      "prompt": "The message of the general validation popup:",
+      "default": "Required format:",
+      "translation": "Formato richiesto:"
+    },
+    {
+      "id": "data_entry_433",
+      "prompt": "The message of the 'remove spaces' popup:",
+      "default": "This field's value contains extra spaces at the beginning or end. Would you like to remove them?",
+      "translation": "Il valore di questo campo contiene spazi extra all'inizio o alla fine. Vuoi rimuoverli?"
+    },
+    {
+      "id": "data_entry_529",
+      "prompt": "The required fields notification title:",
+      "default": "NOTE: Some fields are required!",
+      "translation": "NOTA: Alcuni campi sono obbligatori!"
+    },
+    {
+      "id": "data_entry_72",
+      "prompt": "The required fields notification text:",
+      "default": "Your data was successfully saved, but you did not provide a value for some fields that require a value. Please enter a value for the fields on this page that are listed below.",
+      "translation": "I dati sono stati salvati correttamente, ma non è stato fornito un valore per alcuni campi che richiedono un valore. Immettere un valore per i campi di questa pagina elencati di seguito."
+    },
+    {
+      "id": "data_entry_73",
+      "prompt": "The 'Provide a value for...' prompt:",
+      "default": "Provide a value for...",
+      "translation": "Fornire un valore per..."
+    },
+    {
+      "id": "data_entry_74",
+      "prompt": "The 'Ignore and go to next form' button label:",
+      "default": "Ignore and go to next form",
+      "translation": "Ignora e vai al modulo successivo"
+    },
+    {
+      "id": "data_entry_76",
+      "prompt": "The 'Ignore and leave record' button label:",
+      "default": "Ignore and leave record",
+      "translation": "Ignora e lascia record"
+    },
+    {
+      "id": "design_401",
+      "prompt": "The 'Okay' button label:",
+      "default": "Okay",
+      "translation": "Okay"
+    },
+    {
+      "id": "data_entry_423",
+      "prompt": "The MAXCHOICE validation text:",
+      "default": "The fields listed below had values entered, but unfortunately the maximum number of responses that can be entered for the choice(s) you selected for those fields has already been reached. Please note that <b>your selections for the fields below were *NOT SAVED*.<\/b> If you wish to select a different choice for those fields, please do so and then re-submit the page.",
+      "translation": "I campi elencati di seguito avevano dei valori inseriti, ma purtroppo il numero massimo di risposte che è possibile immettere per le scelte selezionate per tali campi è già stato raggiunto. Si prega di notare che <b> le selezioni per i campi di seguito sono stati * non salvati *. <\/b> Se si desidera selezionare una scelta diversa per tali campi, si prega di farlo e poi ri-inviare la pagina."
+    },
+    {
+      "id": "data_entry_424",
+      "prompt": "The MAXCHOICE affected fields prompt:",
+      "default": "Fields in which the maximum response limit was reached:",
+      "translation": "Campi in cui è stato raggiunto il limite massimo di risposta:"
+    },
+    {
+      "id": "data_entry_271",
+      "prompt": "The 'invalid values' popup text:",
+      "default": "The fields listed below had values entered that are not considered valid. Please note that <b>the invalid values were *NOT SAVED*.<\/b> If you wish to save a correct value for them, please re-enter a value for these fields and re-submit the page.",
+      "translation": "I campi elencati di seguito avevano valori immessi che non sono considerati validi. Si prega di notare che <b> i valori non validi sono stati * non salvati *. <\/b> Se si desidera salvare un valore corretto, immettere nuovamente un valore per questi campi e inviare nuovamente la pagina."
+    },
+    {
+      "id": "data_entry_272",
+      "prompt": "The 'invalid fields' prompt:",
+      "default": "Fields with invalid values:",
+      "translation": "Campi con valori non validi:"
+    },
+    {
+      "id": "data_entry_530",
+      "prompt": "The 'invalid fields' popup title:",
+      "default": "WARNING: Invalid values entered!",
+      "translation": "ATTENZIONE: Inseriti valori non validi!"
+    },
+    {
+      "id": "data_entry_421",
+      "prompt": "The 'maximum number of choices reached' message:",
+      "default": "Cannot select choice! The maximum number of choices has been selected.",
+      "translation": "Impossibile selezionare scelta! È stato selezionato il numero massimo di scelte."
+    }
+  ],
+  "uiOptions": [
+    {
+      "id": "paging_symbols",
+      "prompt": "Use  and  symbols for previous/next buttons?",
+      "default": false,
+      "value": false
+    },
+    {
+      "id": "submit_symbol",
+      "prompt": "Use the  symbol for the submit button instead of a text label?",
+      "default": false,
+      "value": false
+    }
+  ]
+}

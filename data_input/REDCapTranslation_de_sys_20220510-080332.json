@@ -1,0 +1,2727 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v12.2.7",
+    "timestamp": "2022-05-10 08:03:32",
+    "instructions": "How to use this file: The essential elements are all 'id' and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored.",
+    "key": "de",
+    "display": "Deutsch",
+    "rtl": false,
+    "sort": "",
+    "uiTranslations": [
+        {
+            "id": "survey_1130",
+            "translation": "Klicken Sie hier, um die Schriftgröße zu verkleinern",
+            "hash": "60159a"
+        },
+        {
+            "id": "survey_1129",
+            "translation": "Klicken Sie hier, um die Schriftgröße zu vergrößern",
+            "hash": "afd9c7"
+        },
+        {
+            "id": "multilang_02",
+            "translation": "Sprache ändern",
+            "hash": "789b14"
+        },
+        {
+            "id": "data_entry_540",
+            "translation": "[*DATEN ENTFERNT*]",
+            "hash": "2a9fc8"
+        },
+        {
+            "id": "design_08",
+            "translation": "In Arbeit...",
+            "hash": "049ac8"
+        },
+        {
+            "id": "survey_1347",
+            "translation": "Seite {0} von {1}",
+            "hash": "c10e74"
+        },
+        {
+            "id": "data_entry_536",
+            "translation": "Nächste Seite >>",
+            "hash": "50d9cd"
+        },
+        {
+            "id": "data_entry_537",
+            "translation": "<< Vorherige Seite",
+            "hash": "77fa60"
+        },
+        {
+            "id": "survey_200",
+            "translation": "Absenden / Speichern",
+            "hash": "2dacf6"
+        },
+        {
+            "id": "form_renderer_19",
+            "translation": "Erweitern",
+            "hash": "9869e5"
+        },
+        {
+            "id": "form_renderer_20",
+            "translation": "Wert zurücksetzen",
+            "hash": "91ef0c"
+        },
+        {
+            "id": "data_entry_39",
+            "translation": "Pflichtfeld",
+            "hash": "569a50"
+        },
+        {
+            "id": "calendar_popup_01",
+            "translation": "Schliessen",
+            "hash": "bbfa77"
+        },
+        {
+            "id": "global_53",
+            "translation": "Abbrechen",
+            "hash": "77dfd2"
+        },
+        {
+            "id": "design_654",
+            "translation": "Bestätigen",
+            "hash": "04a212"
+        },
+        {
+            "id": "alerts_24",
+            "translation": "Warnung",
+            "hash": "b96968"
+        },
+        {
+            "id": "global_01",
+            "translation": "FEHLER",
+            "hash": "0b99ce"
+        },
+        {
+            "id": "global_03",
+            "translation": "HINWEIS",
+            "hash": "fe7187"
+        },
+        {
+            "id": "global_64",
+            "translation": "Ups! Ein Fehler ist passiert. Bitte versuchen Sie es erneut.",
+            "hash": "bf8e4d"
+        },
+        {
+            "id": "survey_1241",
+            "translation": "Sie können dieses Fenster jetzt schließen",
+            "hash": "844b01"
+        },
+        {
+            "id": "global_47",
+            "translation": "oder",
+            "hash": "175835"
+        },
+        {
+            "id": "scheduling_35",
+            "translation": "Drucken",
+            "hash": "5b221e"
+        },
+        {
+            "id": "system_config_623",
+            "translation": "Text unten drucken",
+            "hash": "1c05e1"
+        },
+        {
+            "id": "global_143",
+            "translation": "Ausgewählt",
+            "hash": "b2bc0c"
+        },
+        {
+            "id": "global_144",
+            "translation": "Nicht ausgewählt",
+            "hash": "1b927d"
+        },
+        {
+            "id": "data_entry_203",
+            "translation": "Wert entfernt!",
+            "hash": "98e2bd"
+        },
+        {
+            "id": "data_entry_568",
+            "translation": "Es tut uns leid, aber Ihr aktueller Webbrowser (<b>Internet Explorer {0}</b>) ist mit dieser Webseite nicht kompatibel. Um auf dieser Seite fortzufahren, empfehlen wir Ihnen, Ihren Webbrowser auf eine neuere Version zu aktualisieren oder stattdessen Firefox oder Google Chrome zu verwenden. Vielen Dank für Ihr Verständnis!",
+            "hash": "d20ea9"
+        },
+        {
+            "id": "survey_1140",
+            "translation": "Bild",
+            "hash": "0e7629"
+        },
+        {
+            "id": "form_renderer_22",
+            "translation": "Disclaimer",
+            "hash": "4c4a2e"
+        },
+        {
+            "id": "global_125",
+            "translation": "Update",
+            "hash": "fb91e2"
+        },
+        {
+            "id": "data_entry_260",
+            "translation": "Tippen, um mit der Suche zu beginnen",
+            "hash": "c525db"
+        },
+        {
+            "id": "data_entry_518",
+            "translation": "Die Option {0} kann nur alleine ausgewählt werden. Wenn Sie diese Option auswählen, werden Ihre vorherigen Einträge für dieses Eingabefeld gelöscht. Sind Sie sicher?",
+            "hash": "392a1c"
+        },
+        {
+            "id": "data_entry_412",
+            "translation": "Inkompatible Checkbox-Auswahl",
+            "hash": "4e2eed"
+        },
+        {
+            "id": "data_entry_417",
+            "translation": "Ja, andere Auswahl löschen",
+            "hash": "5deca4"
+        },
+        {
+            "id": "design_100",
+            "translation": "Ja",
+            "hash": "5397e0"
+        },
+        {
+            "id": "design_99",
+            "translation": "Nein",
+            "hash": "816c52"
+        },
+        {
+            "id": "design_186",
+            "translation": "Wahr",
+            "hash": "88b33e"
+        },
+        {
+            "id": "design_187",
+            "translation": "Falsch",
+            "hash": "97cdbd"
+        },
+        {
+            "id": "data_entry_444",
+            "translation": "Klicken zur Ansicht der Auswahl",
+            "hash": "afec1f"
+        },
+        {
+            "id": "design_722",
+            "translation": "Bewegen Sie den 'Schieber', um einen Wert anzugeben",
+            "hash": "59ea65"
+        },
+        {
+            "id": "design_721",
+            "translation": "Klicken Sie den 'Schieber', um einen Wert anzugeben",
+            "hash": "7be881"
+        },
+        {
+            "id": "survey_1142",
+            "translation": "0% bedeutet",
+            "hash": "104c2b"
+        },
+        {
+            "id": "survey_1143",
+            "translation": "50% bedeutet",
+            "hash": "2ec125"
+        },
+        {
+            "id": "survey_1144",
+            "translation": "100% bedeutet",
+            "hash": "81a1ba"
+        },
+        {
+            "id": "dashboard_32",
+            "translation": "Heute",
+            "hash": "24345a"
+        },
+        {
+            "id": "calendar_widget_choosedatehint",
+            "translation": "Klicken Sie, um ein Datum auszuwählen",
+            "hash": "b2fbd5"
+        },
+        {
+            "id": "calendar_widget_done",
+            "translation": "Erledigt",
+            "hash": "e9b450"
+        },
+        {
+            "id": "calendar_widget_prev",
+            "translation": "Vorherige",
+            "hash": "e96fea"
+        },
+        {
+            "id": "calendar_widget_next",
+            "translation": "Nächste",
+            "hash": "bc9819"
+        },
+        {
+            "id": "form_renderer_29",
+            "translation": "Jetzt",
+            "hash": "e3b820"
+        },
+        {
+            "id": "calendar_widget_choosedatetimehint",
+            "translation": "Klicken Sie, um ein Datum/eine Uhrzeit auszuwählen",
+            "hash": "b9a0d0"
+        },
+        {
+            "id": "calendar_widget_choosetime",
+            "translation": "Zeit wählen",
+            "hash": "d39ba9"
+        },
+        {
+            "id": "global_13",
+            "translation": "Zeit",
+            "hash": "6c82e6"
+        },
+        {
+            "id": "calendar_widget_hour",
+            "translation": "Stunde",
+            "hash": "c37cf8"
+        },
+        {
+            "id": "calendar_widget_min",
+            "translation": "Minute",
+            "hash": "c1335d"
+        },
+        {
+            "id": "calendar_widget_choosetimehint",
+            "translation": "Klicken Sie, um eine Zeit auszuwählen",
+            "hash": "c8504d"
+        },
+        {
+            "id": "calendar_widget_month_day_long_sun",
+            "translation": "Sonntag",
+            "hash": "bc5dd0"
+        },
+        {
+            "id": "calendar_widget_month_day_short_sun",
+            "translation": "So",
+            "hash": "25bfc5"
+        },
+        {
+            "id": "calendar_widget_month_day_long_mon",
+            "translation": "Montag",
+            "hash": "932eeb"
+        },
+        {
+            "id": "calendar_widget_month_day_short_mon",
+            "translation": "Mo",
+            "hash": "91e885"
+        },
+        {
+            "id": "calendar_widget_month_day_long_tues",
+            "translation": "Dienstag",
+            "hash": "42e43b"
+        },
+        {
+            "id": "calendar_widget_month_day_short_tues",
+            "translation": "Di",
+            "hash": "b44892"
+        },
+        {
+            "id": "calendar_widget_month_day_long_wed",
+            "translation": "Mittwoch",
+            "hash": "5656b9"
+        },
+        {
+            "id": "calendar_widget_month_day_short_wed",
+            "translation": "Mi",
+            "hash": "a24ae9"
+        },
+        {
+            "id": "calendar_widget_month_day_long_thurs",
+            "translation": "Donnerstag",
+            "hash": "76031d"
+        },
+        {
+            "id": "calendar_widget_month_day_short_thurs",
+            "translation": "Do",
+            "hash": "6929e7"
+        },
+        {
+            "id": "calendar_widget_month_day_long_fri",
+            "translation": "Freitag",
+            "hash": "d166e8"
+        },
+        {
+            "id": "calendar_widget_month_day_short_fri",
+            "translation": "Fr",
+            "hash": "aa77f3"
+        },
+        {
+            "id": "calendar_widget_month_day_long_sat",
+            "translation": "Samstag",
+            "hash": "17063c"
+        },
+        {
+            "id": "calendar_widget_month_day_short_sat",
+            "translation": "Sa",
+            "hash": "50cf95"
+        },
+        {
+            "id": "calendar_widget_month_jan",
+            "translation": "Jan",
+            "hash": "efed36"
+        },
+        {
+            "id": "calendar_widget_month_feb",
+            "translation": "Feb",
+            "hash": "dc8415"
+        },
+        {
+            "id": "calendar_widget_month_mar",
+            "translation": "März",
+            "hash": "c4ba08"
+        },
+        {
+            "id": "calendar_widget_month_apr",
+            "translation": "Apr",
+            "hash": "befde5"
+        },
+        {
+            "id": "calendar_widget_month_may",
+            "translation": "Mai",
+            "hash": "c94f47"
+        },
+        {
+            "id": "calendar_widget_month_jun",
+            "translation": "Jun",
+            "hash": "6d90df"
+        },
+        {
+            "id": "calendar_widget_month_jul",
+            "translation": "Jul",
+            "hash": "b73755"
+        },
+        {
+            "id": "calendar_widget_month_aug",
+            "translation": "Aug",
+            "hash": "75629a"
+        },
+        {
+            "id": "calendar_widget_month_sep",
+            "translation": "Sep",
+            "hash": "fdd289"
+        },
+        {
+            "id": "calendar_widget_month_oct",
+            "translation": "Okt",
+            "hash": "51327a"
+        },
+        {
+            "id": "calendar_widget_month_nov",
+            "translation": "Nov",
+            "hash": "bb9bfe"
+        },
+        {
+            "id": "calendar_widget_month_dec",
+            "translation": "Dez",
+            "hash": "997f59"
+        },
+        {
+            "id": "multilang_108",
+            "translation": "H:M",
+            "hash": "ac197c"
+        },
+        {
+            "id": "multilang_109",
+            "translation": "Y-M-D",
+            "hash": "6793fb"
+        },
+        {
+            "id": "multilang_110",
+            "translation": "M-D-Y",
+            "hash": "e195c3"
+        },
+        {
+            "id": "multilang_111",
+            "translation": "D-M-Y",
+            "hash": "7da40f"
+        },
+        {
+            "id": "multilang_112",
+            "translation": "Y-M-D H:M",
+            "hash": "d97ee0"
+        },
+        {
+            "id": "multilang_113",
+            "translation": "M-D-Y H:M",
+            "hash": "1b9d0b"
+        },
+        {
+            "id": "multilang_114",
+            "translation": "D-M-Y H:M",
+            "hash": "40f54f"
+        },
+        {
+            "id": "multilang_115",
+            "translation": "Y-M-D H:M:S",
+            "hash": "fb2891"
+        },
+        {
+            "id": "multilang_116",
+            "translation": "M-D-Y H:M:S",
+            "hash": "982a88"
+        },
+        {
+            "id": "multilang_117",
+            "translation": "D-M-Y H:M:S",
+            "hash": "ab1d01"
+        },
+        {
+            "id": "form_renderer_23",
+            "translation": "Datei hochladen",
+            "hash": "503a3d"
+        },
+        {
+            "id": "data_entry_459",
+            "translation": "Neue Dateiversion hochladen",
+            "hash": "e8f501"
+        },
+        {
+            "id": "form_renderer_24",
+            "translation": "Datei löschen",
+            "hash": "304b14"
+        },
+        {
+            "id": "form_renderer_25",
+            "translation": "Senden",
+            "hash": "834936"
+        },
+        {
+            "id": "data_entry_468",
+            "translation": "(aktuelle Datei ersetzen und speichern)",
+            "hash": "8abf4c"
+        },
+        {
+            "id": "data_entry_62",
+            "translation": "Wählen Sie eine Datei aus und klicken Sie dann den Button 'Datei hochladen'",
+            "hash": "c03b36"
+        },
+        {
+            "id": "survey_1146",
+            "translation": "Klicken, um ein Dokument über ein modales Fenster hochzuladen.",
+            "hash": "1f7b23"
+        },
+        {
+            "id": "form_renderer_47",
+            "translation": "Sie müssen zuerst eine Datei zum Hochladen auswählen",
+            "hash": "70ded5"
+        },
+        {
+            "id": "form_renderer_52",
+            "translation": "Datei löschen?",
+            "hash": "1b77f5"
+        },
+        {
+            "id": "form_renderer_51",
+            "translation": "Sind Sie sicher, dass Sie diese Datei endgültig löschen wollen?",
+            "hash": "fe83fa"
+        },
+        {
+            "id": "design_397",
+            "translation": "Ja, löschen",
+            "hash": "11e9be"
+        },
+        {
+            "id": "form_renderer_59",
+            "translation": "Datei gelöscht",
+            "hash": "80bb63"
+        },
+        {
+            "id": "form_renderer_50",
+            "translation": "Geben Sie einen Grund für das Löschen dieser Datei an (der Grund wird gespeichert):",
+            "hash": "c453bb"
+        },
+        {
+            "id": "data_entry_526",
+            "translation": "Maximale Dateigröße: {0} MB",
+            "hash": "0b02d7"
+        },
+        {
+            "id": "data_entry_64",
+            "translation": "Laden...",
+            "hash": "b04ba4"
+        },
+        {
+            "id": "data_entry_65",
+            "translation": "Upload läuft...",
+            "hash": "b92d2e"
+        },
+        {
+            "id": "data_entry_455",
+            "translation": "Datei bestätigen",
+            "hash": "bf0560"
+        },
+        {
+            "id": "data_entry_454",
+            "translation": "Durch Anklicken des Buttons Datei bestätigen, bestätigen Sie, dass die folgende Datei die korrekte Datei ist, die Sie hier hochladen möchten:",
+            "hash": "ab5887"
+        },
+        {
+            "id": "data_entry_453",
+            "translation": "Datei hochladen: Bestätigung und Überprüfung von Benutzername/Passwort",
+            "hash": "c406c5"
+        },
+        {
+            "id": "data_entry_460",
+            "translation": "Durch Eingabe Ihres REDCap Passworts und Klicken des Bestätigen Buttons, bestätigen Sie, dass die folgende Datei die korrekte Datei ist, die Sie hier hochladen möchten:",
+            "hash": "c20708"
+        },
+        {
+            "id": "data_entry_461",
+            "translation": "Ihre Datei wird hochgeladen, sobald Sie diesen Bestätigungsprozess erfolgreich ausgeführt haben.",
+            "hash": "e05678"
+        },
+        {
+            "id": "form_renderer_26",
+            "translation": "[Der Datei-Upload ist deaktiviert]",
+            "hash": "431502"
+        },
+        {
+            "id": "form_renderer_48",
+            "translation": "Der von Ihnen eingegebene Benutzername oder das Passwort ist falsch! Bitte versuchen Sie es erneut.",
+            "hash": "5d544f"
+        },
+        {
+            "id": "form_renderer_49",
+            "translation": "Sie MÜSSEN einen Grund für die Löschung dieser Datei angeben. Bitte versuchen Sie es noch einmal.",
+            "hash": "6e9143"
+        },
+        {
+            "id": "form_renderer_44",
+            "translation": "KANN DIE DATEI NICHT HOCHLADEN!",
+            "hash": "f7e167"
+        },
+        {
+            "id": "form_renderer_45",
+            "translation": "Es tut uns leid, aber Apple unterstützt das Hochladen von Dateien auf Webseiten in Ihrem mobilen Safari-Browser für iOS-Geräte (iPhones, iPads und iPod Touches), die mit iOS Version 5.1 und älter laufen, nicht. Da Sie offenbar ein iOS-Gerät mit einer solchen älteren Version verwenden, können Sie hier keine Dateien hochladen. Dies ist kein Problem von REDCap, sondern lediglich eine von Apple auferlegte Einschränkung. HINWEIS: iOS Version 6 und höher *unterstützt* das Hochladen von Bildern und Videos (aber nicht andere Dateitypen).",
+            "hash": "6871de"
+        },
+        {
+            "id": "form_renderer_57",
+            "translation": "Die Datei \\<b>{0}</b>\\ wurde gelöscht.",
+            "hash": "b676ef"
+        },
+        {
+            "id": "form_renderer_58",
+            "translation": "Version {0} der Datei wurde gelöscht.",
+            "hash": "fa61cc"
+        },
+        {
+            "id": "form_renderer_60",
+            "translation": "Die Datei wurde erfolgreich hochgeladen!",
+            "hash": "01ff24"
+        },
+        {
+            "id": "dataqueries_160",
+            "translation": "Fehler beim Hochladen der Datei!",
+            "hash": "e0efa5"
+        },
+        {
+            "id": "data_export_tool_248",
+            "translation": "DATEI:",
+            "hash": "547d60"
+        },
+        {
+            "id": "survey_1147",
+            "translation": "Signatur",
+            "hash": "2f32be"
+        },
+        {
+            "id": "form_renderer_31",
+            "translation": "Signatur hinzufügen",
+            "hash": "780837"
+        },
+        {
+            "id": "form_renderer_43",
+            "translation": "Signatur entfernen",
+            "hash": "f58b18"
+        },
+        {
+            "id": "form_renderer_30",
+            "translation": "Signatur speichern",
+            "hash": "a08930"
+        },
+        {
+            "id": "form_renderer_46",
+            "translation": "Sie müssen zuerst Ihre Signatur anfügen",
+            "hash": "e50a04"
+        },
+        {
+            "id": "form_renderer_63",
+            "translation": "Hochgeladene Signatur löschen?",
+            "hash": "9d887b"
+        },
+        {
+            "id": "form_renderer_64",
+            "translation": "Sind Sie sicher, dass Sie die hochgeladene Signatur dauerhaft löschen möchten?",
+            "hash": "8783ec"
+        },
+        {
+            "id": "design_205",
+            "translation": "Anhang:",
+            "hash": "4297fa"
+        },
+        {
+            "id": "global_120",
+            "translation": "Video ansehen",
+            "hash": "d8fb74"
+        },
+        {
+            "id": "data_entry_502",
+            "translation": "Video",
+            "hash": "bc17c1"
+        },
+        {
+            "id": "design_204",
+            "translation": "[Anhang nicht gefunden]",
+            "hash": "7c4a4c"
+        },
+        {
+            "id": "global_121",
+            "translation": "[Ihr Browser unterstützt kein HTML5 Audio Element.]",
+            "hash": "bb44fb"
+        },
+        {
+            "id": "survey_1242",
+            "translation": "Um zur Umfrage zu gelangen, verlassen Sie die Box und klicken Sie den Button unten.",
+            "hash": "ef8c96"
+        },
+        {
+            "id": "survey_1243",
+            "translation": "Umfrage beginnen",
+            "hash": "11eda4"
+        },
+        {
+            "id": "survey_1244",
+            "translation": "Ungültige reCAPTCHA Antwort! Bitte versuchen Sie es erneut.",
+            "hash": "b0a086"
+        },
+        {
+            "id": "email_users_36",
+            "translation": "Sichere Nachrichtenübermittlung von REDCap",
+            "hash": "e81b32"
+        },
+        {
+            "id": "email_users_37",
+            "translation": "{0} hat Ihnen eine sichere E-Mail-Nachricht gesendet.",
+            "hash": "cc2e1e"
+        },
+        {
+            "id": "email_users_38",
+            "translation": "Lesen Sie die Nachricht",
+            "hash": "24cda8"
+        },
+        {
+            "id": "email_users_39",
+            "translation": "Erfahren Sie mehr über Nachrichten, die durch REDCap geschützt sind.",
+            "hash": "e79dbf"
+        },
+        {
+            "id": "global_234",
+            "translation": "Sichere Nachrichtenüberprüfung von REDCap",
+            "hash": "3e4c33"
+        },
+        {
+            "id": "email_users_99",
+            "translation": "Ihr sicherer REDCap Messaging-Code lautet: <b>{0}</b>",
+            "hash": "1d59ca"
+        },
+        {
+            "id": "email_users_100",
+            "translation": "(Dieser Code wird in {0} Minuten ablaufen)",
+            "hash": "520a77"
+        },
+        {
+            "id": "email_users_40",
+            "translation": "Schneller Sicherheitscheck vor dem Lesen Ihrer E-Mail",
+            "hash": "630489"
+        },
+        {
+            "id": "email_users_47",
+            "translation": "Da Sie diese Seite noch nie oder schon lange nicht mehr besucht haben, haben wir Ihnen soeben <u>eine neue E-Mail mit einem Sicherheitscode</u> geschickt, mit dem wir Ihre Identität hier überprüfen können. Bitte kehren Sie jetzt zu Ihrem Posteingang zurück, um diesen Sicherheitscode abzurufen, und geben Sie ihn dann unten ein. Vielen Dank!",
+            "hash": "236577"
+        },
+        {
+            "id": "email_users_46",
+            "translation": "Da Sie diese Seite noch nie oder schon lange nicht mehr besucht haben, müssen wir Ihnen <u>eine neue E-Mail schicken, die einen Sicherheitscode</u> enthält, mit dem wir Ihre Identität hier überprüfen können. <b>Bitte wählen Sie Ihre E-Mail-Adresse aus der unten stehenden Liste aller Empfänger aus und klicken Sie auf die Schaltfläche 'Code senden'.</b>, Daraufhin erhalten Sie eine neue E-Mail mit einem Code. Kehren Sie dann zu Ihrem Posteingang zurück, um den Sicherheitscode abzurufen, und geben Sie ihn unten ein.",
+            "hash": "f896e7"
+        },
+        {
+            "id": "email_users_42",
+            "translation": "Code an diese Adresse senden",
+            "hash": "3f2ca5"
+        },
+        {
+            "id": "email_users_45",
+            "translation": "Nachdem Sie den Code per E-Mail erhalten haben, geben Sie ihn unten ein.",
+            "hash": "e30bb8"
+        },
+        {
+            "id": "email_users_44",
+            "translation": "Dies ist ein öffentlicher Computer",
+            "hash": "f143d6"
+        },
+        {
+            "id": "email_users_82",
+            "translation": "(Wenn Sie dieses Kontrollkästchen deaktivieren, wird ein Cookie auf diesem Gerät gespeichert.)",
+            "hash": "0668ee"
+        },
+        {
+            "id": "email_users_101",
+            "translation": "Code eingeben",
+            "hash": "ab45ae"
+        },
+        {
+            "id": "email_users_43",
+            "translation": "Code abschicken",
+            "hash": "32aefb"
+        },
+        {
+            "id": "email_users_41",
+            "translation": "ERROR: Falscher Code wurde eingegeben. Bitte versuchen Sie es erneut!",
+            "hash": "3e910b"
+        },
+        {
+            "id": "email_users_50",
+            "translation": "Prüfen Sie Ihren Posteingang!",
+            "hash": "0d8b43"
+        },
+        {
+            "id": "email_users_35",
+            "translation": "Der Code wurde erfolgreich per E-Mail an {0} gesendet",
+            "hash": "995ff4"
+        },
+        {
+            "id": "global_37",
+            "translation": "Von:",
+            "hash": "c4d63e"
+        },
+        {
+            "id": "global_38",
+            "translation": "An:",
+            "hash": "7e7fbc"
+        },
+        {
+            "id": "alerts_128",
+            "translation": "Anhänge",
+            "hash": "6771ad"
+        },
+        {
+            "id": "email_users_48",
+            "translation": "{0} Dateien",
+            "hash": "9dc994"
+        },
+        {
+            "id": "email_users_49",
+            "translation": "{0} Datei",
+            "hash": "afdb07"
+        },
+        {
+            "id": "ws_176",
+            "translation": "genau jetzt",
+            "hash": "a7f8e7"
+        },
+        {
+            "id": "ws_177",
+            "translation": "vor weniger als einer Minute",
+            "hash": "abff00"
+        },
+        {
+            "id": "ws_178",
+            "translation": "vor {0} Minute",
+            "hash": "dcd75e"
+        },
+        {
+            "id": "ws_179",
+            "translation": "vor {0} Minuten",
+            "hash": "41904c"
+        },
+        {
+            "id": "ws_180",
+            "translation": "vor {0} Stunde",
+            "hash": "cc4eac"
+        },
+        {
+            "id": "ws_181",
+            "translation": "vor {0} Stunden",
+            "hash": "cee338"
+        },
+        {
+            "id": "ws_182",
+            "translation": "vor {0} Tag",
+            "hash": "7a0320"
+        },
+        {
+            "id": "ws_183",
+            "translation": "vor {0} Tagen",
+            "hash": "934453"
+        },
+        {
+            "id": "dataqueries_278",
+            "translation": "Umfrage schließen",
+            "hash": "a26c1b"
+        },
+        {
+            "id": "survey_111",
+            "translation": "Danke für Ihr Interesse, aber Sie haben bereits an dieser Umfrage teilgenommen.",
+            "hash": "32750e"
+        },
+        {
+            "id": "survey_1101",
+            "translation": "Danke für Ihr Interesse, jedoch wurde die Umfrage geschlossen, da genügend Antworten vorliegen.",
+            "hash": "e6b729"
+        },
+        {
+            "id": "survey_1105",
+            "translation": "Danke für Ihr Interesse, leider ist die Zeit für diese Umfrage abgelaufen, sodass Sie diese Umfrage nicht beginnen oder fortsetzen können.",
+            "hash": "ab678d"
+        },
+        {
+            "id": "survey_1357",
+            "translation": "Es wurde {0} Instanz dieser Umfrage gespeichert",
+            "hash": "a053df"
+        },
+        {
+            "id": "survey_1356",
+            "translation": "Es wurden {0} Instanzen dieser Umfrage gespeichert",
+            "hash": "f50efd"
+        },
+        {
+            "id": "survey_1097",
+            "translation": "Absenden und",
+            "hash": "846e5e"
+        },
+        {
+            "id": "global_239",
+            "translation": "Benutzername:",
+            "hash": "17dfb0"
+        },
+        {
+            "id": "global_240",
+            "translation": "Kennwort:",
+            "hash": "be81ab"
+        },
+        {
+            "id": "survey_573",
+            "translation": "Umfrage-Login",
+            "hash": "c60165"
+        },
+        {
+            "id": "survey_310",
+            "translation": "Umfragetitel:",
+            "hash": "d029a5"
+        },
+        {
+            "id": "survey_574",
+            "translation": "Vor dem Beginn oder der Fortsetzung dieser Umfrage müssen Sie sich mit den unten stehenden Angaben anmelden.",
+            "hash": "1b4165"
+        },
+        {
+            "id": "survey_587",
+            "translation": "Sie müssen einen korrekten Wert für das folgende Feld eingeben.",
+            "hash": "ec6ef7"
+        },
+        {
+            "id": "survey_1345",
+            "translation": "Sie müssen mindestens {0} der folgenden {1} Felder korrekt ausfüllen.",
+            "hash": "891f00"
+        },
+        {
+            "id": "survey_578",
+            "translation": "Sie müssen alle unten stehenden Felder korrekt angeben.",
+            "hash": "5c7097"
+        },
+        {
+            "id": "survey_594",
+            "translation": "Bitte beachten Sie, dass das Login nicht nach Groß- oder Kleinbuchstaben unterscheidet.",
+            "hash": "3927be"
+        },
+        {
+            "id": "survey_1066",
+            "translation": "Zeige den Wert",
+            "hash": "8b9ac8"
+        },
+        {
+            "id": "survey_1343",
+            "translation": "<b>FEHLER:</b> Die Anmeldung war nicht erfolgreich, weil der eingegebene Wert nicht korrekt war. Versuchen Sie es erneut.",
+            "hash": "1a5ef0"
+        },
+        {
+            "id": "survey_1344",
+            "translation": "<b>FEHLER:</b> Die Anmeldung war nicht erfolgreich, weil die eingegebenen Werte nicht korrekt waren. Versuchen Sie es erneut.",
+            "hash": "8213c8"
+        },
+        {
+            "id": "survey_589",
+            "translation": "Unglücklicherweise können keine Loginfelder angezeigt werden, da für Sie bisher dafür noch keine Daten erstellt wurden. Es besteht daher keine Möglicheit, sich anzumelden. Bitte kontaktieren Sie Ihren Umfrageadministrator, um das Problem zu beheben.",
+            "hash": "e6a84c"
+        },
+        {
+            "id": "global_05",
+            "translation": "ZUGRIFF VERWEIGERT!",
+            "hash": "890fd0"
+        },
+        {
+            "id": "survey_1353",
+            "translation": "Aus Sicherheitsgründen wurde diese Umfrage vorübergehend deaktiviert, da sie die maximale Anzahl an fehlgeschlagenen Anmeldeversuchen, die innerhalb eines bestimmten Zeitraums (<b>{0} Minuten</b>) zulässig sind, überschritten hat.",
+            "hash": "ff486c"
+        },
+        {
+            "id": "config_functions_45",
+            "translation": "Einloggen",
+            "hash": "d527bf"
+        },
+        {
+            "id": "survey_675",
+            "translation": "Umfrage Login Sitzung ist noch aktiv",
+            "hash": "797d6c"
+        },
+        {
+            "id": "data_entry_262",
+            "translation": "Beachten Sie, dass, obwohl der eingegebene Wert verschleiert und daher nicht lesbar ist, wird er ausserhalb dieser Seite den Umfrage-Administratoren angezeigt.",
+            "hash": "c39ce9"
+        },
+        {
+            "id": "survey_1365",
+            "translation": "Seite {0}",
+            "hash": "02431c"
+        },
+        {
+            "id": "global_237",
+            "translation": "Vertraulich",
+            "hash": "4f853c"
+        },
+        {
+            "id": "survey_1139",
+            "translation": "Herunterladen Ihrer Umfrageantworten (PDF):",
+            "hash": "6f5e9b"
+        },
+        {
+            "id": "design_121",
+            "translation": "Herunterladen",
+            "hash": "a479c9"
+        },
+        {
+            "id": "data_entry_535",
+            "translation": "Die Antwort wurde am {0:Zeitstempel} hinzugefügt.",
+            "hash": "dcd923"
+        },
+        {
+            "id": "data_entry_101",
+            "translation": "Antworten nur teilweise und nicht vollständig.",
+            "hash": "88bcc2"
+        },
+        {
+            "id": "survey_1169",
+            "translation": "Unten finden Sie eine (nur lesbare) Kopie Ihrer Umfrageantworten. Bitte prüfen Sie diese und die Optionen darunter.",
+            "hash": "92b863"
+        },
+        {
+            "id": "survey_1171",
+            "translation": "Ich bestätige, dass alle Informationen im obigen Dokument korrekt sind, und habe verstanden, dass die elektronische Unterschrift darunter gleichbedeutend mit der klassischen Unterschrift unter einem Dokument ist.",
+            "hash": "fd6775"
+        },
+        {
+            "id": "survey_1170",
+            "translation": "Wenn eine der Informationen nicht korrekt ist, klicken Sie bitte auf 'Vorherige Seite', um zurückzugehen und diese zu korrigieren.",
+            "hash": "69189e"
+        },
+        {
+            "id": "data_entry_428",
+            "translation": "Version:",
+            "hash": "9f4912"
+        },
+        {
+            "id": "data_entry_429",
+            "translation": "Typ:",
+            "hash": "ee3fb1"
+        },
+        {
+            "id": "survey_1264",
+            "translation": "Ihre Signatur(en) in dieser Umfrage löschen?",
+            "hash": "975bad"
+        },
+        {
+            "id": "survey_1265",
+            "translation": "Sie haben Ihre Signatur auf einer früheren Seite in dieser Umfrage angegeben. Dies könnte Ihr Name, eine PIN und/oder eine Unterschrift sein. Sie können zu einer vorherigen Seite in der Umfrage zurückgehen, aber in diesem Fall werden Ihre Signaturen automatisch gelöscht. Sie müssen diese dann erneut eingeben, um die Umfrage abzuschließen. Sie können auch frühere Antworten in dieser Umfrage korrigieren. Wenn das gewünscht ist, klicken Sie auf den unten stehenden Button, um zu einer vorherigen Seite zurückzukehren.",
+            "hash": "12a611"
+        },
+        {
+            "id": "survey_1266",
+            "translation": "Meine Signatur(en) löschen und zu vorheriger Seite gehen",
+            "hash": "70e406"
+        },
+        {
+            "id": "survey_1364",
+            "translation": "PDF anzeigen",
+            "hash": "2652d8"
+        },
+        {
+            "id": "survey_1341",
+            "translation": "PDF herunterladen",
+            "hash": "98e5ef"
+        },
+        {
+            "id": "survey_1366",
+            "translation": "Dieser Browser unterstützt keine PDFs. Bitte laden Sie das PDF <b>in einem neuen Reiter</b> herunter, um es anzuzeigen:",
+            "hash": "8b1c38"
+        },
+        {
+            "id": "survey_1311",
+            "translation": "Umfrage beenden",
+            "hash": "b043da"
+        },
+        {
+            "id": "survey_1312",
+            "translation": "Zurückkehren und Antworten bearbeiten",
+            "hash": "7503e1"
+        },
+        {
+            "id": "data_entry_199",
+            "translation": "Änderungen Speichern?",
+            "hash": "35b54c"
+        },
+        {
+            "id": "data_entry_265",
+            "translation": "Möchten Sie die Umfrage beenden? Alle Antworten, die Sie auf dieser Seite angegeben haben, werden gelöscht, wenn Sie die Umfrage jetzt beenden. WENN SIE IHRE ÄNDERUNGEN NICHT LÖSCHEN WOLLEN, klicken Sie on den Button 'Auf Seite bleiben' unten und anschliessend auf den Button 'Änderungen speichern' am Ende der Seite.",
+            "hash": "eaa888"
+        },
+        {
+            "id": "survey_01",
+            "translation": "Umfrage beenden?",
+            "hash": "c03702"
+        },
+        {
+            "id": "survey_02",
+            "translation": "Sie haben eine Option ausgewählt, die die Umfrage sofort beendet.",
+            "hash": "b1003f"
+        },
+        {
+            "id": "survey_1313",
+            "translation": "Um Ihre Antworten zu speichern und die Umfrage zu beenden, klicken Sie unten auf die Schaltfläche 'Umfrage beenden'. Wenn Sie versehentlich die falsche Option ausgewählt haben und/oder zur Umfrage zurückkehren möchten, klicken Sie auf die Schaltfläche 'Zurückkehren und Antworten bearbeiten'.",
+            "hash": "7f835f"
+        },
+        {
+            "id": "survey_14",
+            "translation": "Danke für Ihr Interesse, aber Sie sind kein Teilnehmer dieser Umfrage.",
+            "hash": "acfff2"
+        },
+        {
+            "id": "survey_997",
+            "translation": "Screenreader aktivieren",
+            "hash": "dc8ba9"
+        },
+        {
+            "id": "survey_998",
+            "translation": "Screenreader deaktivieren",
+            "hash": "4d9652"
+        },
+        {
+            "id": "survey_163",
+            "translation": "Sie haben diese Umfrage teilweise ausgefüllt.",
+            "hash": "d9d05c"
+        },
+        {
+            "id": "survey_162",
+            "translation": "Sie haben nicht die gesamte Umfrage ausgefüllt und Ihre Antworten sind daher nur teilweise komplett. Aus Sicherheitsgründen können Sie die Umfrage nicht später an der aktuellen Stelle fortsetzen. Sie haben folgende Möglichkeiten 1) lassen Sie Ihre Antworten unvollständig, wie sie sind, oder 2) beginnen Sie mit der Beantwortung der Umfrage von vorn (damit werden Ihre bisherigen Antworten gelöscht). Um von vorn zu beginnen, klicken Sie auf den unten stehenden Button.",
+            "hash": "92e393"
+        },
+        {
+            "id": "control_center_422",
+            "translation": "Nochmal beginnen",
+            "hash": "dc3c6d"
+        },
+        {
+            "id": "survey_982",
+            "translation": "ANTWORTEN LÖSCHEN? Sind Sie sicher, dass Sie die Umfrage nochmals von vorne beginnen möchten? Beachten Sie, dass diese Aktion ALLE Ihre Antworten in dieser Umfrage löschen wird.",
+            "hash": "d57147"
+        },
+        {
+            "id": "survey_1131",
+            "translation": "Diese Feld kann nicht bearbeitet werden, da sein Wert aus der Teilnehmerliste kommt.",
+            "hash": "c869b4"
+        },
+        {
+            "id": "survey_619",
+            "translation": "Geben Sie bitte Ihren Zugangscode ein, um mit der Umfrage zu beginnen.",
+            "hash": "385d32"
+        },
+        {
+            "id": "survey_642",
+            "translation": "Bitte beachten Sie, dass der Zugangscode nicht zwischen Groß- und Kleinbuchstaben unterscheidet.",
+            "hash": "a9c023"
+        },
+        {
+            "id": "survey_634",
+            "translation": "Bitte geben Sie den Zugangscode ein, den Sie erhalten haben.",
+            "hash": "99e74d"
+        },
+        {
+            "id": "survey_1359",
+            "translation": "<b>FEHLER:</b> Der eingegebene Code war nicht gültig! Bitte versuchen Sie es erneut.",
+            "hash": "5a6469"
+        },
+        {
+            "id": "data_entry_215",
+            "translation": "Speichern & Später Fortsetzen",
+            "hash": "79db09"
+        },
+        {
+            "id": "survey_118",
+            "translation": "Rückkehr-Code",
+            "hash": "c40084"
+        },
+        {
+            "id": "survey_657",
+            "translation": "Rückkehr-Code:",
+            "hash": "52b505"
+        },
+        {
+            "id": "survey_658",
+            "translation": "'Rückkehr-Code' notwendig für Rückkehr",
+            "hash": "2c57d3"
+        },
+        {
+            "id": "survey_659",
+            "translation": "Kopieren Sie den Rückkehr-Code oder notieren Sie ihn. Ohne diesen können Sie später nicht zur Umfrage zurückkehren. Sobald Sie den Code haben, klicken Sie <i>Close</i> und folgen den anderen Anweisungen auf dieser Seite.",
+            "hash": "c0e978"
+        },
+        {
+            "id": "survey_112",
+            "translation": "Ihre Umfrageantworten wurden gespeichert!",
+            "hash": "48fbf6"
+        },
+        {
+            "id": "survey_1346",
+            "translation": "Sie haben sich entschieden, die Umfrage vorerst zu beenden und zu einem späteren Zeitpunkt zurückzukehren, um sie abzuschließen. Um zu dieser Umfrage zurückzukehren, benötigen Sie sowohl den <i>Umfragelink</i> als auch Ihren <i>Rückkehrcode</i>. Siehe Anweisungen unten.",
+            "hash": "256250"
+        },
+        {
+            "id": "survey_119",
+            "translation": "Ein Rückkehr-Code wird <b>*benötigt*</b>, um die Umfrage an der aktuellen Position fortzusetzen. Bitte notieren Sie sich den unten stehenden Code.",
+            "hash": "c19fa2"
+        },
+        {
+            "id": "survey_581",
+            "translation": "Sie haben sich entschieden, die Umfrage vorerst zu beenden und zu einem späteren Zeitpunkt zurückzukehren, um sie abzuschließen. Um zu dieser Umfrage zurückzukehren, benötigen Sie den Umfragelink zu dieser Umfrage.",
+            "hash": "56e4d0"
+        },
+        {
+            "id": "survey_120",
+            "translation": "Der Rückkehr-Code wird NICHT in der unten stehenden E-Mail enthalten sein.",
+            "hash": "a2be3e"
+        },
+        {
+            "id": "data_entry_117",
+            "translation": "Code für die spätere Fortsetzung der Umfrage:",
+            "hash": "26e8b5"
+        },
+        {
+            "id": "survey_121",
+            "translation": "Umfrage-Link zur Fortsetzung der Umfrage",
+            "hash": "e5b44d"
+        },
+        {
+            "id": "survey_123",
+            "translation": "Sie können sich ein Lesezeichen für diese Umfrage anlegen ODER den Link per E-Mail zusenden lassen. Aus Sicherheitsgründen <b>enthält diese E-Mail NICHT den Rückkehr-Code</b>. Wenn Sie die E-Mail nicht umgehend erhalten, überprüfen Sie bitte Ihren Spam-Ordner.",
+            "hash": "5c7187"
+        },
+        {
+            "id": "survey_124",
+            "translation": "Umfrage-Link senden",
+            "hash": "2b1508"
+        },
+        {
+            "id": "survey_126",
+            "translation": "Wenn Sie wollen, können Sie auch jetzt mit der Umfrage fortfahren.",
+            "hash": "40a5ac"
+        },
+        {
+            "id": "survey_127",
+            "translation": "Umfrage jetzt fortsetzen",
+            "hash": "8ea502"
+        },
+        {
+            "id": "survey_1339",
+            "translation": "Ihre E-Mail-Adresse wird nicht mit Ihren Umfragebeantwortungen verknüpft oder gespeichert.",
+            "hash": "ecd8a1"
+        },
+        {
+            "id": "survey_583",
+            "translation": "Sie können sich ein Lesezeichen für diese Umfrage anlegen ODER den Link per E-Mail zusenden lassen. Wenn Sie die E-Mail nicht umgehend erhalten, überprüfen Sie bitte Ihren Spam-Ordner.",
+            "hash": "9f080d"
+        },
+        {
+            "id": "survey_1288",
+            "translation": "Email gesendet!",
+            "hash": "13bebf"
+        },
+        {
+            "id": "survey_1358",
+            "translation": "Die E-Mail wurde erfolgreich gesendet an:",
+            "hash": "f427f7"
+        },
+        {
+            "id": "survey_582",
+            "translation": "Sie haben soeben eine E-Mail erhalten, die einen Link zur Fortsetzung der Umfrage enthält. Sollten Sie die E-Mail nicht bald erhalten, überprüfen Sie bitte Ihren Spam-Ordner.",
+            "hash": "7f6e4b"
+        },
+        {
+            "id": "survey_122",
+            "translation": "Sie haben eine E-Mail mit einem Link zur Fortsetzung der Umfrage erhalten. Aus Sicherheitsgründen enthält diese E-Mail nicht den Rückkehr-Code, doch der Code ist nötig, um die Umrage fortzusetzen. Wenn Sie diese E-Mail nicht erhalten sollten, prüfen Sie bitte Ihren Spam-Ordner.",
+            "hash": "7e31b1"
+        },
+        {
+            "id": "survey_1354",
+            "translation": "Sie können in Zukunft zu dieser Umfrage zurückkehren, um Ihre Antworten zu ändern, indem Sie zur Umfrage-URL navigieren und Ihre Anmeldedaten für die Umfrage eingeben.",
+            "hash": "30a0b2"
+        },
+        {
+            "id": "survey_1355",
+            "translation": "Sie können zu dieser Umfrage in der Zukunft zurückkehren, um Ihre Antworten zu ändern, indem Sie zur Umfrage-URL navigieren und den unten stehenden Code eingeben.",
+            "hash": "ac8008"
+        },
+        {
+            "id": "survey_22",
+            "translation": "Zurückkehren?",
+            "hash": "61b800"
+        },
+        {
+            "id": "survey_1141",
+            "translation": "Klicken Sie hier um zur letzten Position in Ihrer Umfrage zurückzukehren.",
+            "hash": "5e6aa9"
+        },
+        {
+            "id": "survey_23",
+            "translation": "Dort weiter, wo Sie aufgehört haben.",
+            "hash": "64310c"
+        },
+        {
+            "id": "survey_24",
+            "translation": "Wenn Sie die Umfrage bereits zum Teil ausgefüllt haben, können Sie dort fortsetzen. Sie benötigen den Rückkehr-Code, den Sie vorher erhalten haben. Klicken Sie auf den unten stehenden Link, um den Code einzugeben und die Umfrage fortzusetzen.",
+            "hash": "b7a279"
+        },
+        {
+            "id": "survey_25",
+            "translation": "Umfrage fortsetzen",
+            "hash": "51ea04"
+        },
+        {
+            "id": "survey_661",
+            "translation": "Um mit der Umfrage weiter zu machen, geben Sie bitte den Rückkehr-Code ein, der beim Verlassen der Umfrage für Sie generiert wurde.",
+            "hash": "0473dc"
+        },
+        {
+            "id": "survey_641",
+            "translation": "Bitte beachten Sie, dass der Rückkehr-Code nicht zwischen Groß- und Kleinbuchstaben unterscheidet.",
+            "hash": "ac8d8e"
+        },
+        {
+            "id": "survey_662",
+            "translation": "Rückkehrcode übermitteln",
+            "hash": "2cb384"
+        },
+        {
+            "id": "survey_110",
+            "translation": "Alternativ können Sie, wenn Sie Ihren Code vergessen haben oder die Umfrage von vorn beginnen wollen, die Antworten löschen und von vorn beginnen.",
+            "hash": "30df1e"
+        },
+        {
+            "id": "survey_161",
+            "translation": "Der eingegeben Code ist ungültig. Bitte versuchen Sie es erneut.",
+            "hash": "46d5c9"
+        },
+        {
+            "id": "survey_663",
+            "translation": "HINWEIS: Prüfen Sie bitte, dass Sie *nicht* den Umfrage-Zugangs-Code eingeben. Dieser erlaubt es Ihnen zur Umfrage Seite zu navigieren, aber nur der Rückkehrcode erlaubt es Ihnen, Ihre Umfrage fortzusetzen, wenn Sie zuvor schon damit begonnen haben.",
+            "hash": "270206"
+        },
+        {
+            "id": "survey_674",
+            "translation": "Es tut uns leid, aber diese Antworten können nicht bearbeitet werden, da Sie von einem Nutzer gesperrt wurden. Sie können nur von einem Nutzer mit entsprechenden Berechtigungen auf dem Fragebogen entsperrt werden.",
+            "hash": "fb8f98"
+        },
+        {
+            "id": "survey_1156",
+            "translation": "Sie haben diese Umfrage nur teilweise ausgefüllt, aber Ihre Antworten wurden gesperrt.",
+            "hash": "5010ab"
+        },
+        {
+            "id": "survey_1155",
+            "translation": "Sie haben die Umfrage noch nicht vollständig ausgefüllt. Ihre Antworten gelten daher als nur teilweise vollständig. Ihre Antworten wurden aber von einem Administrator gesperrt, Sie können diese nicht vervollständigen, bevor sie entsperrt wurden. Wenn dies unerwartet passiert, kontaktieren Sie bitte Ihren Ansprechpartner für diese Umfrage.",
+            "hash": "5319bc"
+        },
+        {
+            "id": "survey_144",
+            "translation": "Link zum Fortsetzen des begonnenen Fragebogens",
+            "hash": "35585e"
+        },
+        {
+            "id": "survey_141",
+            "translation": "[Diese Nachricht wurde automatisch generiert.]",
+            "hash": "5a8ccc"
+        },
+        {
+            "id": "survey_1360",
+            "translation": "Vielen Dank, dass Sie die Umfrage '{0}' teilweise ausgefüllt haben.",
+            "hash": "b587e4"
+        },
+        {
+            "id": "survey_584",
+            "translation": "Sie können Ihre Teilnahme an dieser Umfrage fortsetzen, indem Sie auf den nachstehenden Link klicken.",
+            "hash": "3e928d"
+        },
+        {
+            "id": "survey_143",
+            "translation": "Sie können dien Fragebogen durch Klicken auf den unten stehenden Link fortsetzen. Sie benötigen dazu den Rückkehr-Code von der Umfrage-Webseite.",
+            "hash": "36c335"
+        },
+        {
+            "id": "survey_495",
+            "translation": "Wenn Sie Ihren Validierungscode erneut benötigen, wenden Sie sich bitte an den Umfrageadministrator, der Ihnen den Link zur Umfrage am Anfang gesendet hat.",
+            "hash": "b2b711"
+        },
+        {
+            "id": "survey_135",
+            "translation": "Wenn der Link oben nicht funktioniert, versuchen Sie die Adresse in Ihren Browser zu kopieren:",
+            "hash": "f85d32"
+        },
+        {
+            "id": "survey_764",
+            "translation": "Geben Sie Ihre E-Mailadresse an, um eine Bestätigungsmail zu erhalten?",
+            "hash": "50ecf9"
+        },
+        {
+            "id": "survey_765",
+            "translation": "Eine Bestätigungsmail soll an alle Teilnehmer versendet werden, die die Umfrage ausgefüllt haben. Da dem System Ihre E-Mailadresse nicht bekannt ist, kann diese Mail nicht automatisch verschickt werden. Wenn Sie diese Mail erhalten möchten, geben Sie bitte unten Ihre Adresse an.",
+            "hash": "215927"
+        },
+        {
+            "id": "survey_515",
+            "translation": "E-Mail-Adresse eingeben",
+            "hash": "122a38"
+        },
+        {
+            "id": "survey_766",
+            "translation": "Bestätigungsmail senden",
+            "hash": "0f23e1"
+        },
+        {
+            "id": "survey_181",
+            "translation": "E-Mail erfolgreich versandt!",
+            "hash": "8f3edd"
+        },
+        {
+            "id": "survey_167",
+            "translation": "Umfrageergebnisse ansehen",
+            "hash": "2d5451"
+        },
+        {
+            "id": "survey_169",
+            "translation": "Auf dieser Seite werden die zusammngefassten Ergebnisse der Umfrage in der Reihenfolge gemäß der Umfrage angezeigt.",
+            "hash": "75ce36"
+        },
+        {
+            "id": "survey_209",
+            "translation": "Grafiken:",
+            "hash": "09290a"
+        },
+        {
+            "id": "survey_1348",
+            "translation": "Bei allen Balkendiagrammen werden die Balken in {0:blau} angezeigt, und alle Auswahlmöglichkeiten, die Sie in Ihrer Umfrageantwort ausgewählt haben, werden links im Balkendiagramm mit *Asterisken* um die Beschriftung der jeweiligen Auswahl gekennzeichnet. Außerdem wird Ihre Antwort am rechten Ende des Balkens in {1:orange} angezeigt.",
+            "hash": "0ca9a8"
+        },
+        {
+            "id": "survey_1349",
+            "translation": "Bei Streudiagrammen werden die Werte der anderen Umfrageteilnehmer in {0:blau} angezeigt, der Medianwert in {1:rot} und der von Ihnen eingegebene Wert in {2:orange}.",
+            "hash": "62f7d9"
+        },
+        {
+            "id": "survey_171",
+            "translation": "blau",
+            "hash": "4c9a82"
+        },
+        {
+            "id": "survey_173",
+            "translation": "orange",
+            "hash": "ef0ebb"
+        },
+        {
+            "id": "survey_176",
+            "translation": "rot",
+            "hash": "789880"
+        },
+        {
+            "id": "survey_210",
+            "translation": "Statistiken:",
+            "hash": "55fb5b"
+        },
+        {
+            "id": "survey_211",
+            "translation": "Deskriptive Statistiken werden für alle Fragen angezeigt. Für kategoriale Fragen (Multiple Choice) wird die Anzahl der fehlenden und eindeutigen Werte angezeigt sowie die Häufigkeit jeder Antwort. Für numerische Fragen wird die Anzahl aller fehlenden und eindeutigen Werte sowie weitere nützliche Statistiken angezeigt, wie z.Bsp. Minimum, Maximum, Durchschnitt, Standardabweichung. Zudem werden auch Prozentangaben und eine Liste der fünf tiefsten und fünf höchsten Werte für die jeweilige Frage angezeigt.",
+            "hash": "4e2f7a"
+        },
+        {
+            "id": "survey_178",
+            "translation": "diese Seite per E-Mail senden",
+            "hash": "d891e4"
+        },
+        {
+            "id": "survey_179",
+            "translation": "E-Mail-Adresse:",
+            "hash": "a69fa6"
+        },
+        {
+            "id": "survey_201",
+            "translation": "<b>HINWEIS:</b> Die E-Mail an die obige Adresse wird den Ergebniscode <u>NICHT</u> enthalten. Sie müssen diesen notieren und aufbewahren.",
+            "hash": "d8d497"
+        },
+        {
+            "id": "survey_193",
+            "translation": "Wollen Sie später zu dieser Seite zurückkehren?",
+            "hash": "0ef05f"
+        },
+        {
+            "id": "survey_194",
+            "translation": "Bitte notieren Sie Ihren Ergebniscode:",
+            "hash": "3998bb"
+        },
+        {
+            "id": "survey_195",
+            "translation": "Nur mit diesem Code können Sie später zu dieser Seite zurückkehren. Bitte notieren Sie ihn jetzt.",
+            "hash": "a02a31"
+        },
+        {
+            "id": "survey_196",
+            "translation": "<b>FEHLER:</b><br>Der eingegebene Code entspricht nicht dem Code, den Sie ursprünglich erhalten haben.",
+            "hash": "541db8"
+        },
+        {
+            "id": "locking_25",
+            "translation": "Bitte versuchen Sie es erneut.",
+            "hash": "83a6fd"
+        },
+        {
+            "id": "survey_197",
+            "translation": "Wollen Sie sich die alle Antworten nochmals ansehen?",
+            "hash": "e6458e"
+        },
+        {
+            "id": "survey_198",
+            "translation": "Geben Sie den Ergebniscode ein:",
+            "hash": "510929"
+        },
+        {
+            "id": "survey_199",
+            "translation": "Wenn Sie den Ergebniscode eingeben, den Sie nach der Umfrage erhalten haben, können Sie sich die Ergbnisse der Umfrage ansehen. Ohne diesen Code ist es nicht möglich, sich die Ergebnisse anzusehen.",
+            "hash": "ec348d"
+        },
+        {
+            "id": "survey_168",
+            "translation": "Leider können die Umfrageergebnisse noch nicht angezeigt werden, da die Mindestanzahl an Antworten noch nicht erreicht wurde. Bitte versuchen Sie es später erneut. <b>WICHTIG:</b> Stellen Sie sicher, dass Sie Ihren Umfrageergebniscode notieren, bevor Sie diese Seite verlassen.",
+            "hash": "002877"
+        },
+        {
+            "id": "survey_505",
+            "translation": "Umfrage-Liste",
+            "hash": "f160e5"
+        },
+        {
+            "id": "survey_509",
+            "translation": "Umfrage-Liste schließen",
+            "hash": "6c8dc3"
+        },
+        {
+            "id": "dataqueries_23",
+            "translation": "Status",
+            "hash": "bae7d5"
+        },
+        {
+            "id": "survey_49",
+            "translation": "Umfragetitel",
+            "hash": "3ac013"
+        },
+        {
+            "id": "survey_507",
+            "translation": "Beantwortet",
+            "hash": "1798b3"
+        },
+        {
+            "id": "survey_511",
+            "translation": "Um die nächste Umfrage zu beginnen, klicken Sie auf den Button 'Umfrage starten' neben dem Titel.",
+            "hash": "25e39d"
+        },
+        {
+            "id": "survey_504",
+            "translation": "Umfrage starten",
+            "hash": "11eda4"
+        },
+        {
+            "id": "data_entry_174",
+            "translation": "Antwort bearbeiten",
+            "hash": "ef35ba"
+        },
+        {
+            "id": "survey_1090",
+            "translation": "Diesen Fragebogen erneut ausfüllen",
+            "hash": "d505da"
+        },
+        {
+            "id": "survey_506",
+            "translation": "Unten stehend finden Sie Ihren Umfrage-Liste, darin werden alle Umfragen aufgelistet, die Sie noch nicht fertiggestellt haben.",
+            "hash": "1658ff"
+        },
+        {
+            "id": "survey_508",
+            "translation": "Vielen Dank für Ihr Interesse, aber dieser Link zur Umfrage-Liste ist ungültig.",
+            "hash": "02af19"
+        },
+        {
+            "id": "survey_1352",
+            "translation": "{0} Umfragen abgeschlossen!",
+            "hash": "6ee2c9"
+        },
+        {
+            "id": "survey_536",
+            "translation": "Alle Umfragen in Ihrer Liste wurden ausgefüllt!",
+            "hash": "9c5466"
+        },
+        {
+            "id": "survey_535",
+            "translation": "(zeige alle)",
+            "hash": "5a816a"
+        },
+        {
+            "id": "survey_512",
+            "translation": "Link zur Umfrage-Liste",
+            "hash": "fb0e6a"
+        },
+        {
+            "id": "survey_510",
+            "translation": "Link zu meiner Umfrage-Liste erhalten",
+            "hash": "1f0c91"
+        },
+        {
+            "id": "survey_516",
+            "translation": "Um Ihren Link für die Umfrage-Liste für eine spätere Rückkehr zu erhalten, können Sie ihn unten kopieren oder sich per E-Mail zusenden lassen.",
+            "hash": "b1d7ab"
+        },
+        {
+            "id": "survey_513",
+            "translation": "Link zur Umfrage-Liste kopieren und einfügen",
+            "hash": "715389"
+        },
+        {
+            "id": "global_46",
+            "translation": "ODER",
+            "hash": "f579c5"
+        },
+        {
+            "id": "survey_514",
+            "translation": "Den Link zur Umfrage-Liste per E-Mail per Mail senden",
+            "hash": "6581a6"
+        },
+        {
+            "id": "survey_524",
+            "translation": "E-MAIL GESENDET!",
+            "hash": "36a01c"
+        },
+        {
+            "id": "survey_1351",
+            "translation": "Ihre E-Mail wurde erfolgreich an {0} gesendet.",
+            "hash": "61cda3"
+        },
+        {
+            "id": "survey_522",
+            "translation": "Bitte geben Sie Ihre E-Mail-Adresse an",
+            "hash": "23b838"
+        },
+        {
+            "id": "survey_180",
+            "translation": "Senden",
+            "hash": "9bc257"
+        },
+        {
+            "id": "survey_523",
+            "translation": "Ihr Link zur Umfrage-Liste",
+            "hash": "d073c0"
+        },
+        {
+            "id": "survey_520",
+            "translation": "Bitte folgen Sie diesem Link zur Umfrage-Liste, um Ihre Umfragen zu vervollständigen.",
+            "hash": "1b3f52"
+        },
+        {
+            "id": "data_entry_522",
+            "translation": "Die Beantwortung wurde am {0} abgeschlossen.",
+            "hash": "0a58db"
+        },
+        {
+            "id": "data_entry_523",
+            "translation": "Die Beantwortung wurde am {0} von {1} abgeschlossen.",
+            "hash": "84608b"
+        },
+        {
+            "id": "data_entry_524",
+            "translation": "Antwort wurde am {0} hinzugefügt.",
+            "hash": "bb3eb2"
+        },
+        {
+            "id": "data_entry_525",
+            "translation": "Antwort wurde am {0} von {1} hinzugefügt.",
+            "hash": "74797d"
+        },
+        {
+            "id": "data_entry_427",
+            "translation": "HINWEIS: Eine Änderung dieses Wertes ändert auch den Wert in allen zugehörigen Instanzen dieses Feldes in anderen Events oder wiederholten Instanzen, in denen das Instrument vewendet wird.",
+            "hash": "d243ef"
+        },
+        {
+            "id": "form_renderer_18",
+            "translation": "Sperren",
+            "hash": "891ebc"
+        },
+        {
+            "id": "data_entry_493",
+            "translation": "Dieses Instrument sperren?",
+            "hash": "9b548f"
+        },
+        {
+            "id": "data_entry_494",
+            "translation": "Wenn gesperrt, kann kein Benutzer dieses Instrument für diesen Datensatz ändern, bis ihn jemand mit der entsprechenden Berechtigung wieder entsperrt.",
+            "hash": "7b10aa"
+        },
+        {
+            "id": "data_entry_182",
+            "translation": "Fragebogen entsperren",
+            "hash": "7e7a53"
+        },
+        {
+            "id": "form_renderer_42",
+            "translation": "<b>Gesperrt von {0}</b> ({1}) am {2}",
+            "hash": "d23527"
+        },
+        {
+            "id": "form_renderer_55",
+            "translation": "<b>Instrument gesperrt von {0}</b> ({1}) am {2}",
+            "hash": "b4b65a"
+        },
+        {
+            "id": "form_renderer_56",
+            "translation": "Das Instrument '{0}' wurde gesperrt für Datensatz '{1}'.",
+            "hash": "5bd7c9"
+        },
+        {
+            "id": "form_renderer_40",
+            "translation": "Wenn Sie über die Berechtigung zum Sperren/Entsperren auf Instrument-Ebene verfügen, können Sie dieses Instrument unten auf der Seite entsperren.",
+            "hash": "f64893"
+        },
+        {
+            "id": "bottom_110",
+            "translation": "Gesamten Datensatz sperren",
+            "hash": "c8a860"
+        },
+        {
+            "id": "bottom_111",
+            "translation": "Gesamten Datensatz entsperren",
+            "hash": "69fd91"
+        },
+        {
+            "id": "form_renderer_62",
+            "translation": "E-signiert von {0} am {1}",
+            "hash": "948d5f"
+        },
+        {
+            "id": "data_entry_249",
+            "translation": "Auto-Scoring Instrument",
+            "hash": "99a270"
+        },
+        {
+            "id": "data_entry_250",
+            "translation": "Dieses Instrument ist ein Auto-Scoring-Instrument. Es kann nur als Umfrage ausgefüllt werden. Daher sind alle Felder unten permanent gesperrt und können nicht geändert werden.",
+            "hash": "5f39e7"
+        },
+        {
+            "id": "data_entry_520",
+            "translation": "Da dieser Datensatz noch nicht erstellt wurde, müssen Sie die Seite {0} besuchen, um dieses automatische Bewertungsinstrument im Umfragemodus zu starten.",
+            "hash": "a144d2"
+        },
+        {
+            "id": "data_entry_217",
+            "translation": "Adaptives Instrument",
+            "hash": "ca76d1"
+        },
+        {
+            "id": "data_entry_218",
+            "translation": "Dieses Instrument ist ein Computer-Adaptive-Test (CAT). Seine Fragen werden also anhand der gegebenen Antworten dynamisch generiert. Da er dynamisch ist, kann er nur in der Form einer Umfrage ausgefüllt werden. Daher sind alle Felder unten permanent gesperrt und können nicht geändert werden.",
+            "hash": "0a8ff0"
+        },
+        {
+            "id": "data_entry_521",
+            "translation": "Da dieser Datensatz noch nicht erstellt wurde, müssen Sie die Seite {0} besuchen, um dieses adaptive Instrument im Umfragemodus zu starten.",
+            "hash": "1fe1ec"
+        },
+        {
+            "id": "form_renderer_21",
+            "translation": "Gleichung ansehen",
+            "hash": "4577fb"
+        },
+        {
+            "id": "data_entry_263",
+            "translation": "Beachten Sie, dass, obwohl der eingegebene Wert verschleiert und daher nicht lesbar ist, wird er ausserhalb dieser Seite (z.B. in einem Bericht oder einem Datenexport) den Umfrage-Administratoren angezeigt.",
+            "hash": "9aac6b"
+        },
+        {
+            "id": "survey_413",
+            "translation": "Status der Einladungen:",
+            "hash": "9d6446"
+        },
+        {
+            "id": "survey_1361",
+            "translation": "Geplant zum Versenden am {0}",
+            "hash": "648143"
+        },
+        {
+            "id": "survey_1362",
+            "translation": "Wurde um {0} versandt",
+            "hash": "2fb56d"
+        },
+        {
+            "id": "survey_1363",
+            "translation": "Einladung konnte nicht versendet werden (ursprünglich geplant für {0})",
+            "hash": "577519"
+        },
+        {
+            "id": "survey_649",
+            "translation": "Optionen für die Umfrage",
+            "hash": "fd770a"
+        },
+        {
+            "id": "survey_220",
+            "translation": "Umfrage öffnen",
+            "hash": "7a5cbb"
+        },
+        {
+            "id": "bottom_02",
+            "translation": "Abmelden",
+            "hash": "6e78c9"
+        },
+        {
+            "id": "survey_278",
+            "translation": "Umfrageeinladung erstellen",
+            "hash": "005ada"
+        },
+        {
+            "id": "survey_628",
+            "translation": "Zugangscode zur Umfrage",
+            "hash": "ff0255"
+        },
+        {
+            "id": "survey_664",
+            "translation": "QR-Code",
+            "hash": "447421"
+        },
+        {
+            "id": "data_entry_181",
+            "translation": "Datenhistorie anzeigen",
+            "hash": "41589d"
+        },
+        {
+            "id": "dataqueries_145",
+            "translation": "Feldkommentare anzeigen",
+            "hash": "b475d2"
+        },
+        {
+            "id": "survey_412",
+            "translation": "Bisher keine Einladungen versandt",
+            "hash": "bb016e"
+        },
+        {
+            "id": "data_entry_503",
+            "translation": "Um den Datensatz umzubenennen, sehen Sie sich das Dropdown-Menü für die Datensatzaktion oben in der {0} an.",
+            "hash": "f780f5"
+        },
+        {
+            "id": "grid_42",
+            "translation": "Datensatz Startseite",
+            "hash": "c48588"
+        },
+        {
+            "id": "data_entry_148",
+            "translation": "Umfrageantworten können bearbeitet werden",
+            "hash": "e2dbda"
+        },
+        {
+            "id": "data_entry_149",
+            "translation": "Sie haben die Berechtigung, diese Umfrageantworten zu ändern.",
+            "hash": "a6e560"
+        },
+        {
+            "id": "data_entry_150",
+            "translation": "(in Bearbeitung)",
+            "hash": "b23060"
+        },
+        {
+            "id": "survey_1350",
+            "translation": "Alle Mitwirkenden an diesen Antworten anzeigen.",
+            "hash": "aef77e"
+        },
+        {
+            "id": "grid_54",
+            "translation": "Datensatz {0} gehört zu einer anderen Datenzugriffsgruppe",
+            "hash": "c57f8d"
+        },
+        {
+            "id": "grid_14",
+            "translation": "Sie können diesen Datenbankeintrag nicht aufrufen, da er bereits von einer anderen Zugriffsgruppe genutzt wird. Sie müssen einen andern Datensatz verwenden, wenn Sie einen neuen Projekt-Datensatz anlegen wollen.",
+            "hash": "8bcbee"
+        },
+        {
+            "id": "grid_15",
+            "translation": "Zurück zur vorherigen Seite",
+            "hash": "8fe09b"
+        },
+        {
+            "id": "grid_55",
+            "translation": "<b>Record {0} ist ein neuer {1}.</b> Um den Record zu erstellen und Daten einzugeben, klicken Sie auf eines der grauen Status-Icons unten.",
+            "hash": "57e050"
+        },
+        {
+            "id": "data_entry_151",
+            "translation": "Um die Umfrageantworten zu bearbeiten, klicken Sie bitte auf den Button 'Antworten bearbeiten' Button.",
+            "hash": "697672"
+        },
+        {
+            "id": "data_entry_572",
+            "translation": "Antworten wurden ursprünglich am {0} begonnen.",
+            "hash": "73ef16"
+        },
+        {
+            "id": "data_entry_573",
+            "translation": "(Es ist nicht bekannt, wann die Antworten ursprünglich begonnen wurden.)",
+            "hash": "038a5c"
+        },
+        {
+            "id": "data_entry_574",
+            "translation": "Die Gesamtzeit für die Antworten beträgt {0}.",
+            "hash": "9deae7"
+        },
+        {
+            "id": "control_center_4469",
+            "translation": "Sekunden",
+            "hash": "7febce"
+        },
+        {
+            "id": "survey_428",
+            "translation": "Minuten",
+            "hash": "be2e2b"
+        },
+        {
+            "id": "survey_427",
+            "translation": "Stunden",
+            "hash": "5aedee"
+        },
+        {
+            "id": "survey_426",
+            "translation": "Tage",
+            "hash": "5548ae"
+        },
+        {
+            "id": "bottom_47",
+            "translation": "Datenerhebung",
+            "hash": "0a60a9"
+        },
+        {
+            "id": "app_24",
+            "translation": "Tools zur Verteilung von Umfragen",
+            "hash": "667617"
+        },
+        {
+            "id": "invite_participants_01",
+            "translation": "Erstellen Sie einen öffentlichen Link zur Umfrage oder geben Sie eine Teilnehmerliste für den Versand der Einladungen an.",
+            "hash": "2d8932"
+        },
+        {
+            "id": "global_91",
+            "translation": "Status-Übersicht zum Datensatz",
+            "hash": "1f7848"
+        },
+        {
+            "id": "bottom_60",
+            "translation": "Status aller Datensätze anzeigen",
+            "hash": "316615"
+        },
+        {
+            "id": "bottom_62",
+            "translation": "Hinzufügen / Bearbeiten von Datensätzen",
+            "hash": "934eff"
+        },
+        {
+            "id": "bottom_64",
+            "translation": "Neue Datensätze anlegen oder vorhandene bearbeiten / anzeigen",
+            "hash": "83e13c"
+        },
+        {
+            "id": "bottom_72",
+            "translation": "Datensätze anzeigen / bearbeiten",
+            "hash": "53753c"
+        },
+        {
+            "id": "bottom_73",
+            "translation": "Vorhandene Datensätze anzeigen oder bearbeiten",
+            "hash": "87a3a8"
+        },
+        {
+            "id": "bottom_63",
+            "translation": "Anderen Datensatz wählen",
+            "hash": "f78160"
+        },
+        {
+            "id": "global_238",
+            "translation": "Datenerhebungsinstrumente:",
+            "hash": "ff259d"
+        },
+        {
+            "id": "bottom_23",
+            "translation": "Event:",
+            "hash": "e1d187"
+        },
+        {
+            "id": "edit_project_29",
+            "translation": "Aktionen:",
+            "hash": "3894e5"
+        },
+        {
+            "id": "data_entry_202",
+            "translation": "Instrument anpassen",
+            "hash": "7659a1"
+        },
+        {
+            "id": "data_export_tool_158",
+            "translation": "PDF des Instruments herunterladen",
+            "hash": "ba476a"
+        },
+        {
+            "id": "data_entry_542",
+            "translation": "Dieser Fragebogen (leer)",
+            "hash": "e8a289"
+        },
+        {
+            "id": "data_entry_543",
+            "translation": "Diese Umfrage (leer)",
+            "hash": "07d591"
+        },
+        {
+            "id": "data_entry_544",
+            "translation": "Dieser Fragebogen mit gespeicherten Daten",
+            "hash": "307b85"
+        },
+        {
+            "id": "data_entry_545",
+            "translation": "Diese Umfrage mit gespeicherten Daten",
+            "hash": "b9530c"
+        },
+        {
+            "id": "data_entry_546",
+            "translation": "Dieser Fragebogen mit gespeicherten Daten (über <i>Als PDF speichern</i> im Browser)",
+            "hash": "5d543d"
+        },
+        {
+            "id": "data_entry_547",
+            "translation": "Diese Umfrage mit gespeicherten Daten (über <i>Als PDF speichern</i> im Browser)",
+            "hash": "381077"
+        },
+        {
+            "id": "data_entry_548",
+            "translation": "Dieser Fragebogen mit gespeicherten Daten (kompakt)",
+            "hash": "422be2"
+        },
+        {
+            "id": "data_entry_549",
+            "translation": "Diese Umfrage mit gespeicherten Daten (kompakt)",
+            "hash": "ce1730"
+        },
+        {
+            "id": "data_entry_556",
+            "translation": "Diese Umfrage mit gespeicherten Daten (für Umfrageteilnehmer)",
+            "hash": "6218a0"
+        },
+        {
+            "id": "data_entry_550",
+            "translation": "Alle Fragebögen (leer)",
+            "hash": "932c7b"
+        },
+        {
+            "id": "data_entry_551",
+            "translation": "Alle Fragebögen/Umfragen (leer)",
+            "hash": "768068"
+        },
+        {
+            "id": "data_entry_552",
+            "translation": "Alle Fragebögen mit gespeicherten Daten",
+            "hash": "65ee11"
+        },
+        {
+            "id": "data_entry_553",
+            "translation": "Alle Fragebögen/Umfragen mit gespeicherten Daten",
+            "hash": "b94d13"
+        },
+        {
+            "id": "data_entry_554",
+            "translation": "Alle Fragebögen mit gespeicherten Daten (kompakt)",
+            "hash": "9fc8cc"
+        },
+        {
+            "id": "data_entry_555",
+            "translation": "Alle Fragebögen/Umfragen mit gespeicherten Daten (kompakt)",
+            "hash": "ce638d"
+        },
+        {
+            "id": "data_entry_557",
+            "translation": "Video: Normale Dateneingabe",
+            "hash": "990a7a"
+        },
+        {
+            "id": "data_entry_558",
+            "translation": "Überblick der einfachen Dateneingabe",
+            "hash": "b579a5"
+        },
+        {
+            "id": "grid_51",
+            "translation": "Datensatzaktionen",
+            "hash": "104896"
+        },
+        {
+            "id": "data_entry_315",
+            "translation": "ZIP-Datei mit allen hochgeladenen Dokumenten herunterladen",
+            "hash": "535390"
+        },
+        {
+            "id": "data_entry_313",
+            "translation": "PDF mit allen Daten des Records für alle Instrumente herunterladen",
+            "hash": "34c34b"
+        },
+        {
+            "id": "data_entry_314",
+            "translation": "PDF mit allen Daten des Records für alle Instrumente/Events herunterladen",
+            "hash": "485582"
+        },
+        {
+            "id": "data_entry_425",
+            "translation": "(kompakt)",
+            "hash": "6c4b13"
+        },
+        {
+            "id": "data_entry_323",
+            "translation": "Einer Zugriffsgruppe zuweisen",
+            "hash": "46c669"
+        },
+        {
+            "id": "data_entry_564",
+            "translation": "Einer Datenzugriffsgruppe zuweisen (oder die Zuweisung aufheben/neu zuweisen)",
+            "hash": "c36a02"
+        },
+        {
+            "id": "data_entry_316",
+            "translation": "Datensatz umbenennen",
+            "hash": "1b01cc"
+        },
+        {
+            "id": "data_entry_288",
+            "translation": "Speichern & Fragebogen verlassen",
+            "hash": "8b207f"
+        },
+        {
+            "id": "data_entry_289",
+            "translation": "Speichern & ...",
+            "hash": "3f18ca"
+        },
+        {
+            "id": "data_entry_292",
+            "translation": "Speichern & bleiben",
+            "hash": "2a7005"
+        },
+        {
+            "id": "data_entry_210",
+            "translation": "Speichern & zum nächsten Fragebogen",
+            "hash": "881c48"
+        },
+        {
+            "id": "data_entry_275",
+            "translation": "Speichern & neue Instanz",
+            "hash": "a1fa09"
+        },
+        {
+            "id": "data_entry_276",
+            "translation": "Speichern & zur nächsten Instanz",
+            "hash": "660eca"
+        },
+        {
+            "id": "data_entry_409",
+            "translation": "Speichern & Datensatz verlassen",
+            "hash": "0dfda4"
+        },
+        {
+            "id": "data_entry_410",
+            "translation": "Speichern & zum nächsten Datensatz",
+            "hash": "9cd1d5"
+        },
+        {
+            "id": "data_entry_212",
+            "translation": "Speichern & Fragebogen als vollständig markieren",
+            "hash": "4da907"
+        },
+        {
+            "id": "data_entry_287",
+            "translation": "Mehr Optionen zum Speichern",
+            "hash": "56e133"
+        },
+        {
+            "id": "data_entry_291",
+            "translation": "Klicken Sie den Abwärtspfeil für weitere Optionen zum Speichern.",
+            "hash": "64b6fc"
+        },
+        {
+            "id": "data_entry_290",
+            "translation": "Die gewählte Option für diesen Button wird für Sie zum Standard in diesem Projekt.",
+            "hash": "98c4f5"
+        },
+        {
+            "id": "data_entry_266",
+            "translation": "Entschuldigen Sie, aber dieses Formular beinhaltet ein oder mehrere randomisierte Felder. Da dieser Datensatz bereits randomisiert wurde, ist es Ihnen NICHT erlaubt, alle Daten in diesem Formular zu löschen.",
+            "hash": "9a37bd"
+        },
+        {
+            "id": "data_entry_243",
+            "translation": "Sind Sie sicher, dass Sie die Daten DIESES INSTRUMENTS für DIESES EVENT für diesen Datensatz ENDGÜLTIG löschen wollen?",
+            "hash": "1504ab"
+        },
+        {
+            "id": "data_entry_239",
+            "translation": "Sind Sie sicher, dass Sie die Daten DIESES INSTRUMENTS für diesen Datensatz ENDGÜLTIG löschen wollen?",
+            "hash": "4d34ae"
+        },
+        {
+            "id": "data_entry_241",
+            "translation": "Der Status dieser Umfrageantwort wird auf 'unvollständig' zurückgesetzt, so als wäre sie nie beantwortet worden.",
+            "hash": "077957"
+        },
+        {
+            "id": "data_entry_559",
+            "translation": "HINWEIS: Dies gilt nur für die aktuelle Wiederholungsinstanz dieses Formulars, d. h. die Instanz <b>{0}</b>.",
+            "hash": "8d73db"
+        },
+        {
+            "id": "data_entry_190",
+            "translation": "Dieser Vorgang ist endgültig und kann NICHT RÜCKGÄNGIG GEMACHT WERDEN.",
+            "hash": "b26bbd"
+        },
+        {
+            "id": "data_entry_234",
+            "translation": "Nur die Daten DIESES FRAGEBOGENS löschen",
+            "hash": "02eaec"
+        },
+        {
+            "id": "data_entry_560",
+            "translation": "HINWEIS: Um den gesamten Record (alle Formulare/Events) zu löschen, nutzen Sie das Dropdown-Menü mit weiteren Record-Aktionen oben im Fenster {0:LinkToRecordHomePage}.",
+            "hash": "582020"
+        },
+        {
+            "id": "data_entry_561",
+            "translation": "Um alle Daten nur dieses Events zu löschen, sehen Sie die unterste Zeile der Statustabelle auf der Seite {0:LinkToRecordHomePage} an.",
+            "hash": "893055"
+        },
+        {
+            "id": "data_entry_235",
+            "translation": "Löschen der Daten DIESERS EVENTS",
+            "hash": "eecd25"
+        },
+        {
+            "id": "data_entry_507",
+            "translation": "Bestehenden {0:RecordID-Label} <b>{1:RecordID}</b> bearbeiten.",
+            "hash": "43ddb3"
+        },
+        {
+            "id": "data_entry_508",
+            "translation": "Neuen {0:RecordID-Label} <b>{1:RecordID}</b> hinzufügen.",
+            "hash": "43e289"
+        },
+        {
+            "id": "data_entry_509",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> erfolgreich geändert.",
+            "hash": "a6596f"
+        },
+        {
+            "id": "data_entry_510",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> erfolgreich hinzugefügt.",
+            "hash": "61b0c3"
+        },
+        {
+            "id": "data_entry_511",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> erfolgreich gelöscht.",
+            "hash": "96a35b"
+        },
+        {
+            "id": "data_entry_512",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> Eingabe abgebrochen - nicht gespeichert.",
+            "hash": "68cbde"
+        },
+        {
+            "id": "data_entry_513",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> wurde erfolgreich umbenannt!",
+            "hash": "084720"
+        },
+        {
+            "id": "data_entry_514",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> wurde erfolgreich einer Zugriffsgruppe zugewiesen!",
+            "hash": "4aac6d"
+        },
+        {
+            "id": "data_entry_515",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> wurde erfolgreich aus einer Zugriffsgruppe entfernt!",
+            "hash": "7afeed"
+        },
+        {
+            "id": "data_entry_516",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> Daten des gesamten Events erfolgreich gelöscht.",
+            "hash": "9c87d7"
+        },
+        {
+            "id": "data_entry_517",
+            "translation": "{0:RecordID-Label} <b>{1:RecordID}</b> {2:Instance} erfolgreich bearbeitet<br/><b>aber {3:RecordID-Label} konnte nicht geändert werden, da es bereits existiert</b>.",
+            "hash": "c80625"
+        },
+        {
+            "id": "missing_data_mdc_ni",
+            "translation": "No information",
+            "hash": "c2b552"
+        },
+        {
+            "id": "missing_data_mdc_inv",
+            "translation": "Invalid",
+            "hash": "54e07a"
+        },
+        {
+            "id": "missing_data_mdc_unk",
+            "translation": "Unknown",
+            "hash": "bc7819"
+        },
+        {
+            "id": "missing_data_mdc_nask",
+            "translation": "Not asked",
+            "hash": "4b8b02"
+        },
+        {
+            "id": "missing_data_mdc_asku",
+            "translation": "Asked but unknown",
+            "hash": "118cf0"
+        },
+        {
+            "id": "missing_data_mdc_nav",
+            "translation": "Temprarily unavailable",
+            "hash": "88f0e1"
+        },
+        {
+            "id": "missing_data_mdc_msk",
+            "translation": "Masked",
+            "hash": "3c7ede"
+        },
+        {
+            "id": "missing_data_mdc_na",
+            "translation": "Not applicable",
+            "hash": "67c4d0"
+        },
+        {
+            "id": "missing_data_mdc_navu",
+            "translation": "Not available",
+            "hash": "d1a17a"
+        },
+        {
+            "id": "missing_data_mdc_np",
+            "translation": "Not present",
+            "hash": "c5ddd9"
+        },
+        {
+            "id": "missing_data_mdc_qs",
+            "translation": "Sufficient quantity",
+            "hash": "cb3390"
+        },
+        {
+            "id": "missing_data_mdc_qi",
+            "translation": "Insufficient quantity",
+            "hash": "8f2ec7"
+        },
+        {
+            "id": "missing_data_mdc_trc",
+            "translation": "Trace",
+            "hash": "2f3816"
+        },
+        {
+            "id": "missing_data_mdc_unc",
+            "translation": "Unencoded",
+            "hash": "98b63d"
+        },
+        {
+            "id": "missing_data_mdc_der",
+            "translation": "Derived",
+            "hash": "051996"
+        },
+        {
+            "id": "missing_data_mdc_pinf",
+            "translation": "Positive infinity",
+            "hash": "d3d1ce"
+        },
+        {
+            "id": "missing_data_mdc_ninf",
+            "translation": "Negative infinity",
+            "hash": "075388"
+        },
+        {
+            "id": "missing_data_mdc_oth",
+            "translation": "Andere",
+            "hash": "6e6a6f"
+        },
+        {
+            "id": "missing_data_04",
+            "translation": "Codes für fehlende Daten",
+            "hash": "38e111"
+        },
+        {
+            "id": "missing_data_03",
+            "translation": "Markiere Feld als fehlend",
+            "hash": "1c1e2f"
+        },
+        {
+            "id": "missing_data_01",
+            "translation": "Markiere Feld als:",
+            "hash": "639986"
+        },
+        {
+            "id": "missing_data_02",
+            "translation": "[Wert löschen]",
+            "hash": "584df6"
+        },
+        {
+            "id": "config_functions_52",
+            "translation": "Der von Ihnen angegebene Wert ist keine Zahl. Bitte versuchen Sie es erneut.",
+            "hash": "0e65e0"
+        },
+        {
+            "id": "config_functions_53",
+            "translation": "Der von Ihnen angegebene Wert ist keine ganze Zahl. Bitte versuchen Sie es erneut.",
+            "hash": "1a879d"
+        },
+        {
+            "id": "config_functions_54",
+            "translation": "Der angegebene Wert ist keine gültige 'Vanderbilt Medical Record Number' (i.e. 4- to 9-digit number, excluding leading zeros). Bitte versuchen Sie es erneut.",
+            "hash": "fb953e"
+        },
+        {
+            "id": "config_functions_55",
+            "translation": "Der in diesem Feld eingegebene Wert muss ein Datum sein. Sie haben verschiedene mögliche Formate zur Auswahl (z.B. YYYY-MM-DD oder MM/DD/YYYY), aber der Wert muss ein reales Datum darstellen. Bitte versuchen Sie es erneut.",
+            "hash": "99e522"
+        },
+        {
+            "id": "config_functions_56",
+            "translation": "Der eingegebene Wert muss innerhalb des angegebenen Bereichs liegen.",
+            "hash": "35affc"
+        },
+        {
+            "id": "config_functions_57",
+            "translation": "Der eingegebene Wert ist ausserhalb des angegebenen Bereichs.",
+            "hash": "3960ea"
+        },
+        {
+            "id": "config_functions_58",
+            "translation": "Dieser Wert ist zulässig, aber Sie müssen Ihn bestätigen.",
+            "hash": "fd01a9"
+        },
+        {
+            "id": "config_functions_59",
+            "translation": "Der eingegebene Wert muss eine Zeitangabe im folgenden Format sein SS:MM innerhalb der Zeitspanne 00:00-23:59 (z.B. 04:32 or 23:19).",
+            "hash": "f54866"
+        },
+        {
+            "id": "config_functions_60",
+            "translation": "Dieses Feld muss ein 5- oder 9-stelliger U.S. ZIP Code (wie 94043) sein. Bitte geben Sie ihn erneut ein.",
+            "hash": "5a15be"
+        },
+        {
+            "id": "config_functions_61",
+            "translation": "Dieses Feld muss eine 10 stellige U.S. Telefonnummer (wie 415 555 1212) sein. Bitte geben Sie sie erneut ein.",
+            "hash": "b9031b"
+        },
+        {
+            "id": "config_functions_62",
+            "translation": "Dieses Feld muss eine gültige E-Mailadresse (hansmuster@beispiel.ch) sein. Bitte geben Sie sie erneut ein.",
+            "hash": "3444f5"
+        },
+        {
+            "id": "config_functions_77",
+            "translation": "Der von Ihnen angegebene Wert konnte nicht überprüft werden, da er nicht dem erwarteten Format entspricht. Bitte versuchen Sie es erneut.",
+            "hash": "c2e7e7"
+        },
+        {
+            "id": "config_functions_94",
+            "translation": "Erforderliches Format:",
+            "hash": "1681fd"
+        },
+        {
+            "id": "data_entry_433",
+            "translation": "Dieser Feldwert enthält Leerzeichen am Anfang oder Ende. Möchten Sie diese entfernen?",
+            "hash": "0a0425"
+        },
+        {
+            "id": "data_entry_529",
+            "translation": "HINWEIS: Einige Felder sind Pflichtfelder!",
+            "hash": "96c146"
+        },
+        {
+            "id": "data_entry_72",
+            "translation": "Ihre Daten wurden erfolgreich gespeichert, aber Sie haben nicht für alle Pflichtfelder Daten eingegeben. Bitte geben Sie für alle unten stehenden Fragen Werte ein.",
+            "hash": "eda97c"
+        },
+        {
+            "id": "data_entry_73",
+            "translation": "Daten eingeben für...",
+            "hash": "9e5889"
+        },
+        {
+            "id": "data_entry_74",
+            "translation": "Ignorieren und zum nächsten Fragebogen",
+            "hash": "2278b3"
+        },
+        {
+            "id": "data_entry_76",
+            "translation": "Ignorieren und Eintrag verlassen",
+            "hash": "cec648"
+        },
+        {
+            "id": "design_401",
+            "translation": "Okay",
+            "hash": "d54455"
+        },
+        {
+            "id": "data_entry_423",
+            "translation": "Die unten aufgeführten Felder beinhalteten Werte, doch leider wurde die maximale Anzahl von Antworten, die in den von Ihnen gewählten Feldern eingegeben werden können, bereits erreicht. Bitte beachten Sie dass <b>Ihre Auswahl in den unten stehenden Feldern *NICHT GESPEICHERT* wurden.</b> Wenn Sie für jene Felder eine andere Auswahl treffen möchten, können Sie das tun. Übermitteln Sie anschliessend die Seite nochmals.",
+            "hash": "863467"
+        },
+        {
+            "id": "data_entry_424",
+            "translation": "Felder, für die die maximale Anzahl an Antworten erreicht wurde:",
+            "hash": "2daa2e"
+        },
+        {
+            "id": "data_entry_271",
+            "translation": "Die unten aufgeführten Felder beinhalten Werte, die nicht gültig sind. Bitte beachten Sie, dass <b>die ungültigen Werte *NICHT GESPEICHERT* wurden.</b> Wenn Sie für diese Felder korrekte Werte speichern möchten, können Sie das jetzt tun. Übermitteln Sie anschliessend die Seite nochmals.",
+            "hash": "b9a5f6"
+        },
+        {
+            "id": "data_entry_272",
+            "translation": "Felder mit ungültigen Werten:",
+            "hash": "289307"
+        },
+        {
+            "id": "data_entry_530",
+            "translation": "WARNUNG: Ungültige Werte eingegeben!",
+            "hash": "2e8246"
+        },
+        {
+            "id": "data_entry_421",
+            "translation": "Kann nicht gewählt werden! Maximale Anzahl an Auswahloptionen wurde bereits gewählt.",
+            "hash": "b372be"
+        },
+        {
+            "id": "_valtype_alpha_only",
+            "translation": "",
+            "hash": "fff613"
+        },
+        {
+            "id": "_valtype_date_dmy",
+            "translation": "",
+            "hash": "e3482b"
+        },
+        {
+            "id": "_valtype_date_mdy",
+            "translation": "",
+            "hash": "83ef82"
+        },
+        {
+            "id": "_valtype_date_ymd",
+            "translation": "",
+            "hash": "b02810"
+        },
+        {
+            "id": "_valtype_datetime_dmy",
+            "translation": "",
+            "hash": "120439"
+        },
+        {
+            "id": "_valtype_datetime_mdy",
+            "translation": "",
+            "hash": "aec1c3"
+        },
+        {
+            "id": "_valtype_datetime_seconds_dmy",
+            "translation": "",
+            "hash": "eb5ede"
+        },
+        {
+            "id": "_valtype_datetime_seconds_mdy",
+            "translation": "",
+            "hash": "296ab3"
+        },
+        {
+            "id": "_valtype_datetime_seconds_ymd",
+            "translation": "",
+            "hash": "c53cc4"
+        },
+        {
+            "id": "_valtype_datetime_ymd",
+            "translation": "",
+            "hash": "eb9c98"
+        },
+        {
+            "id": "_valtype_email",
+            "translation": "",
+            "hash": "84add5"
+        },
+        {
+            "id": "_valtype_integer",
+            "translation": "",
+            "hash": "9edcff"
+        },
+        {
+            "id": "_valtype_mrn_10d",
+            "translation": "",
+            "hash": "c962a7"
+        },
+        {
+            "id": "_valtype_mrn_generic",
+            "translation": "",
+            "hash": "96fea7"
+        },
+        {
+            "id": "_valtype_number",
+            "translation": "",
+            "hash": "b7baa1"
+        },
+        {
+            "id": "_valtype_number_1dp",
+            "translation": "",
+            "hash": "c9a83e"
+        },
+        {
+            "id": "_valtype_number_1dp_comma_decimal",
+            "translation": "",
+            "hash": "d523e3"
+        },
+        {
+            "id": "_valtype_number_2dp",
+            "translation": "",
+            "hash": "26f763"
+        },
+        {
+            "id": "_valtype_number_2dp_comma_decimal",
+            "translation": "",
+            "hash": "2ff780"
+        },
+        {
+            "id": "_valtype_number_3dp",
+            "translation": "",
+            "hash": "ce74ec"
+        },
+        {
+            "id": "_valtype_number_3dp_comma_decimal",
+            "translation": "",
+            "hash": "8d89ac"
+        },
+        {
+            "id": "_valtype_number_4dp",
+            "translation": "",
+            "hash": "14833a"
+        },
+        {
+            "id": "_valtype_number_4dp_comma_decimal",
+            "translation": "",
+            "hash": "edcf61"
+        },
+        {
+            "id": "_valtype_number_comma_decimal",
+            "translation": "",
+            "hash": "781522"
+        },
+        {
+            "id": "_valtype_phone",
+            "translation": "",
+            "hash": "cc3838"
+        },
+        {
+            "id": "_valtype_phone_australia",
+            "translation": "",
+            "hash": "93751a"
+        },
+        {
+            "id": "_valtype_postalcode_australia",
+            "translation": "",
+            "hash": "c40064"
+        },
+        {
+            "id": "_valtype_postalcode_canada",
+            "translation": "",
+            "hash": "f44c1a"
+        },
+        {
+            "id": "_valtype_postalcode_french",
+            "translation": "",
+            "hash": "139bf3"
+        },
+        {
+            "id": "_valtype_postalcode_germany",
+            "translation": "",
+            "hash": "5e6c9d"
+        },
+        {
+            "id": "_valtype_ssn",
+            "translation": "",
+            "hash": "592f05"
+        },
+        {
+            "id": "_valtype_time",
+            "translation": "",
+            "hash": "ee5fc6"
+        },
+        {
+            "id": "_valtype_time_hh_mm_ss",
+            "translation": "",
+            "hash": "33e3e6"
+        },
+        {
+            "id": "_valtype_time_mm_ss",
+            "translation": "",
+            "hash": "0ea7dc"
+        },
+        {
+            "id": "_valtype_vmrn",
+            "translation": "",
+            "hash": "9bc3fa"
+        },
+        {
+            "id": "_valtype_zipcode",
+            "translation": "",
+            "hash": "bdd762"
+        }
+    ],
+    "uiOptions": [
+        {
+            "id": "paging_symbols",
+            "value": false
+        },
+        {
+            "id": "submit_symbol",
+            "value": false
+        }
+    ]
+}

@@ -1,0 +1,3561 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v12.2.6",
+    "timestamp": "2022-03-17 09:29:07",
+    "instructions": "How to use this file: The essential elements are all 'id' and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored.",
+    "key": "de",
+    "display": "Deutsch",
+    "rtl": false,
+    "sort": "",
+    "uiTranslations": [
+        {
+            "id": "survey_1130",
+            "prompt": "The 'Click to decrease font size' tooltip text:",
+            "default": "Click to decrease font size",
+            "translation": "",
+            "hash": "60159a"
+        },
+        {
+            "id": "survey_1129",
+            "prompt": "The 'Click to increase font size' tooltip text:",
+            "default": "Click to increase font size",
+            "translation": "",
+            "hash": "afd9c7"
+        },
+        {
+            "id": "multilang_02",
+            "prompt": "The 'Change language' tooltip text:",
+            "default": "Change language",
+            "translation": "",
+            "hash": "789b14"
+        },
+        {
+            "id": "data_entry_540",
+            "prompt": "The '[*DATA REMOVED*]' placeholder text:",
+            "default": "[*DATA REMOVED*]",
+            "translation": "",
+            "hash": "2a9fc8"
+        },
+        {
+            "id": "design_08",
+            "prompt": "The 'Working...' indicator:",
+            "default": "Working...",
+            "translation": "",
+            "hash": "049ac8"
+        },
+        {
+            "id": "survey_1347",
+            "prompt": "Page number (use {0} and {1} as placeholders for the current page and the total number of pages, respectively):",
+            "default": "Page {0} of {1}",
+            "translation": "",
+            "hash": "c10e74"
+        },
+        {
+            "id": "data_entry_536",
+            "prompt": "The 'Next Page >>' button label:",
+            "default": "Next Page >>",
+            "translation": "",
+            "hash": "50d9cd"
+        },
+        {
+            "id": "data_entry_537",
+            "prompt": "The '<< Previous Page' button label:",
+            "default": "<< Previous Page",
+            "translation": "",
+            "hash": "77fa60"
+        },
+        {
+            "id": "survey_200",
+            "prompt": "The 'Submit' button label:",
+            "default": "Submit",
+            "translation": "",
+            "hash": "2dacf6"
+        },
+        {
+            "id": "form_renderer_19",
+            "prompt": "The 'Expand' link label:",
+            "default": "Expand",
+            "translation": "",
+            "hash": "9869e5"
+        },
+        {
+            "id": "form_renderer_20",
+            "prompt": "The 'reset' link label:",
+            "default": "reset",
+            "translation": "",
+            "hash": "91ef0c"
+        },
+        {
+            "id": "data_entry_39",
+            "prompt": "The 'must provide value' indicator:",
+            "default": "must provide value",
+            "translation": "",
+            "hash": "569a50"
+        },
+        {
+            "id": "calendar_popup_01",
+            "prompt": "The 'Close' button label:",
+            "default": "Close",
+            "translation": "",
+            "hash": "bbfa77"
+        },
+        {
+            "id": "global_53",
+            "prompt": "The 'Cancel' button label:",
+            "default": "Cancel",
+            "translation": "",
+            "hash": "77dfd2"
+        },
+        {
+            "id": "design_654",
+            "prompt": "The 'Confirm' button label:",
+            "default": "Confirm",
+            "translation": "",
+            "hash": "04a212"
+        },
+        {
+            "id": "alerts_24",
+            "prompt": "The 'Alert' popup window title:",
+            "default": "Alert",
+            "translation": "",
+            "hash": "b96968"
+        },
+        {
+            "id": "global_01",
+            "prompt": "The 'ERROR' popup window title:",
+            "default": "ERROR",
+            "translation": "",
+            "hash": "0b99ce"
+        },
+        {
+            "id": "global_03",
+            "prompt": "The 'NOTICE' popup window title:",
+            "default": "NOTICE",
+            "translation": "",
+            "hash": "fe7187"
+        },
+        {
+            "id": "global_64",
+            "prompt": "Text for non-specific errors:",
+            "default": "Woops! An error occurred. Please try again.",
+            "translation": "",
+            "hash": "bf8e4d"
+        },
+        {
+            "id": "survey_1241",
+            "prompt": "The 'You may now close this tab/window' button label:",
+            "default": "You may now close this tab/window",
+            "translation": "",
+            "hash": "844b01"
+        },
+        {
+            "id": "global_47",
+            "prompt": "The alternatives separator '- or -' (dashes may be added automatically):",
+            "default": "or",
+            "translation": "",
+            "hash": "175835"
+        },
+        {
+            "id": "scheduling_35",
+            "prompt": "The 'Print' button label:",
+            "default": "Print",
+            "translation": "",
+            "hash": "5b221e"
+        },
+        {
+            "id": "system_config_623",
+            "prompt": "The 'Print text below' button label:",
+            "default": "Print text below",
+            "translation": "",
+            "hash": "1c05e1"
+        },
+        {
+            "id": "global_143",
+            "prompt": "The 'Checked' indicator:",
+            "default": "Checked",
+            "translation": "",
+            "hash": "b2bc0c"
+        },
+        {
+            "id": "global_144",
+            "prompt": "The 'Unchecked' indicator:",
+            "default": "Unchecked",
+            "translation": "",
+            "hash": "1b927d"
+        },
+        {
+            "id": "data_entry_203",
+            "prompt": "The 'Value removed!' notification:",
+            "default": "Value removed!",
+            "translation": "",
+            "hash": "98e2bd"
+        },
+        {
+            "id": "data_entry_568",
+            "prompt": "Internet Explorer 6-8 incompatibility notice:",
+            "default": "We're sorry, but your current web browser (<b>Internet Explorer {0}</b>) is not compatible with this web page. In order to continue on this page, we recommend you upgrade your web browser to a newer version or else use Firefox or Google Chrome instead. Thanks for understanding!",
+            "translation": "",
+            "hash": "d20ea9"
+        },
+        {
+            "id": "survey_1140",
+            "prompt": "Generic image alt attribute:",
+            "default": "image",
+            "translation": "",
+            "hash": "0e7629"
+        },
+        {
+            "id": "form_renderer_22",
+            "prompt": "The 'Disclaimer' link label:",
+            "default": "Disclaimer",
+            "translation": "",
+            "hash": "4c4a2e"
+        },
+        {
+            "id": "global_125",
+            "prompt": "The 'Update' button label:",
+            "default": "Update",
+            "translation": "",
+            "hash": "fb91e2"
+        },
+        {
+            "id": "data_entry_260",
+            "prompt": "The 'Type to begin searching' prompt:",
+            "default": "Type to begin searching",
+            "translation": "",
+            "hash": "c525db"
+        },
+        {
+            "id": "data_entry_518",
+            "prompt": "The @NONEOFTHEABOVE alert message (use {0} as placeholder for the choice label):",
+            "default": "The option {0} can only be selected by itself. Selecting this option will clear your previous selections for this checkbox field. Are you sure?",
+            "translation": "",
+            "hash": "392a1c"
+        },
+        {
+            "id": "data_entry_412",
+            "prompt": "The 'Incompatible checkbox selection' popup window title:",
+            "default": "Incompatible checkbox selection",
+            "translation": "",
+            "hash": "4e2eed"
+        },
+        {
+            "id": "data_entry_417",
+            "prompt": "The 'Yes, clear other selections' button label:",
+            "default": "Yes, clear other selections",
+            "translation": "",
+            "hash": "5deca4"
+        },
+        {
+            "id": "design_100",
+            "prompt": "Label for the 'Yes' option:",
+            "default": "Yes",
+            "translation": "",
+            "hash": "5397e0"
+        },
+        {
+            "id": "design_99",
+            "prompt": "Label for the 'No' option:",
+            "default": "No",
+            "translation": "",
+            "hash": "816c52"
+        },
+        {
+            "id": "design_186",
+            "prompt": "Label for the 'True' option:",
+            "default": "True",
+            "translation": "",
+            "hash": "88b33e"
+        },
+        {
+            "id": "design_187",
+            "prompt": "Label for the 'False' option:",
+            "default": "False",
+            "translation": "",
+            "hash": "97cdbd"
+        },
+        {
+            "id": "data_entry_444",
+            "prompt": "Dropdown arrow alt text:",
+            "default": "Click to view choices",
+            "translation": "",
+            "hash": "afec1f"
+        },
+        {
+            "id": "design_722",
+            "prompt": "Message displayed for unset sliders (desktop):",
+            "default": "Change the slider above to set a response",
+            "translation": "",
+            "hash": "59ea65"
+        },
+        {
+            "id": "design_721",
+            "prompt": "Message displayed for unset sliders (mobile):",
+            "default": "Tap the slider above to set a response",
+            "translation": "",
+            "hash": "7be881"
+        },
+        {
+            "id": "survey_1142",
+            "prompt": "The '0% means' slider voice explanation:",
+            "default": "0% means",
+            "translation": "",
+            "hash": "104c2b"
+        },
+        {
+            "id": "survey_1143",
+            "prompt": "The '50% means' slider voice explanation:",
+            "default": "50% means",
+            "translation": "",
+            "hash": "2ec125"
+        },
+        {
+            "id": "survey_1144",
+            "prompt": "The '100% means' slider voice explanation:",
+            "default": "100% means",
+            "translation": "",
+            "hash": "81a1ba"
+        },
+        {
+            "id": "dashboard_32",
+            "prompt": "The 'Today' button label:",
+            "default": "Today",
+            "translation": "",
+            "hash": "24345a"
+        },
+        {
+            "id": "calendar_widget_choosedatehint",
+            "prompt": "The 'Click to select a date' tooltip text:",
+            "default": "Click to select a date",
+            "translation": "",
+            "hash": "b2fbd5"
+        },
+        {
+            "id": "calendar_widget_done",
+            "prompt": "The 'Done' button label:",
+            "default": "Done",
+            "translation": "",
+            "hash": "e9b450"
+        },
+        {
+            "id": "calendar_widget_prev",
+            "prompt": "The 'Prev' tooltip text:",
+            "default": "Prev",
+            "translation": "",
+            "hash": "e96fea"
+        },
+        {
+            "id": "calendar_widget_next",
+            "prompt": "The 'Next' tooltip text:",
+            "default": "Next",
+            "translation": "",
+            "hash": "bc9819"
+        },
+        {
+            "id": "form_renderer_29",
+            "prompt": "The 'Now' button label:",
+            "default": "Now",
+            "translation": "",
+            "hash": "e3b820"
+        },
+        {
+            "id": "calendar_widget_choosedatetimehint",
+            "prompt": "The 'Click to select a date/time' tooltip text:",
+            "default": "Click to select a date/time",
+            "translation": "",
+            "hash": "b9a0d0"
+        },
+        {
+            "id": "calendar_widget_choosetime",
+            "prompt": "The 'Choose Time' popup window title:",
+            "default": "Choose Time",
+            "translation": "",
+            "hash": "d39ba9"
+        },
+        {
+            "id": "global_13",
+            "prompt": "The 'Time' label",
+            "default": "Time",
+            "translation": "",
+            "hash": "6c82e6"
+        },
+        {
+            "id": "calendar_widget_hour",
+            "prompt": "The 'Hour' label",
+            "default": "Hour",
+            "translation": "",
+            "hash": "c37cf8"
+        },
+        {
+            "id": "calendar_widget_min",
+            "prompt": "The 'Minute' label",
+            "default": "Minute",
+            "translation": "",
+            "hash": "c1335d"
+        },
+        {
+            "id": "calendar_widget_choosetimehint",
+            "prompt": "The 'Click to select a time' tooltip text:",
+            "default": "Click to select a time",
+            "translation": "",
+            "hash": "c8504d"
+        },
+        {
+            "id": "calendar_widget_month_day_long_sun",
+            "prompt": "The 'Sunday' full day name:",
+            "default": "Sunday",
+            "translation": "",
+            "hash": "bc5dd0"
+        },
+        {
+            "id": "calendar_widget_month_day_short_sun",
+            "prompt": "The 'Sunday' abbreviated day name:",
+            "default": "Su",
+            "translation": "",
+            "hash": "25bfc5"
+        },
+        {
+            "id": "calendar_widget_month_day_long_mon",
+            "prompt": "The 'Monday' full day name:",
+            "default": "Monday",
+            "translation": "",
+            "hash": "932eeb"
+        },
+        {
+            "id": "calendar_widget_month_day_short_mon",
+            "prompt": "The 'Monday' abbreviated day name:",
+            "default": "Mo",
+            "translation": "",
+            "hash": "91e885"
+        },
+        {
+            "id": "calendar_widget_month_day_long_tues",
+            "prompt": "The 'Tuesday' full day name:",
+            "default": "Tuesday",
+            "translation": "",
+            "hash": "42e43b"
+        },
+        {
+            "id": "calendar_widget_month_day_short_tues",
+            "prompt": "The 'Tuesday' abbreviated day name:",
+            "default": "Tu",
+            "translation": "",
+            "hash": "b44892"
+        },
+        {
+            "id": "calendar_widget_month_day_long_wed",
+            "prompt": "The 'Wednesday' full day name:",
+            "default": "Wednesday",
+            "translation": "",
+            "hash": "5656b9"
+        },
+        {
+            "id": "calendar_widget_month_day_short_wed",
+            "prompt": "The 'Wednesday' abbreviated day name:",
+            "default": "We",
+            "translation": "",
+            "hash": "a24ae9"
+        },
+        {
+            "id": "calendar_widget_month_day_long_thurs",
+            "prompt": "The 'Thursday' full day name:",
+            "default": "Thursday",
+            "translation": "",
+            "hash": "76031d"
+        },
+        {
+            "id": "calendar_widget_month_day_short_thurs",
+            "prompt": "The 'Thursday' abbreviated day name:",
+            "default": "Th",
+            "translation": "",
+            "hash": "6929e7"
+        },
+        {
+            "id": "calendar_widget_month_day_long_fri",
+            "prompt": "The 'Friday' full day name:",
+            "default": "Friday",
+            "translation": "",
+            "hash": "d166e8"
+        },
+        {
+            "id": "calendar_widget_month_day_short_fri",
+            "prompt": "The 'Friday' abbreviated day name:",
+            "default": "Fr",
+            "translation": "",
+            "hash": "aa77f3"
+        },
+        {
+            "id": "calendar_widget_month_day_long_sat",
+            "prompt": "The 'Saturday' full day name:",
+            "default": "Saturday",
+            "translation": "",
+            "hash": "17063c"
+        },
+        {
+            "id": "calendar_widget_month_day_short_sat",
+            "prompt": "The 'Saturday' abbreviated day name:",
+            "default": "Sa",
+            "translation": "",
+            "hash": "50cf95"
+        },
+        {
+            "id": "calendar_widget_month_jan",
+            "prompt": "The 'Jan' abbreviated day name:",
+            "default": "Jan",
+            "translation": "",
+            "hash": "efed36"
+        },
+        {
+            "id": "calendar_widget_month_feb",
+            "prompt": "The 'Feb' abbreviated day name:",
+            "default": "Feb",
+            "translation": "",
+            "hash": "dc8415"
+        },
+        {
+            "id": "calendar_widget_month_mar",
+            "prompt": "The 'Mar' abbreviated day name:",
+            "default": "Mar",
+            "translation": "",
+            "hash": "c4ba08"
+        },
+        {
+            "id": "calendar_widget_month_apr",
+            "prompt": "The 'Apr' abbreviated day name:",
+            "default": "Apr",
+            "translation": "",
+            "hash": "befde5"
+        },
+        {
+            "id": "calendar_widget_month_may",
+            "prompt": "The 'May' abbreviated day name:",
+            "default": "May",
+            "translation": "",
+            "hash": "c94f47"
+        },
+        {
+            "id": "calendar_widget_month_jun",
+            "prompt": "The 'Jun' abbreviated day name:",
+            "default": "Jun",
+            "translation": "",
+            "hash": "6d90df"
+        },
+        {
+            "id": "calendar_widget_month_jul",
+            "prompt": "The 'Jul' abbreviated day name:",
+            "default": "Jul",
+            "translation": "",
+            "hash": "b73755"
+        },
+        {
+            "id": "calendar_widget_month_aug",
+            "prompt": "The 'Aug' abbreviated day name:",
+            "default": "Aug",
+            "translation": "",
+            "hash": "75629a"
+        },
+        {
+            "id": "calendar_widget_month_sep",
+            "prompt": "The 'Sep' abbreviated day name:",
+            "default": "Sep",
+            "translation": "",
+            "hash": "fdd289"
+        },
+        {
+            "id": "calendar_widget_month_oct",
+            "prompt": "The 'Oct' abbreviated day name:",
+            "default": "Oct",
+            "translation": "",
+            "hash": "51327a"
+        },
+        {
+            "id": "calendar_widget_month_nov",
+            "prompt": "The 'Nov' abbreviated day name:",
+            "default": "Nov",
+            "translation": "",
+            "hash": "bb9bfe"
+        },
+        {
+            "id": "calendar_widget_month_dec",
+            "prompt": "The 'Dec' abbreviated day name:",
+            "default": "Dec",
+            "translation": "",
+            "hash": "997f59"
+        },
+        {
+            "id": "multilang_108",
+            "prompt": "The 'H:M' date format indicator:",
+            "default": "H:M",
+            "translation": "",
+            "hash": "ac197c"
+        },
+        {
+            "id": "multilang_109",
+            "prompt": "The 'Y-M-D' date format indicator:",
+            "default": "Y-M-D",
+            "translation": "",
+            "hash": "6793fb"
+        },
+        {
+            "id": "multilang_110",
+            "prompt": "The 'M-D-Y' date format indicator:",
+            "default": "M-D-Y",
+            "translation": "",
+            "hash": "e195c3"
+        },
+        {
+            "id": "multilang_111",
+            "prompt": "The 'D-M-Y' date format indicator:",
+            "default": "D-M-Y",
+            "translation": "",
+            "hash": "7da40f"
+        },
+        {
+            "id": "multilang_112",
+            "prompt": "The 'Y-M-D H:M' date format indicator:",
+            "default": "Y-M-D H:M",
+            "translation": "",
+            "hash": "d97ee0"
+        },
+        {
+            "id": "multilang_113",
+            "prompt": "The 'M-D-Y H:M' date format indicator:",
+            "default": "M-D-Y H:M",
+            "translation": "",
+            "hash": "1b9d0b"
+        },
+        {
+            "id": "multilang_114",
+            "prompt": "The 'D-M-Y H:M' date format indicator:",
+            "default": "D-M-Y H:M",
+            "translation": "",
+            "hash": "40f54f"
+        },
+        {
+            "id": "multilang_115",
+            "prompt": "The 'Y-M-D H:M:S' date format indicator:",
+            "default": "Y-M-D H:M:S",
+            "translation": "",
+            "hash": "fb2891"
+        },
+        {
+            "id": "multilang_116",
+            "prompt": "The 'M-D-Y H:M:S' date format indicator:",
+            "default": "M-D-Y H:M:S",
+            "translation": "",
+            "hash": "982a88"
+        },
+        {
+            "id": "multilang_117",
+            "prompt": "The 'D-M-Y H:M:S' date format indicator:",
+            "default": "D-M-Y H:M:S",
+            "translation": "",
+            "hash": "ab1d01"
+        },
+        {
+            "id": "form_renderer_23",
+            "prompt": "The 'Upload file' link label and popup title:",
+            "default": "Upload file",
+            "translation": "",
+            "hash": "503a3d"
+        },
+        {
+            "id": "data_entry_459",
+            "prompt": "The 'Upload new version' link label and popup title:",
+            "default": "Upload new version",
+            "translation": "",
+            "hash": "e8f501"
+        },
+        {
+            "id": "form_renderer_24",
+            "prompt": "The 'Remove file' link label:",
+            "default": "Remove file",
+            "translation": "",
+            "hash": "304b14"
+        },
+        {
+            "id": "form_renderer_25",
+            "prompt": "The 'Send-It' link label:",
+            "default": "Send-It",
+            "translation": "",
+            "hash": "834936"
+        },
+        {
+            "id": "data_entry_468",
+            "prompt": "The '(replace and keep current file)' hint:",
+            "default": "(replace and keep current file)",
+            "translation": "",
+            "hash": "8abf4c"
+        },
+        {
+            "id": "data_entry_62",
+            "prompt": "The 'Select a file then click the 'Upload File' button' prompt:",
+            "default": "Select a file then click the 'Upload File' button",
+            "translation": "",
+            "hash": "c03b36"
+        },
+        {
+            "id": "survey_1146",
+            "prompt": "The 'Click to upload a file in a modal dialog.' hint:",
+            "default": "Click to upload a file in a modal dialog.",
+            "translation": "",
+            "hash": "1f7b23"
+        },
+        {
+            "id": "form_renderer_47",
+            "prompt": "The 'You must first choose a file to upload' error message:",
+            "default": "You must first choose a file to upload",
+            "translation": "",
+            "hash": "70ded5"
+        },
+        {
+            "id": "form_renderer_52",
+            "prompt": "The 'Delete file?' popup window title:",
+            "default": "Delete file?",
+            "translation": "",
+            "hash": "1b77f5"
+        },
+        {
+            "id": "form_renderer_51",
+            "prompt": "The 'Are you sure you want to permanently remove this file?' dialog message:",
+            "default": "Are you sure you want to permanently remove this file?",
+            "translation": "",
+            "hash": "fe83fa"
+        },
+        {
+            "id": "design_397",
+            "prompt": "The 'Yes, delete it' button label:",
+            "default": "Yes, delete it",
+            "translation": "",
+            "hash": "11e9be"
+        },
+        {
+            "id": "form_renderer_59",
+            "prompt": "The 'File deleted' popup window title:",
+            "default": "File deleted",
+            "translation": "",
+            "hash": "80bb63"
+        },
+        {
+            "id": "form_renderer_50",
+            "prompt": "The 'Provide reason for deleting this file (reason will be logged):' prompt:",
+            "default": "Provide reason for deleting this file (reason will be logged):",
+            "translation": "",
+            "hash": "c453bb"
+        },
+        {
+            "id": "data_entry_526",
+            "prompt": "The maximum file size notice (use {0} as placeholder for the number of megabytes):",
+            "default": "Max file size: {0} MB",
+            "translation": "",
+            "hash": "0b02d7"
+        },
+        {
+            "id": "data_entry_64",
+            "prompt": "The 'Loading...' indicator:",
+            "default": "Loading...",
+            "translation": "",
+            "hash": "b04ba4"
+        },
+        {
+            "id": "data_entry_65",
+            "prompt": "The 'Upload in progress...' message:",
+            "default": "Upload in progress...",
+            "translation": "",
+            "hash": "b92d2e"
+        },
+        {
+            "id": "data_entry_455",
+            "prompt": "The 'Confirm file' popup window title:",
+            "default": "Confirm file",
+            "translation": "",
+            "hash": "bf0560"
+        },
+        {
+            "id": "data_entry_454",
+            "prompt": "The 'By clicking the Confirm button below, you are confirming that the following file is the correct file that you wish to upload here:' dialog message:",
+            "default": "By clicking the Confirm button below, you are confirming that the following file is the correct file that you wish to upload here:",
+            "translation": "",
+            "hash": "ab5887"
+        },
+        {
+            "id": "data_entry_453",
+            "prompt": "The 'File Upload: Confirmation & username/password verification' popup window title:",
+            "default": "File Upload: Confirmation & username/password verification",
+            "translation": "",
+            "hash": "c406c5"
+        },
+        {
+            "id": "data_entry_460",
+            "prompt": "The 'By providing your REDCap password and clicking the Confirm button below, you are confirming that the following file is the correct file that you wish to upload here:' dialog message:",
+            "default": "By providing your REDCap password and clicking the Confirm button below, you are confirming that the following file is the correct file that you wish to upload here:",
+            "translation": "",
+            "hash": "c20708"
+        },
+        {
+            "id": "data_entry_461",
+            "prompt": "The 'Your file will be uploaded once you successfully initiate this confirmation process.' notice:",
+            "default": "Your file will be uploaded once you successfully initiate this confirmation process.",
+            "translation": "",
+            "hash": "e05678"
+        },
+        {
+            "id": "form_renderer_26",
+            "prompt": "The '[The file upload feature is disabled]' notice:",
+            "default": "[The file upload feature is disabled]",
+            "translation": "",
+            "hash": "431502"
+        },
+        {
+            "id": "form_renderer_48",
+            "prompt": "The 'The username or password that you entered is incorrect! Please try again.' error message:",
+            "default": "The username or password that you entered is incorrect! Please try again.",
+            "translation": "",
+            "hash": "5d544f"
+        },
+        {
+            "id": "form_renderer_49",
+            "prompt": "The 'You MUST provide a reason for deleting this file. Please try again.' error message:",
+            "default": "You MUST provide a reason for deleting this file. Please try again.",
+            "translation": "",
+            "hash": "6e9143"
+        },
+        {
+            "id": "form_renderer_44",
+            "prompt": "The 'CANNOT UPLOAD FILE!' popup window title:",
+            "default": "CANNOT UPLOAD FILE!",
+            "translation": "",
+            "hash": "f7e167"
+        },
+        {
+            "id": "form_renderer_45",
+            "prompt": "Text of the iOS limitation notification:",
+            "default": "We're sorry, but Apple does not support uploading files onto web pages in their Mobile Safari browser for iOS devices (iPhones, iPads, and iPod Touches) that are running iOS version 5.1 and below. Because it appears that you are using an iOS device on such an older version, you will not be able to upload a file here. This is not an issue in REDCap but is merely a limitation imposed by Apple. NOTE: iOS version 6 and above *does* support uploading of pictures and videos (but not other file types).",
+            "translation": "",
+            "hash": "6871de"
+        },
+        {
+            "id": "form_renderer_57",
+            "prompt": "The file deletion confirmation message (the placeholder {0} will contain the file name):",
+            "default": "The file \"<b>{0}</b>\" has been deleted.",
+            "translation": "",
+            "hash": "b676ef"
+        },
+        {
+            "id": "form_renderer_58",
+            "prompt": "The file version deletion confirmation message (use {0} as placeholder for the version number):",
+            "default": "Version {0} of the file has been deleted.",
+            "translation": "",
+            "hash": "fa61cc"
+        },
+        {
+            "id": "form_renderer_60",
+            "prompt": "The 'File was successfully uploaded!' message:",
+            "default": "File was successfully uploaded!",
+            "translation": "",
+            "hash": "01ff24"
+        },
+        {
+            "id": "dataqueries_160",
+            "prompt": "The 'There was an error during file upload!' error message:",
+            "default": "There was an error during file upload!",
+            "translation": "",
+            "hash": "e0efa5"
+        },
+        {
+            "id": "data_export_tool_248",
+            "prompt": "The 'FILE:' indicator:",
+            "default": "FILE:",
+            "translation": "",
+            "hash": "547d60"
+        },
+        {
+            "id": "survey_1147",
+            "prompt": "Alt attribute of the signature image",
+            "default": "Signature",
+            "translation": "",
+            "hash": "2f32be"
+        },
+        {
+            "id": "form_renderer_31",
+            "prompt": "The 'Add signature' link label and popup title:",
+            "default": "Add signature",
+            "translation": "",
+            "hash": "780837"
+        },
+        {
+            "id": "form_renderer_43",
+            "prompt": "The 'Remove signature' link label:",
+            "default": "Remove signature",
+            "translation": "",
+            "hash": "f58b18"
+        },
+        {
+            "id": "form_renderer_30",
+            "prompt": "The 'Save signature' button label:",
+            "default": "Save signature",
+            "translation": "",
+            "hash": "a08930"
+        },
+        {
+            "id": "form_renderer_46",
+            "prompt": "The 'You must first sign your signature' error message:",
+            "default": "You must first sign your signature",
+            "translation": "",
+            "hash": "e50a04"
+        },
+        {
+            "id": "form_renderer_63",
+            "prompt": "The 'Delete uploaded signature?' popup window title:",
+            "default": "Delete uploaded signature?",
+            "translation": "",
+            "hash": "9d887b"
+        },
+        {
+            "id": "form_renderer_64",
+            "prompt": "The 'Are you sure you want to permanently remove the uploaded signature?' dialog message:",
+            "default": "Are you sure you want to permanently remove the uploaded signature?",
+            "translation": "",
+            "hash": "8783ec"
+        },
+        {
+            "id": "design_205",
+            "prompt": "The 'Attachment:' label",
+            "default": "Attachment:",
+            "translation": "",
+            "hash": "4297fa"
+        },
+        {
+            "id": "global_120",
+            "prompt": "The 'Watch video' button label:",
+            "default": "Watch video",
+            "translation": "",
+            "hash": "d8fb74"
+        },
+        {
+            "id": "data_entry_502",
+            "prompt": "The 'Video' popup window title:",
+            "default": "Video",
+            "translation": "",
+            "hash": "bc17c1"
+        },
+        {
+            "id": "design_204",
+            "prompt": "The '[Attachment not found]' notification:",
+            "default": "[Attachment not found]",
+            "translation": "",
+            "hash": "7c4a4c"
+        },
+        {
+            "id": "global_121",
+            "prompt": "The '[Your browser does not support the HTML5 Audio element.]' notification:",
+            "default": "[Your browser does not support the HTML5 Audio element.]",
+            "translation": "",
+            "hash": "bb44fb"
+        },
+        {
+            "id": "survey_1242",
+            "prompt": "The reCAPTCHA prompt:",
+            "default": "To proceed to the survey, please check off the box and click the button below.",
+            "translation": "",
+            "hash": "ef8c96"
+        },
+        {
+            "id": "survey_1243",
+            "prompt": "The 'Begin survey' button label:",
+            "default": "Begin survey",
+            "translation": "",
+            "hash": "11eda4"
+        },
+        {
+            "id": "survey_1244",
+            "prompt": "The 'Invalid reCAPTCHA response! Please try again.' error message:",
+            "default": "Invalid reCAPTCHA response! Please try again.",
+            "translation": "",
+            "hash": "b0a086"
+        },
+        {
+            "id": "email_users_36",
+            "prompt": "The 'REDCap Secure Messaging' default banner text:",
+            "default": "REDCap Secure Messaging",
+            "translation": "",
+            "hash": "e81b32"
+        },
+        {
+            "id": "email_users_37",
+            "prompt": "The sender information text (use {0} as placeholder for display name and email address of the sender):",
+            "default": "{0} has sent you a secure email message.",
+            "translation": "",
+            "hash": "cc2e1e"
+        },
+        {
+            "id": "email_users_38",
+            "prompt": "The 'Read the message' button label:",
+            "default": "Read the message",
+            "translation": "",
+            "hash": "24cda8"
+        },
+        {
+            "id": "email_users_39",
+            "prompt": "The 'Learn about messages protected by REDCap.' link label:",
+            "default": "Learn about messages protected by REDCap.",
+            "translation": "",
+            "hash": "e79dbf"
+        },
+        {
+            "id": "global_234",
+            "prompt": "The subject of the Protected Email verification email:",
+            "default": "REDCap secure message verification",
+            "translation": "",
+            "hash": "3e4c33"
+        },
+        {
+            "id": "email_users_99",
+            "prompt": "The Protected Email code notice (use {0} as placeholder for the code):",
+            "default": "Your REDCap Secure Messaging code is <b>{0}</b>",
+            "translation": "",
+            "hash": "1d59ca"
+        },
+        {
+            "id": "email_users_100",
+            "prompt": "The Protected Email code expiration notice (use {0} as placeholder for the time in minutes):",
+            "default": "(This code will expire in {0} minutes)",
+            "translation": "",
+            "hash": "520a77"
+        },
+        {
+            "id": "email_users_40",
+            "prompt": "Security check page title:",
+            "default": "Quick security check before viewing your email",
+            "translation": "",
+            "hash": "630489"
+        },
+        {
+            "id": "email_users_47",
+            "prompt": "Security check informational text:",
+            "default": "Because you have not visited this page before or in a long time, we just sent you <u>a new email containing a security code</u> that will be used to verify your identify here. Please return to your inbox right now to retrieve that security code, and then enter it below. Thanks!",
+            "translation": "",
+            "hash": "236577"
+        },
+        {
+            "id": "email_users_46",
+            "prompt": "Security check informational text (multiple recipients):",
+            "default": "Because you have not visited this page before or in a long time, we need to send you <u>a new email containing a security code</u> that will be used to verify your identify here. <b>Please select your email address from the list of all recipients below, and click the 'Send code' button</b>, which will send you a new email with a code. Then return to your inbox to retrieve that security code, and enter it below.",
+            "translation": "",
+            "hash": "f896e7"
+        },
+        {
+            "id": "email_users_42",
+            "prompt": "The 'Send code to this address' button label:",
+            "default": "Send code to this address",
+            "translation": "",
+            "hash": "3f2ca5"
+        },
+        {
+            "id": "email_users_45",
+            "prompt": "The 'After receiving the code via email, enter it below.' hint:",
+            "default": "After receiving the code via email, enter it below.",
+            "translation": "",
+            "hash": "e30bb8"
+        },
+        {
+            "id": "email_users_44",
+            "prompt": "The 'This is a public computer' label",
+            "default": "This is a public computer",
+            "translation": "",
+            "hash": "f143d6"
+        },
+        {
+            "id": "email_users_82",
+            "prompt": "The '(Unchecking this checkbox will store a cookie on this device.)' notice:",
+            "default": "(Unchecking this checkbox will store a cookie on this device.)",
+            "translation": "",
+            "hash": "0668ee"
+        },
+        {
+            "id": "email_users_101",
+            "prompt": "The 'Enter code' placeholder text:",
+            "default": "Enter code",
+            "translation": "",
+            "hash": "ab45ae"
+        },
+        {
+            "id": "email_users_43",
+            "prompt": "The 'Submit code' button label:",
+            "default": "Submit code",
+            "translation": "",
+            "hash": "32aefb"
+        },
+        {
+            "id": "email_users_41",
+            "prompt": "The 'ERROR: Incorrect code was entered. Please try again!' error message:",
+            "default": "ERROR: Incorrect code was entered. Please try again!",
+            "translation": "",
+            "hash": "3e910b"
+        },
+        {
+            "id": "email_users_50",
+            "prompt": "The 'Check your inbox!' popup window title:",
+            "default": "Check your inbox!",
+            "translation": "",
+            "hash": "0d8b43"
+        },
+        {
+            "id": "email_users_35",
+            "prompt": "The dialog text confirming that the email has been sent (use {0} as placeholder for the email address):",
+            "default": "The code was successfully emailed to {0}",
+            "translation": "",
+            "hash": "995ff4"
+        },
+        {
+            "id": "global_37",
+            "prompt": "The 'From:' label",
+            "default": "From:",
+            "translation": "",
+            "hash": "c4d63e"
+        },
+        {
+            "id": "global_38",
+            "prompt": "The 'To:' label",
+            "default": "To:",
+            "translation": "",
+            "hash": "7e7fbc"
+        },
+        {
+            "id": "alerts_128",
+            "prompt": "The 'Attachments' label",
+            "default": "Attachments",
+            "translation": "",
+            "hash": "6771ad"
+        },
+        {
+            "id": "email_users_48",
+            "prompt": "The number of files indicator (plural; use {0} as placeholder for the number of files):",
+            "default": "{0} files",
+            "translation": "",
+            "hash": "9dc994"
+        },
+        {
+            "id": "email_users_49",
+            "prompt": "The number of files indicator (singular; use {0} as placeholder for the number of files):",
+            "default": "{0} file",
+            "translation": "",
+            "hash": "afdb07"
+        },
+        {
+            "id": "ws_176",
+            "prompt": "Email sent time label - 'just now':",
+            "default": "just now",
+            "translation": "",
+            "hash": "a7f8e7"
+        },
+        {
+            "id": "ws_177",
+            "prompt": "Email sent time label - 'less than a minute ago':",
+            "default": "less than a minute ago",
+            "translation": "",
+            "hash": "abff00"
+        },
+        {
+            "id": "ws_178",
+            "prompt": "Email sent time - '{0} minute ago' (singular; use {0} as placeholder for the number of minutes):",
+            "default": "{0} minute ago",
+            "translation": "",
+            "hash": "dcd75e"
+        },
+        {
+            "id": "ws_179",
+            "prompt": "Email sent time - '{0} minutes ago' (plural; use {0} as placeholder for the number of minutes):",
+            "default": "{0} minutes ago",
+            "translation": "",
+            "hash": "41904c"
+        },
+        {
+            "id": "ws_180",
+            "prompt": "Email sent time - '{0} hour ago' (singular; use {0} as placeholder for the number of hours):",
+            "default": "{0} hour ago",
+            "translation": "",
+            "hash": "cc4eac"
+        },
+        {
+            "id": "ws_181",
+            "prompt": "Email sent time - '{0} hours ago' (plural; use {0} as placeholder for the number of hours):",
+            "default": "{0} hours ago",
+            "translation": "",
+            "hash": "cee338"
+        },
+        {
+            "id": "ws_182",
+            "prompt": "Email sent time - '{0} day ago' (singular; use {0} as placeholder for the number of days):",
+            "default": "{0} day ago",
+            "translation": "",
+            "hash": "7a0320"
+        },
+        {
+            "id": "ws_183",
+            "prompt": "Email sent time - '{0} days ago' (plural; use {0} as placeholder for the number of days):",
+            "default": "{0} days ago",
+            "translation": "",
+            "hash": "934453"
+        },
+        {
+            "id": "dataqueries_278",
+            "prompt": "The 'Close survey' button label:",
+            "default": "Close survey",
+            "translation": "",
+            "hash": "a26c1b"
+        },
+        {
+            "id": "survey_111",
+            "prompt": "The survey already completed notification message:",
+            "default": "Thank you for your interest, but you have already completed this survey.",
+            "translation": "",
+            "hash": "32750e"
+        },
+        {
+            "id": "survey_1101",
+            "prompt": "The response limit reached notification message:",
+            "default": "Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.",
+            "translation": "",
+            "hash": "e6b729"
+        },
+        {
+            "id": "survey_1105",
+            "prompt": "The time limit reached notification message:",
+            "default": "Thank you for your interest; however, the time limit for survey completion has been reached, so you will not be able to begin or continue the survey.",
+            "translation": "",
+            "hash": "ab678d"
+        },
+        {
+            "id": "survey_1357",
+            "prompt": "The repeat instance recorded confirmation message (singular; use {0} as placeholder for the number of instances):",
+            "default": "{0} instance of this survey has been recorded",
+            "translation": "",
+            "hash": "a053df"
+        },
+        {
+            "id": "survey_1356",
+            "prompt": "The repeat instances recorded confirmation message (plural; use {0} as placeholder for the number of instances):",
+            "default": "{0} instances of this survey have been recorded",
+            "translation": "",
+            "hash": "f50efd"
+        },
+        {
+            "id": "survey_1097",
+            "prompt": "Text for the 'Submit and' prompt (followed by the 'Take survey again' button):",
+            "default": "Submit and",
+            "translation": "",
+            "hash": "846e5e"
+        },
+        {
+            "id": "global_239",
+            "prompt": "The 'Username:' prompt:",
+            "default": "Username:",
+            "translation": "",
+            "hash": "17dfb0"
+        },
+        {
+            "id": "global_240",
+            "prompt": "The 'Password:' prompt:",
+            "default": "Password:",
+            "translation": "",
+            "hash": "be81ab"
+        },
+        {
+            "id": "survey_573",
+            "prompt": "The 'Survey Login' popup window title:",
+            "default": "Survey Login",
+            "translation": "",
+            "hash": "c60165"
+        },
+        {
+            "id": "survey_310",
+            "prompt": "The 'Survey title:' prompt:",
+            "default": "Survey title:",
+            "translation": "",
+            "hash": "d029a5"
+        },
+        {
+            "id": "survey_574",
+            "prompt": "Introduction to the survey login instructions:",
+            "default": "Before beginning or continuing this survey, you must first log in by successfully entering the correct values below.",
+            "translation": "",
+            "hash": "1b4165"
+        },
+        {
+            "id": "survey_587",
+            "prompt": "Instructions stating that a value must be entered:",
+            "default": "You must successfully enter a value for the field below.",
+            "translation": "",
+            "hash": "ec6ef7"
+        },
+        {
+            "id": "survey_1345",
+            "prompt": "Instructions regarding the minimum nubmer of required fields (use {0} and {1} as placeholders):",
+            "default": "You must successfully enter at least {0} out of the {1} fields below.",
+            "translation": "",
+            "hash": "891f00"
+        },
+        {
+            "id": "survey_578",
+            "prompt": "Instructions stating that all fields are required:",
+            "default": "You must successfully enter a value for ALL the fields below.",
+            "translation": "",
+            "hash": "5c7097"
+        },
+        {
+            "id": "survey_594",
+            "prompt": "Note that login is not case sensitive:",
+            "default": "Please note that the login is *not* case sensitive.",
+            "translation": "",
+            "hash": "3927be"
+        },
+        {
+            "id": "survey_1066",
+            "prompt": "The 'Show value' label",
+            "default": "Show value",
+            "translation": "",
+            "hash": "8b9ac8"
+        },
+        {
+            "id": "survey_1343",
+            "prompt": "The error message displayed when the login fails (note singular):",
+            "default": "<b>ERROR:</b> The login was not successful because the value entered was not correct. Try again.",
+            "translation": "",
+            "hash": "1a5ef0"
+        },
+        {
+            "id": "survey_1344",
+            "prompt": "The error message displayed when the login fails (note plural):",
+            "default": "<b>ERROR:</b> The login was not successful because the values entered were not correct. Try again.",
+            "translation": "",
+            "hash": "8213c8"
+        },
+        {
+            "id": "survey_589",
+            "prompt": "The message displayed when there is no data for the login fields:",
+            "default": "Unfortunately, it appears that no login fields can be displayed for you because no data has been entered for those login fields for you beforehand, so there is no way to log in. Please contact your survey administrator to have this issue corrected.",
+            "translation": "",
+            "hash": "e6a84c"
+        },
+        {
+            "id": "global_05",
+            "prompt": "The 'ACCESS DENIED!' popup window title:",
+            "default": "ACCESS DENIED!",
+            "translation": "",
+            "hash": "890fd0"
+        },
+        {
+            "id": "survey_1353",
+            "prompt": "The access denied informational text (use {0} as placeholder for the number of minutes):",
+            "default": "For security purposes, this survey has been temporarily disabled because it has exceeded the maximum amount of failed login attempts that are allowed within a set period of time (<b>{0} minutes</b>).",
+            "translation": "",
+            "hash": "ff486c"
+        },
+        {
+            "id": "config_functions_45",
+            "prompt": "The 'Log In' button label:",
+            "default": "Log In",
+            "translation": "",
+            "hash": "d527bf"
+        },
+        {
+            "id": "survey_675",
+            "prompt": "The 'Survey login session is still active' notification:",
+            "default": "Survey login session is still active",
+            "translation": "",
+            "hash": "797d6c"
+        },
+        {
+            "id": "data_entry_262",
+            "prompt": "Password disclaimer text:",
+            "default": "Please note that although the value entered here is obfuscated and not readable, the value will be visible outside of this page to the individuals that are administering this survey.",
+            "translation": "",
+            "hash": "c39ce9"
+        },
+        {
+            "id": "survey_1365",
+            "prompt": "The page number label (use {0} as placeholder for the page number):",
+            "default": "Page {0}",
+            "translation": "",
+            "hash": "02431c"
+        },
+        {
+            "id": "global_237",
+            "prompt": "The 'Confidential' notice:",
+            "default": "Confidential",
+            "translation": "",
+            "hash": "4f853c"
+        },
+        {
+            "id": "survey_1139",
+            "prompt": "The 'Download your survey response (PDF):' prompt:",
+            "default": "Download your survey response (PDF):",
+            "translation": "",
+            "hash": "6f5e9b"
+        },
+        {
+            "id": "design_121",
+            "prompt": "The 'Download' button label:",
+            "default": "Download",
+            "translation": "",
+            "hash": "a479c9"
+        },
+        {
+            "id": "data_entry_535",
+            "prompt": "The response added statement (use {0} as placeholder for the timestamp):",
+            "default": "Response was added on {0:Timestamp}.",
+            "translation": "",
+            "hash": "dcd923"
+        },
+        {
+            "id": "data_entry_101",
+            "prompt": "The partial completion notice:",
+            "default": "Response is only partial and is not complete.",
+            "translation": "",
+            "hash": "88bcc2"
+        },
+        {
+            "id": "survey_1169",
+            "prompt": "The intoductory text on the eConsent page:",
+            "default": "Displayed below is a read-only copy of your survey responses. Please review it and the options at the bottom.",
+            "translation": "",
+            "hash": "92b863"
+        },
+        {
+            "id": "survey_1171",
+            "prompt": "The label for the eConsent confirmation checkbox:",
+            "default": "I certify that all of my information in the document above is correct. I understand that clicking 'Submit' will electronically sign the form and that signing this form electronically is the equivalent of signing a physical document.",
+            "translation": "",
+            "hash": "fd6775"
+        },
+        {
+            "id": "survey_1170",
+            "prompt": "The eConsent verification notice:",
+            "default": "If any information above is not correct, you may click the 'Previous Page' button to go back and correct it.",
+            "translation": "",
+            "hash": "69189e"
+        },
+        {
+            "id": "data_entry_428",
+            "prompt": "The eConsent version title:",
+            "default": "Version:",
+            "translation": "",
+            "hash": "9f4912"
+        },
+        {
+            "id": "data_entry_429",
+            "prompt": "The eConsent type title:",
+            "default": "Type:",
+            "translation": "",
+            "hash": "ee3fb1"
+        },
+        {
+            "id": "survey_1264",
+            "prompt": "The 'Erase your signature(s) in this survey?' popup window title:",
+            "default": "Erase your signature(s) in this survey?",
+            "translation": "",
+            "hash": "975bad"
+        },
+        {
+            "id": "survey_1265",
+            "prompt": "The notification that the signature will be erased:",
+            "default": "You have provided your signature on an earlier page in this survey. This may include typing your name, a PIN, and/or signing your signature. You are allowed to return to a previous page in the survey, but if you do so, please be advised that your signature(s) will be automatically removed, after which you will need to provide it again before you can complete the survey. You will also be able to modify any of your existing responses to the questions in this survey. If this is okay, you may proceed to an earlier page in the survey by clicking the button below.",
+            "translation": "",
+            "hash": "12a611"
+        },
+        {
+            "id": "survey_1266",
+            "prompt": "The 'Erase my signature(s) and go to earlier page' button label:",
+            "default": "Erase my signature(s) and go to earlier page",
+            "translation": "",
+            "hash": "70e406"
+        },
+        {
+            "id": "survey_1364",
+            "prompt": "The 'View PDF' button label:",
+            "default": "View PDF",
+            "translation": "",
+            "hash": "2652d8"
+        },
+        {
+            "id": "survey_1341",
+            "prompt": "The 'Download PDF' button label:",
+            "default": "Download PDF",
+            "translation": "",
+            "hash": "98e5ef"
+        },
+        {
+            "id": "survey_1366",
+            "prompt": "The 'PDF not supported in browser' notification message:",
+            "default": "This browser does not support PDFs. Please download the PDF <b>in a new tab</b> to view it:",
+            "translation": "",
+            "hash": "8b1c38"
+        },
+        {
+            "id": "survey_1311",
+            "prompt": "The 'End Survey' button label:",
+            "default": "End Survey",
+            "translation": "",
+            "hash": "b043da"
+        },
+        {
+            "id": "survey_1312",
+            "prompt": "The 'Return and Edit Response' button label:",
+            "default": "Return and Edit Response",
+            "translation": "",
+            "hash": "7503e1"
+        },
+        {
+            "id": "data_entry_199",
+            "prompt": "The 'SAVE YOUR CHANGES?' popup window title:",
+            "default": "SAVE YOUR CHANGES?",
+            "translation": "",
+            "hash": "35b54c"
+        },
+        {
+            "id": "data_entry_265",
+            "prompt": "The save changes dialog text:",
+            "default": "Are you sure you wish to close the survey? Any responses you have added on this page will be lost if you close the survey now. IF YOU DO NOT WISH TO ABANDON YOUR CHANGES, click the 'Stay on page' button below and then click the button at the bottom of the page to save your changes.",
+            "translation": "",
+            "hash": "eaa888"
+        },
+        {
+            "id": "survey_01",
+            "prompt": "The 'End the survey?' popup window title:",
+            "default": "End the survey?",
+            "translation": "",
+            "hash": "c03702"
+        },
+        {
+            "id": "survey_02",
+            "prompt": "The 'End the survey?' text:",
+            "default": "You have selected an option that triggers this survey to end right now.",
+            "translation": "",
+            "hash": "b1003f"
+        },
+        {
+            "id": "survey_1313",
+            "prompt": "The 'End the survey?' instructions:",
+            "default": "To save your responses and end the survey, click the 'End Survey' button below. If you have selected the wrong option by accident and/or wish to return to the survey, click the 'Return and Edit Response' button.",
+            "translation": "",
+            "hash": "7f835f"
+        },
+        {
+            "id": "survey_14",
+            "prompt": "The 'Not a participant' message:",
+            "default": "Thank you for your interest, but you are not a participant for this survey.",
+            "translation": "",
+            "hash": "acfff2"
+        },
+        {
+            "id": "survey_997",
+            "prompt": "The 'Enable speech' tooltip text:",
+            "default": "Enable speech",
+            "translation": "",
+            "hash": "dc8ba9"
+        },
+        {
+            "id": "survey_998",
+            "prompt": "The 'Disable speech' tooltip text:",
+            "default": "Disable speech",
+            "translation": "",
+            "hash": "4d9652"
+        },
+        {
+            "id": "survey_163",
+            "prompt": "The title of the 'partial completion' notice:",
+            "default": "You have partially completed this survey.",
+            "translation": "",
+            "hash": "d9d05c"
+        },
+        {
+            "id": "survey_162",
+            "prompt": "The text of the 'partial completion' notice:",
+            "default": "You have not completed the entire survey, and your responses are thus considered only partially complete. For security reasons, you will not be allowed to continue taking the survey from the place where you stopped. So you have the option to 1) leave your survey responses unchanged as they are, or 2) you may start the survey over from the beginning so that you may complete it (this will delete all your previously existing responses when you begin again). To start the survey again, click the button below.",
+            "translation": "",
+            "hash": "92e393"
+        },
+        {
+            "id": "control_center_422",
+            "prompt": "The 'Start Over' button label:",
+            "default": "Start Over",
+            "translation": "",
+            "hash": "dc3c6d"
+        },
+        {
+            "id": "survey_982",
+            "prompt": "The text of the 'start over' confirmation popup:",
+            "default": "ERASE YOUR RESPONSES? Are you sure you wish to start the survey over from the beginning? Please note that doing so will erase ALL your responses already entered for this survey.",
+            "translation": "",
+            "hash": "d57147"
+        },
+        {
+            "id": "survey_1131",
+            "prompt": "The 'cannot edit' hint for email/phone fields:",
+            "default": "This field cannot be edited because its value originates from the Participant List.",
+            "translation": "",
+            "hash": "c869b4"
+        },
+        {
+            "id": "survey_619",
+            "prompt": "The 'survey access code' prompt:",
+            "default": "Please enter your access code to begin the survey.",
+            "translation": "",
+            "hash": "385d32"
+        },
+        {
+            "id": "survey_642",
+            "prompt": "The 'survey access code not case sensitive' hint:",
+            "default": "Please note that the access code is *not* case sensitive.",
+            "translation": "",
+            "hash": "a9c023"
+        },
+        {
+            "id": "survey_634",
+            "prompt": "The 'survey access code needed' alert message:",
+            "default": "Please enter the survey access code given to you.",
+            "translation": "",
+            "hash": "99e74d"
+        },
+        {
+            "id": "survey_1359",
+            "prompt": "The 'invalid survey access code' error message:",
+            "default": "<b>ERROR:</b> The code entered was not valid! Please try again.",
+            "translation": "",
+            "hash": "5a6469"
+        },
+        {
+            "id": "data_entry_215",
+            "prompt": "The 'Save & Return Later' button label:",
+            "default": "Save & Return Later",
+            "translation": "",
+            "hash": "79db09"
+        },
+        {
+            "id": "survey_118",
+            "prompt": "The 'Return Code' label",
+            "default": "Return Code",
+            "translation": "",
+            "hash": "c40084"
+        },
+        {
+            "id": "survey_657",
+            "prompt": "The 'Return Code' prompt:",
+            "default": "Return Code:",
+            "translation": "",
+            "hash": "52b505"
+        },
+        {
+            "id": "survey_658",
+            "prompt": "The 'Return Code' popup window title:",
+            "default": "'Return Code' needed to return",
+            "translation": "",
+            "hash": "2c57d3"
+        },
+        {
+            "id": "survey_659",
+            "prompt": "The 'Return Code' dialog message:",
+            "default": "Copy or write down the Return Code below. Without it, you will not be able to return and continue this survey. Once you have the code, click <i>Close</i> and follow the other instructions on this page.",
+            "translation": "",
+            "hash": "c0e978"
+        },
+        {
+            "id": "survey_112",
+            "prompt": "The title of the 'save and return later' page:",
+            "default": "Your survey responses were saved!",
+            "translation": "",
+            "hash": "48fbf6"
+        },
+        {
+            "id": "survey_1346",
+            "prompt": "The 'save and return later' instructions:",
+            "default": "You have chosen to stop the survey for now and return at a later time to complete it. To return to this survey, you will need both the <i>survey link</i> and your <i>return code</i>. See the instructions below.",
+            "translation": "",
+            "hash": "256250"
+        },
+        {
+            "id": "survey_119",
+            "prompt": "The 'Return Code' instructions:",
+            "default": "A return code is <b>*required*</b> in order to continue the survey where you left off. Please write down the value listed below.",
+            "translation": "",
+            "hash": "c19fa2"
+        },
+        {
+            "id": "survey_581",
+            "prompt": "The 'survey return link' instructions:",
+            "default": "You have chosen to stop the survey for now and return at a later time to complete it. To return to this survey, you will need the survey link to this survey.",
+            "translation": "",
+            "hash": "56e4d0"
+        },
+        {
+            "id": "survey_120",
+            "prompt": "The notice that the 'Return Code' is not included:",
+            "default": "The return code will NOT be included in the email below.",
+            "translation": "",
+            "hash": "a2be3e"
+        },
+        {
+            "id": "data_entry_117",
+            "prompt": "The return code label on data entry forms:",
+            "default": "Return Code for participant to continue survey:",
+            "translation": "",
+            "hash": "26e8b5"
+        },
+        {
+            "id": "survey_121",
+            "prompt": "The survey link title:",
+            "default": "Survey link for returning",
+            "translation": "",
+            "hash": "e5b44d"
+        },
+        {
+            "id": "survey_123",
+            "prompt": "The survey link instructions:",
+            "default": "You may bookmark this page to return to the survey, OR you can have the survey link emailed to you by providing your email address below. For security purposes, <b>the return code will NOT be included in the email</b>. If you do not receive the email soon afterward, please check your Junk Email folder.",
+            "translation": "",
+            "hash": "5c7187"
+        },
+        {
+            "id": "survey_124",
+            "prompt": "The 'Send Survey Link' button label:",
+            "default": "Send Survey Link",
+            "translation": "",
+            "hash": "2b1508"
+        },
+        {
+            "id": "survey_126",
+            "prompt": "The text of the 'continue now' notification:",
+            "default": "Or if you wish, you may continue with this survey again now.",
+            "translation": "",
+            "hash": "40a5ac"
+        },
+        {
+            "id": "survey_127",
+            "prompt": "The 'Continue Survey Now' button label:",
+            "default": "Continue Survey Now",
+            "translation": "",
+            "hash": "8ea502"
+        },
+        {
+            "id": "survey_1339",
+            "prompt": "The 'email will not be stored' notice:",
+            "default": "Your email address will not be associated with or stored with your survey responses.",
+            "translation": "",
+            "hash": "ecd8a1"
+        },
+        {
+            "id": "survey_583",
+            "prompt": "The 'bookmark this page' instructions:",
+            "default": "You may bookmark this page to return to the survey, OR you can have the survey link emailed to you by providing your email address below. If you do not receive the email soon afterward, please check your Junk Email folder.",
+            "translation": "",
+            "hash": "9f080d"
+        },
+        {
+            "id": "survey_1288",
+            "prompt": "The 'Email sent!' popup window title:",
+            "default": "Email sent!",
+            "translation": "",
+            "hash": "13bebf"
+        },
+        {
+            "id": "survey_1358",
+            "prompt": "The 'The email was successfully sent to:' dialog message:",
+            "default": "The email was successfully sent to:",
+            "translation": "",
+            "hash": "f427f7"
+        },
+        {
+            "id": "survey_582",
+            "prompt": "The 'email just sent' notice:",
+            "default": "You have just been sent an email containing a link for continuing the survey. If you do not receive the email soon, please check your Junk Email folder.",
+            "translation": "",
+            "hash": "7f6e4b"
+        },
+        {
+            "id": "survey_122",
+            "prompt": "The 'email (without return code) just sent' notice:",
+            "default": "You have just been sent an email containing a link for continuing the survey. For security purposes, <b>the email does NOT contain the return code</b>, but the code is still required to continue the survey. If you do not receive the email soon, please check your Junk Email folder.",
+            "translation": "",
+            "hash": "7e31b1"
+        },
+        {
+            "id": "survey_1354",
+            "prompt": "The 'return with credentials' notice:",
+            "default": "You may return to this survey in the future to modify your responses by navigating to the survey URL and entering your Survey Login credentials.",
+            "translation": "",
+            "hash": "30a0b2"
+        },
+        {
+            "id": "survey_1355",
+            "prompt": "The 'return with return code' notice:",
+            "default": "You may return to this survey in the future to modify your responses by navigating to the survey URL and entering the code below.",
+            "translation": "",
+            "hash": "ac8008"
+        },
+        {
+            "id": "survey_22",
+            "prompt": "The 'Returning?' link label:",
+            "default": "Returning?",
+            "translation": "",
+            "hash": "61b800"
+        },
+        {
+            "id": "survey_1141",
+            "prompt": "The text for the alt attribute of the 'Returning?' link:",
+            "default": "Click here to return and continue the survey where you left off.",
+            "translation": "",
+            "hash": "5e6aa9"
+        },
+        {
+            "id": "survey_23",
+            "prompt": "The 'Begin where you left off.' notice:",
+            "default": "Begin where you left off.",
+            "translation": "",
+            "hash": "64310c"
+        },
+        {
+            "id": "survey_24",
+            "prompt": "The 'returning to survey' instructions:",
+            "default": "If you have already completed part of the survey, you may continue where you left off. All you need is the return code given to you previously. Click the link below to begin entering your return code and continue the survey.",
+            "translation": "",
+            "hash": "b7a279"
+        },
+        {
+            "id": "survey_25",
+            "prompt": "The 'Continue the survey' button label:",
+            "default": "Continue the survey",
+            "translation": "",
+            "hash": "51ea04"
+        },
+        {
+            "id": "survey_661",
+            "prompt": "The 'survey continuation' instructions:",
+            "default": "To continue the survey, please enter the RETURN CODE that was auto-generated for you when you left the survey.",
+            "translation": "",
+            "hash": "0473dc"
+        },
+        {
+            "id": "survey_641",
+            "prompt": "The 'Return Code not case sensitive' notice:",
+            "default": "Please note that the return code is *not* case sensitive.",
+            "translation": "",
+            "hash": "ac8d8e"
+        },
+        {
+            "id": "survey_662",
+            "prompt": "The 'Submit your Return Code' button label:",
+            "default": "Submit your Return Code",
+            "translation": "",
+            "hash": "2cb384"
+        },
+        {
+            "id": "survey_110",
+            "prompt": "The 'start over' instructions:",
+            "default": "Alternatively, if you have forgotten your return code or simply wish to start the survey over from the beginning, you may delete all your existing survey responses and start over.",
+            "translation": "",
+            "hash": "30df1e"
+        },
+        {
+            "id": "survey_161",
+            "prompt": "The 'invalid return code' error message:",
+            "default": "The return code you entered was incorrect. Please try again.",
+            "translation": "",
+            "hash": "46d5c9"
+        },
+        {
+            "id": "survey_663",
+            "prompt": "The 'Survey Access Code/Return Code mismatch' explanation:",
+            "default": "NOTE: Be sure that you are *not* entering a Survey Access Code, which is different from a Return Code. Survey Access Codes allow you to navigate to the survey page, but only Return Codes allow you to return when you have already started the survey.",
+            "translation": "",
+            "hash": "270206"
+        },
+        {
+            "id": "survey_674",
+            "prompt": "The message displayed when a survey has been locked:",
+            "default": "We're sorry, but this survey response cannot be modified because someone has locked the response to prevent any changes to it. It can only be unlocked by a survey administrator who has locking/unlocking privileges. If this seems incorrect, please contact your survey administrator for this survey.",
+            "translation": "",
+            "hash": "fb8f98"
+        },
+        {
+            "id": "survey_1156",
+            "prompt": "The message displayed when a partial survey has been locked:",
+            "default": "You have partially completed this survey, but your response is LOCKED.",
+            "translation": "",
+            "hash": "5010ab"
+        },
+        {
+            "id": "survey_1155",
+            "prompt": "The explanation for a partial survey that has been locked:",
+            "default": "You have not completed the entire survey, and your responses are thus considered only partially complete. However, this survey response has been locked by a survey administrator, so you will not be able to complete the survey until someone has unlocked it. If this seems incorrect, please contact your survey administrator for this survey.",
+            "translation": "",
+            "hash": "5319bc"
+        },
+        {
+            "id": "survey_144",
+            "prompt": "Email subject:",
+            "default": "Survey partially completed",
+            "translation": "",
+            "hash": "35585e"
+        },
+        {
+            "id": "survey_141",
+            "prompt": "The 'automatically generated' notice:",
+            "default": "[This message was automatically generated.]",
+            "translation": "",
+            "hash": "5a8ccc"
+        },
+        {
+            "id": "survey_1360",
+            "prompt": "The 'thank you' message (use {0} as placeholder for the survey title):",
+            "default": "Thank you for partially completing the survey '{0}'.",
+            "translation": "",
+            "hash": "b587e4"
+        },
+        {
+            "id": "survey_584",
+            "prompt": "The 'survey progress' notice:",
+            "default": "You may continue your progress on this survey by clicking the link below.",
+            "translation": "",
+            "hash": "3e928d"
+        },
+        {
+            "id": "survey_143",
+            "prompt": "The 'return code needed' notice:",
+            "default": "You may continue your progress on this survey by clicking the link below. You will need your return code that was given to you on the survey webpage.",
+            "translation": "",
+            "hash": "36c335"
+        },
+        {
+            "id": "survey_495",
+            "prompt": "The 'contact' notice:",
+            "default": "If you need to retrieve your return code, please contact the survey administrator that originally sent you the survey invitation.",
+            "translation": "",
+            "hash": "b2b711"
+        },
+        {
+            "id": "survey_135",
+            "prompt": "The 'copy link' notice:",
+            "default": "If the link above does not work, try copying the link below into your web browser:",
+            "translation": "",
+            "hash": "f85d32"
+        },
+        {
+            "id": "survey_764",
+            "prompt": "The title for the confirmation email prompt:",
+            "default": "Enter your email to receive confirmation message?",
+            "translation": "",
+            "hash": "50ecf9"
+        },
+        {
+            "id": "survey_765",
+            "prompt": "The confirmation email prompt:",
+            "default": "A confirmation email is supposed to be sent to all respondents that have completed the survey, but because your email address is not on file, the confirmation email cannot be sent automatically. If you wish to receive it, enter your email address below.",
+            "translation": "",
+            "hash": "215927"
+        },
+        {
+            "id": "survey_515",
+            "prompt": "The 'Enter email address' placeholder text:",
+            "default": "Enter email address",
+            "translation": "",
+            "hash": "122a38"
+        },
+        {
+            "id": "survey_766",
+            "prompt": "The 'Send confirmation email' button label:",
+            "default": "Send confirmation email",
+            "translation": "",
+            "hash": "0f23e1"
+        },
+        {
+            "id": "survey_181",
+            "prompt": "The 'Email successfully sent!' message:",
+            "default": "Email successfully sent!",
+            "translation": "",
+            "hash": "8f3edd"
+        },
+        {
+            "id": "survey_167",
+            "prompt": "The 'survey results' title:",
+            "default": "View Survey Results",
+            "translation": "",
+            "hash": "2d5451"
+        },
+        {
+            "id": "survey_169",
+            "prompt": "The 'survey results' instructions:",
+            "default": "Displayed on this page are the aggregate results from this survey with each question listed in the order that it appears on the survey.",
+            "translation": "",
+            "hash": "75ce36"
+        },
+        {
+            "id": "survey_209",
+            "prompt": "The 'Graphs:' title:",
+            "default": "Graphs:",
+            "translation": "",
+            "hash": "09290a"
+        },
+        {
+            "id": "survey_1348",
+            "prompt": "The barchart explanation (use {0} and {1} as placeholders for 'blue' and 'orange', see below):",
+            "default": "All bar charts will have bars displayed in {0:blue}, and any of the choices that you selected in your survey response will have *asterisks* around that choice's label on the left of the bar chart. You will also see your response appended to the right end of the bar in {1:orange}.",
+            "translation": "",
+            "hash": "0ca9a8"
+        },
+        {
+            "id": "survey_1349",
+            "prompt": "The scatterplot explanation (use {0}, {1}, and {2} as placeholders for 'blue', 'red', and 'orange', see below):",
+            "default": "For scatter plots, the values of other survey participants will be displayed in {0:blue}, the median value will be displayed in {1:red}, and the value you entered will be displayed in {2:orange}.",
+            "translation": "",
+            "hash": "62f7d9"
+        },
+        {
+            "id": "survey_171",
+            "prompt": "Translation of 'blue':",
+            "default": "blue",
+            "translation": "",
+            "hash": "4c9a82"
+        },
+        {
+            "id": "survey_173",
+            "prompt": "Translation of 'orange':",
+            "default": "orange",
+            "translation": "",
+            "hash": "ef0ebb"
+        },
+        {
+            "id": "survey_176",
+            "prompt": "Translation of 'red':",
+            "default": "red",
+            "translation": "",
+            "hash": "789880"
+        },
+        {
+            "id": "survey_210",
+            "prompt": "The 'Statistics:' title:",
+            "default": "Statistics:",
+            "translation": "",
+            "hash": "55fb5b"
+        },
+        {
+            "id": "survey_211",
+            "prompt": "The descriptive statistics explanation:",
+            "default": "Descriptive statistics will be displayed below for each question. For categorical (multiple choice) questions, it will display a count of all missing and unique values, as well as the frequency of occurrence for each choice selected in the question. For numerical questions, it will display a count of all missing and unique values along with other useful statistics, such as the minimum, maximum, mean, and standard deviation across all responses. Also displayed are percentiles and a listing of the five lowest and highest values for that question.",
+            "translation": "",
+            "hash": "4e2f7a"
+        },
+        {
+            "id": "survey_178",
+            "prompt": "The 'Email this page' button label:",
+            "default": "Email this page",
+            "translation": "",
+            "hash": "d891e4"
+        },
+        {
+            "id": "survey_179",
+            "prompt": "The 'Email address:' prompt:",
+            "default": "Email address:",
+            "translation": "",
+            "hash": "a69fa6"
+        },
+        {
+            "id": "survey_201",
+            "prompt": "The note indicating that the survey results code will not be included in the email message:",
+            "default": "<b>NOTE:</b> The email sent to the address above will <u>NOT</u> contain the survey results code, which must be written down and kept.",
+            "translation": "",
+            "hash": "d8d497"
+        },
+        {
+            "id": "survey_193",
+            "prompt": "The 'Want to return to this page later?' prompt:",
+            "default": "Want to return to this page later?",
+            "translation": "",
+            "hash": "0ef05f"
+        },
+        {
+            "id": "survey_194",
+            "prompt": "The 'Write down your survey results code:' prompt:",
+            "default": "Write down your survey results code:",
+            "translation": "",
+            "hash": "3998bb"
+        },
+        {
+            "id": "survey_195",
+            "prompt": "The 'results return' notice:",
+            "default": "You can ONLY return to this page again if you have your survey results code. Please write it down now.",
+            "translation": "",
+            "hash": "a02a31"
+        },
+        {
+            "id": "survey_196",
+            "prompt": "The invalid results code error message:",
+            "default": "<b>ERROR:</b><br>The survey results code you just entered does NOT match the one originally given to you.",
+            "translation": "",
+            "hash": "541db8"
+        },
+        {
+            "id": "locking_25",
+            "prompt": "The 'Please try again.' prompt:",
+            "default": "Please try again.",
+            "translation": "",
+            "hash": "83a6fd"
+        },
+        {
+            "id": "survey_197",
+            "prompt": "The 'Want to view the aggregate survey responses again?' prompt:",
+            "default": "Want to view the aggregate survey responses again?",
+            "translation": "",
+            "hash": "e6458e"
+        },
+        {
+            "id": "survey_198",
+            "prompt": "The 'Enter your survey results code:' prompt:",
+            "default": "Enter your survey results code:",
+            "translation": "",
+            "hash": "510929"
+        },
+        {
+            "id": "survey_199",
+            "prompt": "The return code notice:",
+            "default": "If you enter the survey results code given to you right after you completed this survey, you will be able to view the aggregate survey results. If you do not have the survey results code, you will not be able to view the results.",
+            "translation": "",
+            "hash": "ec348d"
+        },
+        {
+            "id": "survey_168",
+            "prompt": "The return later notice:",
+            "default": "Unfortunately, the survey results cannot be viewed at this time because the minimum number of completed responses for this survey has not yet been met. Please return again to this page in the near future to view the survey results. <b>IMPORTANT:</b> Make sure to write down your survey results code before leaving this page.",
+            "translation": "",
+            "hash": "002877"
+        },
+        {
+            "id": "survey_505",
+            "prompt": "The 'Survey Queue' title:",
+            "default": "Survey Queue",
+            "translation": "",
+            "hash": "f160e5"
+        },
+        {
+            "id": "survey_509",
+            "prompt": "The 'Close survey queue' button label:",
+            "default": "Close survey queue",
+            "translation": "",
+            "hash": "6c8dc3"
+        },
+        {
+            "id": "dataqueries_23",
+            "prompt": "The 'Status' column title:",
+            "default": "Status",
+            "translation": "",
+            "hash": "bae7d5"
+        },
+        {
+            "id": "survey_49",
+            "prompt": "The 'Survey Title' column title:",
+            "default": "Survey Title",
+            "translation": "",
+            "hash": "3ac013"
+        },
+        {
+            "id": "survey_507",
+            "prompt": "The 'Completed' indicator:",
+            "default": "Completed",
+            "translation": "",
+            "hash": "1798b3"
+        },
+        {
+            "id": "survey_511",
+            "prompt": "The 'To begin the next survey, click the 'Begin survey' button next to the title.' prompt:",
+            "default": "To begin the next survey, click the 'Begin survey' button next to the title.",
+            "translation": "",
+            "hash": "25e39d"
+        },
+        {
+            "id": "survey_504",
+            "prompt": "The 'Begin survey' button label:",
+            "default": "Begin survey",
+            "translation": "",
+            "hash": "11eda4"
+        },
+        {
+            "id": "data_entry_174",
+            "prompt": "The 'Edit response' button label:",
+            "default": "Edit response",
+            "translation": "",
+            "hash": "ef35ba"
+        },
+        {
+            "id": "survey_1090",
+            "prompt": "The 'Take this survey again' button label:",
+            "default": "Take this survey again",
+            "translation": "",
+            "hash": "d505da"
+        },
+        {
+            "id": "survey_506",
+            "prompt": "The 'incomplete surveys' prompt:",
+            "default": "Listed below is your survey queue, which lists any other surveys that you have not yet completed.",
+            "translation": "",
+            "hash": "1658ff"
+        },
+        {
+            "id": "survey_508",
+            "prompt": "The 'invalid Survey Queue link' message:",
+            "default": "Thank you for your interest, but this Survey Queue link is not valid.",
+            "translation": "",
+            "hash": "02af19"
+        },
+        {
+            "id": "survey_1352",
+            "prompt": "The message indicating how many surveys have been completed (use '{0}' as placeholder for the number):",
+            "default": "{0} surveys completed!",
+            "translation": "",
+            "hash": "6ee2c9"
+        },
+        {
+            "id": "survey_536",
+            "prompt": "The message indicating that all surveys have been completed:",
+            "default": "All surveys in your queue have been completed!",
+            "translation": "",
+            "hash": "9c5466"
+        },
+        {
+            "id": "survey_535",
+            "prompt": "The '(view all)' link label:",
+            "default": "(view all)",
+            "translation": "",
+            "hash": "5a816a"
+        },
+        {
+            "id": "survey_512",
+            "prompt": "The 'Link to Survey Queue' button label:",
+            "default": "Link to Survey Queue",
+            "translation": "",
+            "hash": "fb0e6a"
+        },
+        {
+            "id": "survey_510",
+            "prompt": "The 'Get link to my survey queue' button label:",
+            "default": "Get link to my survey queue",
+            "translation": "",
+            "hash": "1f0c91"
+        },
+        {
+            "id": "survey_516",
+            "prompt": "The survey queue link explanation:",
+            "default": "To obtain your survey queue link, which will allow you to return to your survey queue in the future, you may copy and paste the link displayed in the text box below, or you may have it emailed to you at your email address.",
+            "translation": "",
+            "hash": "b1d7ab"
+        },
+        {
+            "id": "survey_513",
+            "prompt": "The 'Copy and paste the survey queue link' prompt:",
+            "default": "Copy and paste the survey queue link",
+            "translation": "",
+            "hash": "715389"
+        },
+        {
+            "id": "global_46",
+            "prompt": "The '– OR –' divider (dashes will be added automatically):",
+            "default": "OR",
+            "translation": "",
+            "hash": "f579c5"
+        },
+        {
+            "id": "survey_514",
+            "prompt": "The 'Send the survey queue link in an email' prompt:",
+            "default": "Send the survey queue link in an email",
+            "translation": "",
+            "hash": "6581a6"
+        },
+        {
+            "id": "survey_524",
+            "prompt": "The 'EMAIL SENT!' popup window title:",
+            "default": "EMAIL SENT!",
+            "translation": "",
+            "hash": "36a01c"
+        },
+        {
+            "id": "survey_1351",
+            "prompt": "The 'email sent' popup message (use {0} as placeholder for the email address):",
+            "default": "Your email was successfully sent to {0}.",
+            "translation": "",
+            "hash": "61cda3"
+        },
+        {
+            "id": "survey_522",
+            "prompt": "The 'Please enter an email address' prompt:",
+            "default": "Please enter an email address",
+            "translation": "",
+            "hash": "23b838"
+        },
+        {
+            "id": "survey_180",
+            "prompt": "The 'Send' button label:",
+            "default": "Send",
+            "translation": "",
+            "hash": "9bc257"
+        },
+        {
+            "id": "survey_523",
+            "prompt": "The 'survey queue link' email subject:",
+            "default": "Your survey queue link",
+            "translation": "",
+            "hash": "d073c0"
+        },
+        {
+            "id": "survey_520",
+            "prompt": "The 'survey queue link' email body (this will be followed by the survey link):",
+            "default": "Please follow this link to your Survey Queue to complete your surveys: ",
+            "translation": "",
+            "hash": "1b3f52"
+        },
+        {
+            "id": "data_entry_522",
+            "prompt": "The survey completed status message (use {0} as placeholder for the timestamp):",
+            "default": "Response was completed on {0}.",
+            "translation": "",
+            "hash": "0a58db"
+        },
+        {
+            "id": "data_entry_523",
+            "prompt": "The survey completed status message (use {0} and {1} as placeholders for timestamp and identifier, respectively):",
+            "default": "Response was completed on {0} by {1}.",
+            "translation": "",
+            "hash": "84608b"
+        },
+        {
+            "id": "data_entry_524",
+            "prompt": "The survey added status message (use {0} as placeholder for the timestamp):",
+            "default": "Response was added on {0}.",
+            "translation": "",
+            "hash": "bb3eb2"
+        },
+        {
+            "id": "data_entry_525",
+            "prompt": "The survey added status message (use {0} and {1} as placeholders for timestamp and identifier, respectively):",
+            "default": "Response was added on {0} by {1}.",
+            "translation": "",
+            "hash": "74797d"
+        },
+        {
+            "id": "data_entry_427",
+            "prompt": "The secondary unique field note:",
+            "default": "NOTE: Modifying this value will also change the value any corresponding instances of this field in other Events or Repeating Instances where this form is used.",
+            "translation": "",
+            "hash": "d243ef"
+        },
+        {
+            "id": "form_renderer_18",
+            "prompt": "The 'Lock' link label:",
+            "default": "Lock",
+            "translation": "",
+            "hash": "891ebc"
+        },
+        {
+            "id": "data_entry_493",
+            "prompt": "The 'Lock this instrument?' prompt:",
+            "default": "Lock this instrument?",
+            "translation": "",
+            "hash": "9b548f"
+        },
+        {
+            "id": "data_entry_494",
+            "prompt": "The 'instrument locked' explanation:",
+            "default": "If locked, no user will be able to modify this instrument for this record until someone with Instrument Level Lock/Unlock privileges unlocks it.",
+            "translation": "",
+            "hash": "7b10aa"
+        },
+        {
+            "id": "data_entry_182",
+            "prompt": "The 'Unlock form' button label:",
+            "default": "Unlock form",
+            "translation": "",
+            "hash": "7e7a53"
+        },
+        {
+            "id": "form_renderer_42",
+            "prompt": "The locking info statement (use {0}, {1}, and {2} as placeholders for userid, user full name, and timestamp, respectively):",
+            "default": "<b>Locked by {0}</b> ({1}) on {2}",
+            "translation": "",
+            "hash": "d23527"
+        },
+        {
+            "id": "form_renderer_55",
+            "prompt": "The locking info header (use {0}, {1}, and {2} as placeholders for userid, user full name, and timestamp, respectively):",
+            "default": "<b>Instrument locked by {0}</b> ({1}) on {2}",
+            "translation": "",
+            "hash": "b4b65a"
+        },
+        {
+            "id": "form_renderer_56",
+            "prompt": "The locking info header explanation (use {0} and {1} as placeholders for instrument name and record id, respectively):",
+            "default": "The instrument '{0}' has been locked for record '{1}'.",
+            "translation": "",
+            "hash": "5bd7c9"
+        },
+        {
+            "id": "form_renderer_40",
+            "prompt": "The locking header unlocking explanation:",
+            "default": "If you have instrument-level locking/unlocking privileges, you may unlock this instrument at the bottom of the page.",
+            "translation": "",
+            "hash": "f64893"
+        },
+        {
+            "id": "bottom_110",
+            "prompt": "The 'Lock entire record' link label:",
+            "default": "Lock entire record",
+            "translation": "",
+            "hash": "c8a860"
+        },
+        {
+            "id": "bottom_111",
+            "prompt": "The 'Unlock entire record' link label:",
+            "default": "Unlock entire record",
+            "translation": "",
+            "hash": "69fd91"
+        },
+        {
+            "id": "form_renderer_62",
+            "prompt": "The E-Signature statement (use {0} and {1} as placeholders for the user id and the timestamp, respectively):",
+            "default": "E-signed by {0} on {1}",
+            "translation": "",
+            "hash": "948d5f"
+        },
+        {
+            "id": "data_entry_249",
+            "prompt": "PROMIS auto-scoring title:",
+            "default": "Auto-scoring Instrument",
+            "translation": "",
+            "hash": "99a270"
+        },
+        {
+            "id": "data_entry_250",
+            "prompt": "PROMIS auto-scoring locked message:",
+            "default": "This instrument is an auto-scoring instrument. It can only be taken in survey form, and all fields below are thus permanently locked and uneditabled.",
+            "translation": "",
+            "hash": "5f39e7"
+        },
+        {
+            "id": "data_entry_520",
+            "prompt": "PROMIS auto-scoring create record message (the placeholder {0} will contain a link to the Survey Distribution Tools page):",
+            "default": "Since this record has not been created yet, you will need to visit the {0} page to begin this auto-scoring instrument in survey mode.",
+            "translation": "",
+            "hash": "a144d2"
+        },
+        {
+            "id": "data_entry_217",
+            "prompt": "PROMIS adaptive title:",
+            "default": "Adaptive Instrument",
+            "translation": "",
+            "hash": "ca76d1"
+        },
+        {
+            "id": "data_entry_218",
+            "prompt": "PROMIS adaptive locked message:",
+            "default": "This instrument is a computer adaptive test (CAT), so its questions are generated dynamically based on answers given. Because it is dynamic, it can only be taken in survey form, and all fields below are thus permanently locked and uneditabled.",
+            "translation": "",
+            "hash": "0a8ff0"
+        },
+        {
+            "id": "data_entry_521",
+            "prompt": "PROMIS adaptive create record message (the placeholder {0} will contain a link to the Survey Distribution Tools page):",
+            "default": "Since this record has not been created yet, you will need to visit the {0} page to begin this adaptive instrument in survey mode.",
+            "translation": "",
+            "hash": "1fe1ec"
+        },
+        {
+            "id": "form_renderer_21",
+            "prompt": "The 'View equation' link label:",
+            "default": "View equation",
+            "translation": "",
+            "hash": "4577fb"
+        },
+        {
+            "id": "data_entry_263",
+            "prompt": "The password disclaimer text:",
+            "default": "Please note that although the value entered here is obfuscated and not readable on this page, the value will be visible outside of this page (e.g., in a report or data export) to the individuals that are administering this project.",
+            "translation": "",
+            "hash": "9aac6b"
+        },
+        {
+            "id": "survey_413",
+            "prompt": "The 'Invitation status:' label",
+            "default": "Invitation status:",
+            "translation": "",
+            "hash": "9d6446"
+        },
+        {
+            "id": "survey_1361",
+            "prompt": "The 'invitation to be sent' tooltip (use {0} as placeholder for the timestamp):",
+            "default": "Scheduled to send at {0}",
+            "translation": "",
+            "hash": "648143"
+        },
+        {
+            "id": "survey_1362",
+            "prompt": "The 'invitation sent' tooltip (use {0} as placeholder for the timestamp):",
+            "default": "Was sent at {0}",
+            "translation": "",
+            "hash": "2fb56d"
+        },
+        {
+            "id": "survey_1363",
+            "prompt": "The 'invitation failed to send' tooltip (use {0} as placeholder for the timestamp):",
+            "default": "Invitation failed to send (originally scheduled for {0})",
+            "translation": "",
+            "hash": "577519"
+        },
+        {
+            "id": "survey_649",
+            "prompt": "The 'Survey options' menu label:",
+            "default": "Survey options",
+            "translation": "",
+            "hash": "fd770a"
+        },
+        {
+            "id": "survey_220",
+            "prompt": "The 'Open survey' menu item label:",
+            "default": "Open survey",
+            "translation": "",
+            "hash": "7a5cbb"
+        },
+        {
+            "id": "bottom_02",
+            "prompt": "The 'Log out' menu item label:",
+            "default": "Log out",
+            "translation": "",
+            "hash": "6e78c9"
+        },
+        {
+            "id": "survey_278",
+            "prompt": "The 'Compose survey invitation' menu item label:",
+            "default": "Compose survey invitation",
+            "translation": "",
+            "hash": "005ada"
+        },
+        {
+            "id": "survey_628",
+            "prompt": "The 'Survey Access Code' menu item label:",
+            "default": "Survey Access Code",
+            "translation": "",
+            "hash": "ff0255"
+        },
+        {
+            "id": "survey_664",
+            "prompt": "The 'QR Code' menu item label:",
+            "default": "QR Code",
+            "translation": "",
+            "hash": "447421"
+        },
+        {
+            "id": "data_entry_181",
+            "prompt": "The 'View data history' tooltip text:",
+            "default": "View data history",
+            "translation": "",
+            "hash": "41589d"
+        },
+        {
+            "id": "dataqueries_145",
+            "prompt": "The 'View comment log' tooltip text:",
+            "default": "View comment log",
+            "translation": "",
+            "hash": "b475d2"
+        },
+        {
+            "id": "survey_412",
+            "prompt": "The 'No invites sent yet' tooltip text:",
+            "default": "No invites sent yet",
+            "translation": "",
+            "hash": "bb016e"
+        },
+        {
+            "id": "data_entry_503",
+            "prompt": "The record renaming hint (use {0} as a placeholder for the Record Home Page link):",
+            "default": "To rename the record, see the record action drop-down at top of the {0}.",
+            "translation": "",
+            "hash": "f780f5"
+        },
+        {
+            "id": "grid_42",
+            "prompt": "The 'Record Home Page' link label:",
+            "default": "Record Home Page",
+            "translation": "",
+            "hash": "c48588"
+        },
+        {
+            "id": "data_entry_148",
+            "prompt": "The 'Survey response is editable' notification:",
+            "default": "Survey response is editable",
+            "translation": "",
+            "hash": "e2dbda"
+        },
+        {
+            "id": "data_entry_149",
+            "prompt": "The 'You have permission to edit this survey response from its original values.' notification:",
+            "default": "You have permission to edit this survey response from its original values.",
+            "translation": "",
+            "hash": "a6e560"
+        },
+        {
+            "id": "data_entry_150",
+            "prompt": "The '(now editing)' notification:",
+            "default": "(now editing)",
+            "translation": "",
+            "hash": "b23060"
+        },
+        {
+            "id": "survey_1350",
+            "prompt": "The 'View all contributors to this response.' link label:",
+            "default": "View all contributors to this response.",
+            "translation": "",
+            "hash": "aef77e"
+        },
+        {
+            "id": "grid_54",
+            "prompt": "The record / data access group mismatch alert (use {0} as a placeholder for the record id):",
+            "default": "Record {0} belongs to another Data Access Group",
+            "translation": "",
+            "hash": "c57f8d"
+        },
+        {
+            "id": "grid_14",
+            "prompt": "The record / data access group mismatch explanation:",
+            "default": "You cannot access this project record because it is already being used by another Data Access Group within this project. You will have to use a different record if you wish to create a new project record.",
+            "translation": "",
+            "hash": "8bcbee"
+        },
+        {
+            "id": "grid_15",
+            "prompt": "The 'Go back to the previous page' link label:",
+            "default": "Go back to the previous page",
+            "translation": "",
+            "hash": "8fe09b"
+        },
+        {
+            "id": "grid_55",
+            "prompt": "The 'new record' hint (use {0} and {1} as placeholders for the record id and the record id label, respectively):",
+            "default": "<b>Record \"{0}\" is a new {1}.</b> To create the record and begin entering data for it, click any gray status icon below.",
+            "translation": "",
+            "hash": "57e050"
+        },
+        {
+            "id": "data_entry_151",
+            "prompt": "The 'edit survey response' hint:",
+            "default": "In order to begin editing the response, you must click the Edit Response button above.",
+            "translation": "",
+            "hash": "697672"
+        },
+        {
+            "id": "data_entry_572",
+            "prompt": "Displayed for response 'start time' at top of data entry form (use {0} as placeholder for the timestamp):",
+            "default": "Response was initially started on {0}.",
+            "translation": "",
+            "hash": "73ef16"
+        },
+        {
+            "id": "data_entry_573",
+            "prompt": "Displayed for response 'start time' at top of data entry form when no timestamp is available:",
+            "default": "(It is unknown when the response was initially started.)",
+            "translation": "",
+            "hash": "038a5c"
+        },
+        {
+            "id": "data_entry_574",
+            "prompt": "Displayed for response 'total completion time' at top of data entry form (use {0} as placeholder for the duration):",
+            "default": "The total completion time of the response is {0}.",
+            "translation": "",
+            "hash": "9deae7"
+        },
+        {
+            "id": "control_center_4469",
+            "prompt": "Unit for durations of time (seconds):",
+            "default": "seconds",
+            "translation": "",
+            "hash": "7febce"
+        },
+        {
+            "id": "survey_428",
+            "prompt": "Unit for durations of time (minutes):",
+            "default": "minutes",
+            "translation": "",
+            "hash": "be2e2b"
+        },
+        {
+            "id": "survey_427",
+            "prompt": "Unit for durations of time (hours):",
+            "default": "hours",
+            "translation": "",
+            "hash": "5aedee"
+        },
+        {
+            "id": "survey_426",
+            "prompt": "Unit for durations of time (days):",
+            "default": "days",
+            "translation": "",
+            "hash": "5548ae"
+        },
+        {
+            "id": "bottom_47",
+            "prompt": "The 'Data Collection' menu label:",
+            "default": "Data Collection",
+            "translation": "",
+            "hash": "0a60a9"
+        },
+        {
+            "id": "app_24",
+            "prompt": "The 'Survey Distribution Tools' menu label:",
+            "default": "Survey Distribution Tools",
+            "translation": "",
+            "hash": "667617"
+        },
+        {
+            "id": "invite_participants_01",
+            "prompt": "The 'Survey Distribution Tools' subtext:",
+            "default": "Get a public survey link or build a participant list for inviting respondents",
+            "translation": "",
+            "hash": "2d8932"
+        },
+        {
+            "id": "global_91",
+            "prompt": "The 'Record Status Dashboard' menu label:",
+            "default": "Record Status Dashboard",
+            "translation": "",
+            "hash": "1f7848"
+        },
+        {
+            "id": "bottom_60",
+            "prompt": "The 'Record Status Dashboard' subtext:",
+            "default": "View data collection status of all records",
+            "translation": "",
+            "hash": "316615"
+        },
+        {
+            "id": "bottom_62",
+            "prompt": "The 'Add / Edit Records' menu label:",
+            "default": "Add / Edit Records",
+            "translation": "",
+            "hash": "934eff"
+        },
+        {
+            "id": "bottom_64",
+            "prompt": "The 'Add / Edit Records' subtext:",
+            "default": "Create new records or edit/view existing ones",
+            "translation": "",
+            "hash": "83e13c"
+        },
+        {
+            "id": "bottom_72",
+            "prompt": "The 'View / Edit Records' menu label:",
+            "default": "View / Edit Records",
+            "translation": "",
+            "hash": "53753c"
+        },
+        {
+            "id": "bottom_73",
+            "prompt": "The 'View / Edit Records' subtext:",
+            "default": "View or edit existing records",
+            "translation": "",
+            "hash": "87a3a8"
+        },
+        {
+            "id": "bottom_63",
+            "prompt": "The 'Select other record' link label:",
+            "default": "Select other record",
+            "translation": "",
+            "hash": "f78160"
+        },
+        {
+            "id": "global_238",
+            "prompt": "The 'Data Collection Instruments:' label",
+            "default": "Data Collection Instruments:",
+            "translation": "",
+            "hash": "ff259d"
+        },
+        {
+            "id": "bottom_23",
+            "prompt": "The 'Event:' label",
+            "default": "Event:",
+            "translation": "",
+            "hash": "e1d187"
+        },
+        {
+            "id": "edit_project_29",
+            "prompt": "The 'Actions:' label",
+            "default": "Actions:",
+            "translation": "",
+            "hash": "3894e5"
+        },
+        {
+            "id": "data_entry_202",
+            "prompt": "The 'Modify instrument' menu label:",
+            "default": "Modify instrument",
+            "translation": "",
+            "hash": "7659a1"
+        },
+        {
+            "id": "data_export_tool_158",
+            "prompt": "The 'Download PDF of instrument(s)' menu label:",
+            "default": "Download PDF of instrument(s)",
+            "translation": "",
+            "hash": "ba476a"
+        },
+        {
+            "id": "data_entry_542",
+            "prompt": "The 'This data entry form (blank)' menu item label:",
+            "default": "This data entry form (blank)",
+            "translation": "",
+            "hash": "e8a289"
+        },
+        {
+            "id": "data_entry_543",
+            "prompt": "The 'This survey (blank)' menu item label:",
+            "default": "This survey (blank)",
+            "translation": "",
+            "hash": "07d591"
+        },
+        {
+            "id": "data_entry_544",
+            "prompt": "The 'This data entry form with saved data' menu item label:",
+            "default": "This data entry form with saved data",
+            "translation": "",
+            "hash": "307b85"
+        },
+        {
+            "id": "data_entry_545",
+            "prompt": "The 'This survey with saved data' menu item label:",
+            "default": "This survey with saved data",
+            "translation": "",
+            "hash": "b9530c"
+        },
+        {
+            "id": "data_entry_546",
+            "prompt": "The 'This data entry form with saved data (via browser's <i>Save as PDF</i>)' menu item label:",
+            "default": "This data entry form with saved data (via browser's <i>Save as PDF</i>)",
+            "translation": "",
+            "hash": "5d543d"
+        },
+        {
+            "id": "data_entry_547",
+            "prompt": "The 'This survey with saved data (via browser's <i>Save as PDF</i>)' menu item label:",
+            "default": "This survey with saved data (via browser's <i>Save as PDF</i>)",
+            "translation": "",
+            "hash": "381077"
+        },
+        {
+            "id": "data_entry_548",
+            "prompt": "The 'This data entry form with saved data (compact)' menu item label:",
+            "default": "This data entry form with saved data (compact)",
+            "translation": "",
+            "hash": "422be2"
+        },
+        {
+            "id": "data_entry_549",
+            "prompt": "The 'This survey with saved data (compact)' menu item label:",
+            "default": "This survey with saved data (compact)",
+            "translation": "",
+            "hash": "ce1730"
+        },
+        {
+            "id": "data_entry_556",
+            "prompt": "The 'This survey with saved data (for survey participant)' menu item label:",
+            "default": "This survey with saved data (for survey participant)",
+            "translation": "",
+            "hash": "6218a0"
+        },
+        {
+            "id": "data_entry_550",
+            "prompt": "The 'All data entry forms (blank)' menu item label:",
+            "default": "All data entry forms (blank)",
+            "translation": "",
+            "hash": "932c7b"
+        },
+        {
+            "id": "data_entry_551",
+            "prompt": "The 'All forms/surveys (blank)' menu item label:",
+            "default": "All forms/surveys (blank)",
+            "translation": "",
+            "hash": "768068"
+        },
+        {
+            "id": "data_entry_552",
+            "prompt": "The 'All data entry forms with saved data' menu item label:",
+            "default": "All data entry forms with saved data",
+            "translation": "",
+            "hash": "65ee11"
+        },
+        {
+            "id": "data_entry_553",
+            "prompt": "The 'All forms/surveys with saved data' menu item label:",
+            "default": "All forms/surveys with saved data",
+            "translation": "",
+            "hash": "b94d13"
+        },
+        {
+            "id": "data_entry_554",
+            "prompt": "The 'All data entry forms with saved data (compact)' menu item label:",
+            "default": "All data entry forms with saved data (compact)",
+            "translation": "",
+            "hash": "9fc8cc"
+        },
+        {
+            "id": "data_entry_555",
+            "prompt": "The 'All forms/surveys with saved data (compact)' menu item label:",
+            "default": "All forms/surveys with saved data (compact)",
+            "translation": "",
+            "hash": "ce638d"
+        },
+        {
+            "id": "data_entry_557",
+            "prompt": "The 'Video: Basic data entry' link label:",
+            "default": "Video: Basic data entry",
+            "translation": "",
+            "hash": "990a7a"
+        },
+        {
+            "id": "data_entry_558",
+            "prompt": "The title of the window showing the basic data entry video:",
+            "default": "Overview of Basic Data Entry",
+            "translation": "",
+            "hash": "b579a5"
+        },
+        {
+            "id": "grid_51",
+            "prompt": "The 'Choose action for record' button label:",
+            "default": "Choose action for record",
+            "translation": "",
+            "hash": "104896"
+        },
+        {
+            "id": "data_entry_315",
+            "prompt": "The 'Download ZIP file of all uploaded documents' menu label:",
+            "default": "Download ZIP file of all uploaded documents",
+            "translation": "",
+            "hash": "535390"
+        },
+        {
+            "id": "data_entry_313",
+            "prompt": "The 'Download PDF of record data for all instruments' menu label:",
+            "default": "Download PDF of record data for all instruments",
+            "translation": "",
+            "hash": "34c34b"
+        },
+        {
+            "id": "data_entry_314",
+            "prompt": "The 'Download PDF of record data for all instruments/events' menu label:",
+            "default": "Download PDF of record data for all instruments/events",
+            "translation": "",
+            "hash": "485582"
+        },
+        {
+            "id": "data_entry_425",
+            "prompt": "The 'Compact PDF' suffix:",
+            "default": "(compact)",
+            "translation": "",
+            "hash": "6c4b13"
+        },
+        {
+            "id": "data_entry_323",
+            "prompt": "The 'Assign to Data Access Group' menu label:",
+            "default": "Assign to Data Access Group",
+            "translation": "",
+            "hash": "46c669"
+        },
+        {
+            "id": "data_entry_564",
+            "prompt": "The 'Assign to Data Access Group (or unassign/reassign)' menu label:",
+            "default": "Assign to Data Access Group (or unassign/reassign)",
+            "translation": "",
+            "hash": "c36a02"
+        },
+        {
+            "id": "data_entry_316",
+            "prompt": "The 'Rename record' menu label:",
+            "default": "Rename record",
+            "translation": "",
+            "hash": "1b01cc"
+        },
+        {
+            "id": "data_entry_288",
+            "prompt": "The 'Save & Exit Form' button label:",
+            "default": "Save & Exit Form",
+            "translation": "",
+            "hash": "8b207f"
+        },
+        {
+            "id": "data_entry_289",
+            "prompt": "The 'Save & ...' button label:",
+            "default": "Save & ...",
+            "translation": "",
+            "hash": "3f18ca"
+        },
+        {
+            "id": "data_entry_292",
+            "prompt": "The 'Save & Stay' button label:",
+            "default": "Save & Stay",
+            "translation": "",
+            "hash": "2a7005"
+        },
+        {
+            "id": "data_entry_210",
+            "prompt": "The 'Save & Go To Next Form' button label:",
+            "default": "Save & Go To Next Form",
+            "translation": "",
+            "hash": "881c48"
+        },
+        {
+            "id": "data_entry_275",
+            "prompt": "The 'Save & Add New Instance' button label:",
+            "default": "Save & Add New Instance",
+            "translation": "",
+            "hash": "a1fa09"
+        },
+        {
+            "id": "data_entry_276",
+            "prompt": "The 'Save & Go To Next Instance' button label:",
+            "default": "Save & Go To Next Instance",
+            "translation": "",
+            "hash": "660eca"
+        },
+        {
+            "id": "data_entry_409",
+            "prompt": "The 'Save & Exit Record' button label:",
+            "default": "Save & Exit Record",
+            "translation": "",
+            "hash": "0dfda4"
+        },
+        {
+            "id": "data_entry_410",
+            "prompt": "The 'Save & Go To Next Record' button label:",
+            "default": "Save & Go To Next Record",
+            "translation": "",
+            "hash": "9cd1d5"
+        },
+        {
+            "id": "data_entry_212",
+            "prompt": "The 'Save & Mark Survey as Complete' button label:",
+            "default": "Save & Mark Survey as Complete",
+            "translation": "",
+            "hash": "4da907"
+        },
+        {
+            "id": "data_entry_287",
+            "prompt": "The 'Save & ...' tooltip:",
+            "default": "More save options",
+            "translation": "",
+            "hash": "56e133"
+        },
+        {
+            "id": "data_entry_291",
+            "prompt": "The 'Save & ...' popup title:",
+            "default": "Click the down arrow button to view more save options.",
+            "translation": "",
+            "hash": "64b6fc"
+        },
+        {
+            "id": "data_entry_290",
+            "prompt": "The 'Save & ...' popup text:",
+            "default": "The option chosen for this button will become its default for you next time in this project.",
+            "translation": "",
+            "hash": "98c4f5"
+        },
+        {
+            "id": "data_entry_266",
+            "prompt": "The 'deletion due to randomization field not possible' alert:",
+            "default": "Sorry, but this data entry form contains one or more fields used in randomization, and since the current record has already been randomized, you will NOT be allowed to delete all data for this form.",
+            "translation": "",
+            "hash": "9a37bd"
+        },
+        {
+            "id": "data_entry_243",
+            "prompt": "The 'delete instrument' (longitudinal) confirmation:",
+            "default": "Are you sure you wish to PERMANENTLY delete this record's data on THIS INSTRUMENT ONLY for THIS EVENT ONLY?",
+            "translation": "",
+            "hash": "1504ab"
+        },
+        {
+            "id": "data_entry_239",
+            "prompt": "The 'delete instrument' confirmation:",
+            "default": "Are you sure you wish to PERMANENTLY delete this record's data on THIS INSTRUMENT ONLY?",
+            "translation": "",
+            "hash": "4d34ae"
+        },
+        {
+            "id": "data_entry_241",
+            "prompt": "The 'reversion of survey status after deletion' notice:",
+            "default": "Also, this survey response will be reverted back to Incomplete survey status as if the survey had never been taken.",
+            "translation": "",
+            "hash": "077957"
+        },
+        {
+            "id": "data_entry_559",
+            "prompt": "The 'deletion limited to single instance' notice:",
+            "default": "NOTE: This only applies to the current repeating instance of this form, which is Instance <b>{0}</b>.",
+            "translation": "",
+            "hash": "8d73db"
+        },
+        {
+            "id": "data_entry_190",
+            "prompt": "The 'action cannot be reversed' notice:",
+            "default": "This process is permanent and CANNOT BE REVERSED.",
+            "translation": "",
+            "hash": "b26bbd"
+        },
+        {
+            "id": "data_entry_234",
+            "prompt": "The 'Delete data for THIS FORM only' button label:",
+            "default": "Delete data for THIS FORM only",
+            "translation": "",
+            "hash": "02eaec"
+        },
+        {
+            "id": "data_entry_560",
+            "prompt": "The 'delete entire record' hint (use {0} as placeholder for the 'Record Home Page' link):",
+            "default": "NOTE: To delete the entire record (all forms/events), see the record action drop-down at top of the {0:LinkToRecordHomePage}.",
+            "translation": "",
+            "hash": "582020"
+        },
+        {
+            "id": "data_entry_561",
+            "prompt": "The 'delete entire event' hint (use {0} as placeholder for the 'Record Home Page' link):",
+            "default": "Also, to delete all the data from THIS EVENT only, see the bottom row of the status table on the {0:LinkToRecordHomePage}.",
+            "translation": "",
+            "hash": "893055"
+        },
+        {
+            "id": "data_entry_235",
+            "prompt": "The 'Delete data for THIS EVENT only' button label:",
+            "default": "Delete data for THIS EVENT only",
+            "translation": "",
+            "hash": "eecd25"
+        },
+        {
+            "id": "data_entry_507",
+            "prompt": "The 'Editing existing record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "Editing existing {0:RecordID-Label} <b>{1:RecordID}</b>.",
+            "translation": "",
+            "hash": "43ddb3"
+        },
+        {
+            "id": "data_entry_508",
+            "prompt": "The 'Adding new record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "Adding new {0:RecordID-Label} <b>{1:RecordID}</b>.",
+            "translation": "",
+            "hash": "43e289"
+        },
+        {
+            "id": "data_entry_509",
+            "prompt": "The 'Successfully edited record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> successfully edited.",
+            "translation": "",
+            "hash": "a6596f"
+        },
+        {
+            "id": "data_entry_510",
+            "prompt": "The 'Successfully added record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> successfully added.",
+            "translation": "",
+            "hash": "61b0c3"
+        },
+        {
+            "id": "data_entry_511",
+            "prompt": "The 'Successfully deleted record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> successfully deleted.",
+            "translation": "",
+            "hash": "96a35b"
+        },
+        {
+            "id": "data_entry_512",
+            "prompt": "The 'Data entry cancelled' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> data entry cancelled - not saved.",
+            "translation": "",
+            "hash": "68cbde"
+        },
+        {
+            "id": "data_entry_513",
+            "prompt": "The 'Successfully renamed record' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> was successfully renamed!",
+            "translation": "",
+            "hash": "084720"
+        },
+        {
+            "id": "data_entry_514",
+            "prompt": "The 'Successfully assigned record to DAG' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> was successfully assigned to a Data Access Group!",
+            "translation": "",
+            "hash": "4aac6d"
+        },
+        {
+            "id": "data_entry_515",
+            "prompt": "The 'Successfully unassigned record from DAG' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> was successfully unassigned from its Data Access Group!",
+            "translation": "",
+            "hash": "7afeed"
+        },
+        {
+            "id": "data_entry_516",
+            "prompt": "The 'Event successfully deleted' message (use {0} and {1} as placeholders for the record id label and record id, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> successfully deleted entire event of data.",
+            "translation": "",
+            "hash": "9c87d7"
+        },
+        {
+            "id": "data_entry_517",
+            "prompt": "The 'Could not change record id' message (use {0}, {1}, {2}, and {3} as placeholders for the record id label, record id, instance, and record id label, respectively):",
+            "default": "{0:RecordID-Label} <b>{1:RecordID}</b> {2:Instance} successfully edited<br/><b>but {3:RecordID-Label} could not be changed because it already exists</b>.",
+            "translation": "",
+            "hash": "c80625"
+        },
+        {
+            "id": "missing_data_mdc_ni",
+            "prompt": "The 'NI' default missing data code label:",
+            "default": "No information",
+            "translation": "",
+            "hash": "c2b552"
+        },
+        {
+            "id": "missing_data_mdc_inv",
+            "prompt": "The 'INV' default missing data code label:",
+            "default": "Invalid",
+            "translation": "",
+            "hash": "54e07a"
+        },
+        {
+            "id": "missing_data_mdc_unk",
+            "prompt": "The 'UNK' default missing data code label:",
+            "default": "Unknown",
+            "translation": "",
+            "hash": "bc7819"
+        },
+        {
+            "id": "missing_data_mdc_nask",
+            "prompt": "The 'NASK' default missing data code label:",
+            "default": "Not asked",
+            "translation": "",
+            "hash": "4b8b02"
+        },
+        {
+            "id": "missing_data_mdc_asku",
+            "prompt": "The 'ASKU' default missing data code label:",
+            "default": "Asked but unknown",
+            "translation": "",
+            "hash": "118cf0"
+        },
+        {
+            "id": "missing_data_mdc_nav",
+            "prompt": "The 'NAV' default missing data code label:",
+            "default": "Temporarily unavailable",
+            "translation": "",
+            "hash": "88f0e1"
+        },
+        {
+            "id": "missing_data_mdc_msk",
+            "prompt": "The 'MSK' default missing data code label:",
+            "default": "Masked",
+            "translation": "",
+            "hash": "3c7ede"
+        },
+        {
+            "id": "missing_data_mdc_na",
+            "prompt": "The 'NA' default missing data code label:",
+            "default": "Not applicable",
+            "translation": "",
+            "hash": "67c4d0"
+        },
+        {
+            "id": "missing_data_mdc_navu",
+            "prompt": "The 'NAVU' default missing data code label:",
+            "default": "Not available",
+            "translation": "",
+            "hash": "d1a17a"
+        },
+        {
+            "id": "missing_data_mdc_np",
+            "prompt": "The 'NP' default missing data code label:",
+            "default": "Not present",
+            "translation": "",
+            "hash": "c5ddd9"
+        },
+        {
+            "id": "missing_data_mdc_qs",
+            "prompt": "The 'QS' default missing data code label:",
+            "default": "Sufficient quantity",
+            "translation": "",
+            "hash": "cb3390"
+        },
+        {
+            "id": "missing_data_mdc_qi",
+            "prompt": "The 'QI' default missing data code label:",
+            "default": "Insufficient quantity",
+            "translation": "",
+            "hash": "8f2ec7"
+        },
+        {
+            "id": "missing_data_mdc_trc",
+            "prompt": "The 'TRC' default missing data code label:",
+            "default": "Trace",
+            "translation": "",
+            "hash": "2f3816"
+        },
+        {
+            "id": "missing_data_mdc_unc",
+            "prompt": "The 'UNC' default missing data code label:",
+            "default": "Unencoded",
+            "translation": "",
+            "hash": "98b63d"
+        },
+        {
+            "id": "missing_data_mdc_der",
+            "prompt": "The 'DER' default missing data code label:",
+            "default": "Derived",
+            "translation": "",
+            "hash": "051996"
+        },
+        {
+            "id": "missing_data_mdc_pinf",
+            "prompt": "The 'PINF' default missing data code label:",
+            "default": "Positive infinity",
+            "translation": "",
+            "hash": "d3d1ce"
+        },
+        {
+            "id": "missing_data_mdc_ninf",
+            "prompt": "The 'NINF' default missing data code label:",
+            "default": "Negative infinity",
+            "translation": "",
+            "hash": "075388"
+        },
+        {
+            "id": "missing_data_mdc_oth",
+            "prompt": "The 'OTH' default missing data code label:",
+            "default": "Other",
+            "translation": "",
+            "hash": "6e6a6f"
+        },
+        {
+            "id": "missing_data_04",
+            "prompt": "The 'Missing Data Codes' label",
+            "default": "Missing Data Codes",
+            "translation": "",
+            "hash": "38e111"
+        },
+        {
+            "id": "missing_data_03",
+            "prompt": "The 'Mark field as missing' tooltip text:",
+            "default": "Mark field as missing",
+            "translation": "",
+            "hash": "1c1e2f"
+        },
+        {
+            "id": "missing_data_01",
+            "prompt": "The 'Mark field as:' menu label:",
+            "default": "Mark field as:",
+            "translation": "",
+            "hash": "639986"
+        },
+        {
+            "id": "missing_data_02",
+            "prompt": "The '[Clear value]' menu item label:",
+            "default": "[Clear value]",
+            "translation": "",
+            "hash": "584df6"
+        },
+        {
+            "id": "config_functions_52",
+            "prompt": "The message of the number validation popup:",
+            "default": "This value you provided is not a number. Please try again.",
+            "translation": "",
+            "hash": "0e65e0"
+        },
+        {
+            "id": "config_functions_53",
+            "prompt": "The message of the integer validation popup:",
+            "default": "This value you provided is not an integer. Please try again.",
+            "translation": "",
+            "hash": "1a879d"
+        },
+        {
+            "id": "config_functions_54",
+            "prompt": "The message of the Vanderbilt MRN validation popup:",
+            "default": "The value entered is not a valid Vanderbilt Medical Record Number (i.e. 4- to 9-digit number, excluding leading zeros). Please try again.",
+            "translation": "",
+            "hash": "fb953e"
+        },
+        {
+            "id": "config_functions_55",
+            "prompt": "The message of the date validation popup:",
+            "default": "The value entered in this field must be a date. You may use one of several formats (ex. YYYY-MM-DD or MM/DD/YYYY), but the final result must constitute a real date. Please try again.",
+            "translation": "",
+            "hash": "99e522"
+        },
+        {
+            "id": "config_functions_56",
+            "prompt": "The message of the hard range validation popup:",
+            "default": "The value you provided must be within the suggested range",
+            "translation": "",
+            "hash": "35affc"
+        },
+        {
+            "id": "config_functions_57",
+            "prompt": "The message of the soft range (1) validation popup:",
+            "default": "The value you provided is outside the suggested range",
+            "translation": "",
+            "hash": "3960ea"
+        },
+        {
+            "id": "config_functions_58",
+            "prompt": "The message of the soft range (2) validation popup:",
+            "default": "This value is admissible, but you may wish to double check it.",
+            "translation": "",
+            "hash": "fd01a9"
+        },
+        {
+            "id": "config_functions_59",
+            "prompt": "The message of the time validation popup:",
+            "default": "The value entered must be a time value in the following format HH:MM within the range 00:00-23:59 (e.g., 04:32 or 23:19).",
+            "translation": "",
+            "hash": "f54866"
+        },
+        {
+            "id": "config_functions_60",
+            "prompt": "The message of the ZIP code validation popup:",
+            "default": "This field must be a 5 or 9 digit U.S. ZIP Code (like 94043). Please re-enter it now.",
+            "translation": "",
+            "hash": "5a15be"
+        },
+        {
+            "id": "config_functions_61",
+            "prompt": "The message of the phone validation popup:",
+            "default": "This field must be a 10 digit U.S. phone number (like 415 555 1212). Please re-enter it now.",
+            "translation": "",
+            "hash": "b9031b"
+        },
+        {
+            "id": "config_functions_62",
+            "prompt": "The message of the email validation popup:",
+            "default": "This field must be a valid email address (like joe@user.com). Please re-enter it now.",
+            "translation": "",
+            "hash": "3444f5"
+        },
+        {
+            "id": "config_functions_77",
+            "prompt": "The message of the regex validation popup:",
+            "default": "The value you provided could not be validated because it does not follow the expected format. Please try again.",
+            "translation": "",
+            "hash": "c2e7e7"
+        },
+        {
+            "id": "config_functions_94",
+            "prompt": "The message of the general validation popup:",
+            "default": "Required format:",
+            "translation": "",
+            "hash": "1681fd"
+        },
+        {
+            "id": "data_entry_433",
+            "prompt": "The message of the 'remove spaces' popup:",
+            "default": "This field's value contains extra spaces at the beginning or end. Would you like to remove them?",
+            "translation": "",
+            "hash": "0a0425"
+        },
+        {
+            "id": "data_entry_529",
+            "prompt": "The required fields notification title:",
+            "default": "NOTE: Some fields are required!",
+            "translation": "",
+            "hash": "96c146"
+        },
+        {
+            "id": "data_entry_72",
+            "prompt": "The required fields notification text:",
+            "default": "Your data was successfully saved, but you did not provide a value for some fields that require a value. Please enter a value for the fields on this page that are listed below.",
+            "translation": "",
+            "hash": "eda97c"
+        },
+        {
+            "id": "data_entry_73",
+            "prompt": "The 'Provide a value for...' prompt:",
+            "default": "Provide a value for...",
+            "translation": "",
+            "hash": "9e5889"
+        },
+        {
+            "id": "data_entry_74",
+            "prompt": "The 'Ignore and go to next form' button label:",
+            "default": "Ignore and go to next form",
+            "translation": "",
+            "hash": "2278b3"
+        },
+        {
+            "id": "data_entry_76",
+            "prompt": "The 'Ignore and leave record' button label:",
+            "default": "Ignore and leave record",
+            "translation": "",
+            "hash": "cec648"
+        },
+        {
+            "id": "design_401",
+            "prompt": "The 'Okay' button label:",
+            "default": "Okay",
+            "translation": "",
+            "hash": "d54455"
+        },
+        {
+            "id": "data_entry_423",
+            "prompt": "The MAXCHOICE validation text:",
+            "default": "The fields listed below had values entered, but unfortunately the maximum number of responses that can be entered for the choice(s) you selected for those fields has already been reached. Please note that <b>your selections for the fields below were *NOT SAVED*.</b> If you wish to select a different choice for those fields, please do so and then re-submit the page.",
+            "translation": "",
+            "hash": "863467"
+        },
+        {
+            "id": "data_entry_424",
+            "prompt": "The MAXCHOICE affected fields prompt:",
+            "default": "Fields in which the maximum response limit was reached:",
+            "translation": "",
+            "hash": "2daa2e"
+        },
+        {
+            "id": "data_entry_271",
+            "prompt": "The 'invalid values' popup text:",
+            "default": "The fields listed below had values entered that are not considered valid. Please note that <b>the invalid values were *NOT SAVED*.</b> If you wish to save a correct value for them, please re-enter a value for these fields and re-submit the page.",
+            "translation": "",
+            "hash": "b9a5f6"
+        },
+        {
+            "id": "data_entry_272",
+            "prompt": "The 'invalid fields' prompt:",
+            "default": "Fields with invalid values:",
+            "translation": "",
+            "hash": "289307"
+        },
+        {
+            "id": "data_entry_530",
+            "prompt": "The 'invalid fields' popup title:",
+            "default": "WARNING: Invalid values entered!",
+            "translation": "",
+            "hash": "2e8246"
+        },
+        {
+            "id": "data_entry_421",
+            "prompt": "The 'maximum number of choices reached' message:",
+            "default": "Cannot select choice! The maximum number of choices has been selected.",
+            "translation": "",
+            "hash": "b372be"
+        }
+    ],
+    "uiOptions": [
+        {
+            "id": "paging_symbols",
+            "prompt": "Use  and  symbols for previous/next buttons?",
+            "default": false,
+            "value": false
+        },
+        {
+            "id": "submit_symbol",
+            "prompt": "Use the  symbol for the submit button instead of a text label?",
+            "default": false,
+            "value": false
+        }
+    ]
+}
